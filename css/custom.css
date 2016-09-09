@@ -1,8 +1,18 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 .img-logo {
 	width: 18em;
 	margin-top: 0;
 	padding: 0;
 }
+
+
 
 .simple {
   margin: 0 !important;
