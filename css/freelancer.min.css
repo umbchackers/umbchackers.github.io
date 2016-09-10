@@ -13,8 +13,8 @@
 }
 
 .particle-bg {
-  background-color: #333333;
-	background-image: url('http://timteeling.com/dev/img/network.svg'), radial-gradient(200px 500px at center, #ffffff 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0));
+  background-color: #000;
+	background-image: url('../img/network.svg'), radial-gradient(200px 500px at center, #efc660 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0));
 	background-size: 125%, 50% 100%;
   background-position: 0 60%, 0 100%;
   animation: move 5s linear infinite;
