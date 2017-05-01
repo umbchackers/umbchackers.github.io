@@ -6,675 +6,126 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="HackUMBC">
-    <meta property="og:url" content="https://hackumbc.org"/>
-    <meta property="og:type" content="Event"/>
-    <meta property="og:title" content="Dream big. Make it happen."/>
-    <meta property="og:description"
-          content="HackUMBC gives you 24 hours to learn new skills, make friends, create your wildest idea, and share it with the world. Whether you wish to build a website, dabble with Photoshop, create a robotic arm, or develop a game, it's up to you to decide what to learn!"/>
-    <meta property="og:image"
-          content="https://hackumbc.org/img/info.png"/>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-
-    <title>
-        HackUMBC | Home
-    </title>
+    <title>HACKUMBC Fall 2017</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
-    <link href="css/freelancer.min.css?v=1" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!--  Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"
-          type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-          rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
-          rel="stylesheet" type="text/css">
+    <!-- Theme CSS -->
+    <link href="css/agency.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
     <![endif]-->
-
-    <style>
-        #mlh-trust-badge {
-            display: block;
-            max-width: 120px;
-            min-width: 60px;
-            position: fixed;
-            right: 50px;
-            top: 0;
-            z-index: 1000000;
-            width: 10%;
-        }
-    </style>
-
 
 </head>
 
 <body id="page-top" class="index">
 
-<!-- Navigation -->
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <a class="navbar-brand" href="#page-top">HackUMBC</a>
-            <button type="button"
-                    style="display:inline:block;position:absolute;"
-                    class="navbar-toggle" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span> Menu <i
-                    class="fa fa-bars"></i>
-            </button>
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">FALL 2017</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#schedule">Schedule</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#faq">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#sponsors">Sponsors</a>
+                    </li>
+                    <!-- <li>
+                        <a class="page-scroll" href="#contact">Event Map</a>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-left">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+              <canvas id="bg"></canvas>
+              <img class="img-responsive" id="logodog" src="./img/logo.svg" width="30%"
+                    alt="logo" />
 
-                <li class="page-scroll">
-                    <a href="#about">About</a>
-                </li>
-
-                <li class="page-scroll">
-                    <a href="#schedule">Schedule</a>
-                </li>
-
-                <li class="page-scroll">
-                    <a href="#faq">
-                        FAQ
-                    </a>
-                </li>
-
-                <li class="page-scroll">
-                    <a href="#sponsors">
-                        Sponsors
-                    </a>
-                </li>
-
-                <li class="page-scroll">
-                    <a href="map.html">
-                        Event Map
-                    </a>
-                </li>
-
-            </ul>
+                    <br /><br />
+                <div class="intro-heading">HackUMBC</div>
+                <div class="info-text">October, 2017 | 750+ Hackers | Prizes | Sponsors</div>
+                <a href="http://club.hackumbc.org" class="page-scroll btn btn-xl">Join the club</a>
+            </div>
         </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-
-</nav>
-
-
-<!-- Header -->
-
-<header class="particle-bg">
-    <div class="container">
-        <div class="row">
-            <a id="mlh-trust-badge"
-               style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
-               href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white"
-               target="_blank"><img
-                    src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg"
-                    alt="Major League Hacking 2017 Hackathon Season"
-                    style="width:100%"></a>
-
-            <div class="col-lg-12" style="margin-top: -7%;">
-                <img class="img-responsive" src="img/logo.svg" width="30%"
-                     alt="">
-                <div class="intro-text">
-                    <span class="name">
-                        HackUMBC
-                    </span>
-                    <!--<hr class="star-light">-->
-                    <!--<span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>-->
-                    <span class="skills">
-                        <b>Dream big. Make it happen.</b> <br>
-
-                        October 1st - 2nd |
-                        <a href="https://goo.gl/KggaaM"
-                           style="text-decoration: none">
-                            1000 Hilltop Circle, Baltimore, MD
-                        </a>
-
-                    </span>
-
-                    <p>
-                    <h4>
-                        Thank you all for coming!
-                    </h4>
-                    </p>
-                    <!-- <a href="mailto:hackumbc@gmail.com"
-                       class="btn btn-lg btn-outline">
-                        Sponsor
-                    </a> -->
-
-
-                    <a href="https://gitter.im/hackumbcf16/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link"
-                       target="_blank"
-                       style="border: 0.2em solid #EFC660; color: #EFC660; font-weight: bold;"
-                       class="btn btn-lg btn-outline">
-                        Chat With Us
-                    </a>
-                    <a href="http://hackumbcf16.devpost.com/" target="_blank"
-                       style="border: 0.2em solid #EFC660; color: #EFC660; font-weight: bold;"
-                       class="btn btn-lg btn-outline">
-                        HackUMBC Devpost
-                    </a>
-
-                    <!-- <span class="slack-text"></span>
-<script async defer src="https://hackumbcf16.herokuapp.com/slackin.js?large"></script> -->
+    </header>
+    <!-- Services Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12 section-text">
+                    Established in Fall 2013, HackUMBC is the University of Maryland Baltimore County's flagship hackathon. HackUMBC gives you 24 hours to learn new skills, make friends, create your wildest idea, and share it with the world.
+Whether you wish to build a website, dabble with Photoshop, create a robotic arm, or develop a game, it's up to you to decide what to learn!
                 </div>
             </div>
         </div>
-    </div>
-</header>
+    </section>
 
-
-<!-- About -->
-<section class="success" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h2>About</h2>
-                <!--<hr class="star-light">-->
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-8">
-                <hr>
-            </div>
-            <div class="col-md-2">
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 col-md-offset-2">
-                <p>
-                    HackUMBC gives you 24 hours to learn new skills, make
-                    friends, create your wildest idea, and share it with the
-                    world.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <p>
-                    Whether you wish to build a website, dabble with
-                    Photoshop, create a robotic arm, or develop a game, it's
-                    up to you to decide what to learn!
-                </p>
-            </div>
-            <!--<div class="col-lg-8 col-lg-offset-2 text-center">-->
-            <!--<a href="#" class="btn btn-lg btn-outline">-->
-            <!--<i class="fa fa-download"></i> Download Theme-->
-            <!--</a>-->
-            <!--</div>-->
-        </div>
-    </div>
-</section>
-
-<!-- Schedule -->
-<section id="schedule">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h2>
-                    Schedule
-                </h2>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <hr>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3 class="text-center">
-                    Saturday
-                </h3>
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th>Time</th>
-                            <th>Event</th>
-                            <th>Location</th>
-                        </tr>
-                        </thead>
-
-                        <tbody>
-                        <tr>
-                            <td>10:00 AM</td>
-                            <td>Check-In</td>
-                            <td>
-                                <a href="https://goo.gl/fnnxG0" target="_blank">
-                                    <div>Meyerhoff 030</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>11:00 AM</td>
-                            <td>Opening Ceremonies</td>
-                            <td>
-                                <a href="https://goo.gl/fnnxG0" target="_blank">
-                                    <div>Meyerhoff 030</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>12:00 PM</td>
-                            <td>Hacking Begins and Lunch</td>
-                            <td>
-                                <a href="https://goo.gl/4mdiFa" target="_blank">
-                                    ITE
-                                </a>
-                                /
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    ENG
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>12:00 PM</td>
-                            <td>
-                                <b>Tech Talk</b>
-                                <br>
-                                Tips for Software Prototyping
-                                <br>
-                                Achieving a Minimal Viable Product (MVP)
-                                <br>
-                                by ClearEdge
-                            </td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    ENG 027
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>01:00 PM</td>
-                            <td>
-                                <b>Tech Talk</b>
-                                <br>
-                                Basic Protocol Reverse Engineering
-                                <br>
-                                by Booz Allen Hamilton
-                            </td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    ENG 027
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>02:00 PM</td>
-                            <td>
-                                <b>Sponsor Talk</b>
-                                <br>
-                                Internships and Jobs
-                                <br>
-                                by Booz Allen Hamilton
-                            </td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    ENG 027
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>03:00 PM</td>
-                            <td>
-                                <b>Tech Talk</b>
-                                <br>
-                                Awareness
-                                <br>
-                                by NSA
-                            </td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    ENG 027
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>04:00 PM</td>
-                            <td>
-                                <b>Tech Talk</b>
-                                <br>
-                                Debugger 101
-                                <br>
-                                by Northrop Grumman
-                            </td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    ENG 027
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>05:00 PM</td>
-                            <td>
-                                <b>Tech Talk</b>
-                                <br>
-                                Cybersolutions
-                                <br>
-                                by Leidos
-                            </td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    ENG 027
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>06:00 PM</td>
-                            <td>Dinner with Steer-Tech</td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    <div>ENG Atrium / 027</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>07:00 PM</td>
-                            <td>
-                                <b>Workshops</b>
-                                <br>
-                                Intro to Lyft API (iOS)
-                                <br>
-                                by Lyft
-                            </td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    <div>ENG 027</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>08:00 PM</td>
-                            <td>
-                                <b>Workshops</b>
-                                <br>
-                                Intro to HTML and CSS
-                                <br>
-                                by HackUMBC
-                            </td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    <div>ENG 027</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>09:00 PM</td>
-                            <td>
-                                <b>Workshops</b>
-                                <br>
-                                Intro to Javascript and JQuery
-                                <br>
-                                by HackUMBC
-                            </td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    <div>ENG 027</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>10:00 PM</td>
-                            <td>
-                                Tech Trivia
-                                <br>
-                                by HackUMBC
-                            </td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    <div>ENG 027</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>11:00 PM</td>
-                            <td>
-                                Cyber Capture The Flag
-                                <br>
-                                Sponsored by MLH
-                            </td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    <div>ENG 027</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>11:30 PM</td>
-                            <td>
-                                Super Smash Bros Tournament
-                                <br>
-                                by HackUMBC
-                            </td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    <div>ENG 027</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        </tbody>
-                    </table>
+    <!-- Portfolio Grid Section -->
+    <section id="schedule" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Schedule</h2>
+                    <div class="col-lg-12 slightly-bigger-font">To be announced as the event approaches</div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3 class="text-center">
-                    Sunday
-                </h3>
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th>Time</th>
-                            <th>Event</th>
-                            <th>Location</th>
-                        </tr>
-                        </thead>
-
-                        <tbody>
-
-                        <tr>
-                            <td>12:00 AM</td>
-                            <td>Midnight Snacks</td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    <div>ENG Atrium</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>08:00 AM</td>
-                            <td>Breakfast</td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    <div>ENG Atrium</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>09:00 AM</td>
-                            <td>
-                                Yoga
-                                <br>
-                                hosted by Nisarga Patel
-                            </td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    <div>ENG Atrium</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>12:00 PM</td>
-                            <td>Hacking Ends and Lunch</td>
-                            <td>
-                                <a href="https://goo.gl/a85UAM" target="_blank">
-                                    <div>ENG Atrium</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>01:00 PM</td>
-                            <td>Expo Begins</td>
-                            <td>
-                                <a href="https://goo.gl/Ivg8L7" target="_blank">
-                                    <div>UC Ballroom</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>03:00 PM</td>
-                            <td>Final Demos Begin</td>
-                            <td>
-                                <a href="https://goo.gl/Ivg8L7" target="_blank">
-                                    <div>UC Ballroom</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>04:00 PM</td>
-                            <td>Closing Ceremonies</td>
-                            <td>
-                                <a href="https://goo.gl/Ivg8L7" target="_blank">
-                                    <div>UC Ballroom</div>
-                                </a>
-                            </td>
-                        </tr>
-
-                        </tbody>
-                    </table>
-                </div>
+    <!-- About Section -->
+    <section id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Frequently Asked Questions</h2>
+                    <div class="container">
             </div>
-        </div>
-
-
-        <!--<div class="row">-->
-        <!--<div class="col-md-8 col-md-offset-2">-->
-        <!--<h3 class="text-center">-->
-        <!--Sunday-->
-        <!--</h3>-->
-        <!--<div class="table-responsive">-->
-        <!--<table class="table">-->
-        <!--<thead>-->
-        <!--<tr>-->
-        <!--<th>Time</th>-->
-        <!--<th>Event</th>-->
-        <!--<th>Location</th>-->
-        <!--</tr>-->
-        <!--</thead>-->
-
-        <!--<tbody>-->
-
-        <!--<tr>-->
-        <!--<td>12:00 AM</td>-->
-        <!--<td>Midnight Snacks</td>-->
-        <!--<td>ENG Atrium</td>-->
-        <!--</tr>-->
-
-        <!--<tr>-->
-        <!--<td>07:00 AM</td>-->
-        <!--<td>Breakfast</td>-->
-        <!--<td>ENG Atrium</td>-->
-        <!--</tr>-->
-
-        <!--<tr>-->
-        <!--<td>12:00 PM</td>-->
-        <!--<td>-->
-        <!--Hacking Ends and Lunch-->
-        <!--</td>-->
-        <!--<td>ENG Atrium</td>-->
-        <!--</tr>-->
-
-        <!--<tr>-->
-        <!--<td>01:00 PM</td>-->
-        <!--<td>Expo Begins</td>-->
-        <!--<td>UC Ballroom</td>-->
-        <!--</tr>-->
-
-        <!--<tr>-->
-        <!--<td>03:00 PM</td>-->
-        <!--<td>Final Demos Begin</td>-->
-        <!--<td>UC Ballroom</td>-->
-        <!--</tr>-->
-
-        <!--<tr>-->
-        <!--<td>04:00 PM</td>-->
-        <!--<td>Closing Ceremonies</td>-->
-        <!--<td>UC Ballroom</td>-->
-        <!--</tr>-->
-
-        <!--</tbody>-->
-        <!--</table>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-
-
-    </div>
-</section>
-
-<!-- FAQ -->
-<section id="faq" style="background-color: #58595b; color: white;">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>
-                    Frequently Asked
-                </h2>
-                <h2>
-                    Questions
-                </h2>
-                <!--<hr class="star-primary">-->
-            </div>
-
-        </div>
-
         <div class="row">
             <div class="col-md-2">
             </div>
@@ -834,7 +285,7 @@
                     You can get in touch with us via
 
                     email,
-                    <a href="mailto:hackumbc@gmail.com?subject=I have a question!">
+                    <a href="/cdn-cgi/l/email-protection#e981888a829c848b8aa98e84888085c78a8684d69a9c8b838c8a9dd4a0c981889f8cc988c9989c8c9a9d808687c8">
                         email
                     </a>,
                     <a href="https://twitter.com/hackumbc">
@@ -847,307 +298,221 @@
                 </p>
             </div>
         </div>
-
-    </div>
-</section>
-
-
-<!-- Sponsors -->
-<section id="sponsors">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Sponsors</h2>
-                <hr>
-                <!--<hr class="star-primary">-->
+                </div>
             </div>
+
         </div>
+    </section>
 
-
-        <div class="row">
-            <div class="col-md-12 portfolio-item text-center">
-
-                <a href="http://www.clearedgeit.com/" title="ClearEdge"
-                   class="portfolio-link" target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/clearedge.png"
-                         class="img-responsive center-block"
-                         style="width: 30%;display:inline;margin-right: 5%;"
-                         alt="ClearEdge Logo">
-                </a>
-                <a href="https://www.boozallen.com/"
-                   title="Booz | Allen | Hamilton" class="portfolio-link"
-                   target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/booz_allen_hamilton.svg"
-                         class="img-responsive center-block"
-                         style="width: 30%;display:inline;"
-                         alt="Booz | Allen | Hamilton">
-                </a>
-                <a href="https://www.leidos.com/" title="Leidos"
-                   class="portfolio-link" target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/leidos.svg"
-                         class="img-responsive center-block"
-                         style="width: 30%;display:inline;"
-                         alt="Leidos">
-                </a>
-                <a href="https://www.nsa.gov/" title="NSA"
-                   class="portfolio-link" target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/nsa.svg"
-                         class="img-responsive center-block"
-                         style="width: 30%;display:inline;"
-                         alt="NSA">
-                </a>
-                <a href="http://www.bia-boeing.com/" title="BoeingIA"
-                   class="portfolio-link" target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/boeing.png"
-                         class="img-responsive center-block"
-                         style="width: 30%;display:inline;"
-                         alt="BoeingIA">
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <!--<h3 class="text-center">Gold</h3>-->
-            <div class="col-md-12 portfolio-item text-center">
-
-                <a href="https://www.lyft.com/" class="portfolio-link"
-                   target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/lyft.svg"
-                         class="img-responsive center-block"
-                         style="width: 15%;display:inline;margin-right: 5%;"
-                         alt="">
-                </a>
-                <a href="http://www.northropgrumman.com/Pages/default.aspx"
-                   class="portfolio-link" target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/northropgrumman.svg"
-                         class="img-responsive center-block"
-                         style="width: 25%;display:inline;margin-right: 5%"
-                         alt="">
-                </a>
-                <a href="http://www.mccormick.com/" class="portfolio-link"
-                   target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/mccormick.png"
-                         class="img-responsive center-block"
-                         style="width: 15%;display:inline;margin-right: 5%"
-                         alt="">
-                </a>
-                <a href="#" class="portfolio-link" target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/steer.png"
-                         class="img-responsive center-block"
-                         style="width: 25%;display:inline;"
-                         alt="">
-                </a>
-            </div>
-        </div>
-        <br><br>
-        <div class="row">
-            <!--<h3 class="text-center">Gold</h3>-->
-            <div class="col-md-12 portfolio-item text-center">
-
-                <a href="https://www3.troweprice.com/usis/corporate/en/home.html"
-                   class="portfolio-link" target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/trowe.png"
-                         class="img-responsive center-block"
-                         style="width: 10%;display:inline;margin-right: 5%;"
-                         alt="">
-                </a>
-                <a href="https://www.namecheap.com/" class="portfolio-link"
-                   target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/namecheap.svg"
-                         class="img-responsive center-block"
-                         style="width: 10%;display:inline;margin-right: 5%"
-                         alt="">
-                </a>
-                <a href="http://www.redbull.com/us/en" class="portfolio-link"
-                   target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/red_bull.svg"
-                         class="img-responsive center-block"
-                         style="width: 10%;display:inline;margin-right: 5%;"
-                         alt="">
-                </a>
-                <a href="http://goavitae.com/" class="portfolio-link"
-                   target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/avitae.png"
-                         class="img-responsive center-block"
-                         style="width: 10%;display:inline;margin-right: 5%;"
-                         alt="">
-                </a>
-                <a href="https://www.soylent.com/" class="portfolio-link"
-                   target="_blank">
-                    <!--<div class="caption">-->
-                    <!--<div class="caption-content">-->
-                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <img src="img/sponsors/soylent.svg"
-                         class="img-responsive center-block"
-                         style="width: 10%;display:inline;"
-                         alt="">
-                </a>
-            </div>
-        </div>
-</section>
-<section id="sponsors">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Partners</h2>
-                <hr>
-                <!--<hr class="star-primary">-->
-            </div>
-        </div>
-        <div class="row">
-
-            <div class="col-md-12 portfolio-item text-center">
-                <a href="https://mlh.io/" class="portfolio-link">
-                    <img src="img/partners/mlh-logo-grayscale.png"
-                         class="img-responsive center-block" alt=""
-                         style="width: 30%">
-                </a>
-                <br>
-                <a href="http://entrepreneurship.umbc.edu/"
-                   class="portfolio-link" target="_blank">
-                    <img src="img/partners/alexbrown.svg"
-                         class="img-responsive center-block" alt=""
-                         style="width: 30%; display: inline; margin-right: 5%;">
-                </a>
-                <a href="https://www.csee.umbc.edu/" class="portfolio-link"
-                   target="_blank">
-                    <img src="img/partners/csee.png"
-                         class="img-responsive center-block" alt=""
-                         style="width: 10%; display: inline; margin-right: 5%;">
-                </a>
-
-            </div>
-        </div>
-
-
-    </div>
-</section>
-
-<!-- Footer -->
-<footer class="text-center">
-    <div class="footer-below">
+    <!-- Team Section -->
+    <section id="sponsors" class="bg-light-gray">
         <div class="container">
-            <ul class="list-inline">
-                <li>
-                    <a href="https://www.facebook.com/hackumbc"
-                       class="btn-social btn-outline">
-                        <i class="fa fa-fw fa-facebook">
-                        </i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/hackumbc"
-                       class="btn-social btn-outline">
-                        <i class="fa fa-fw fa-twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/umbchackers"
-                       class="btn-social btn-outline">
-                        <i class="fa fa-fw fa-github"></i>
-                    </a>
-                </li>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Sponsors</h2>
+                    <div class="slightly-bigger-font">Interested in sponsoring send us an email at <a href="mailto:sponsors@hackumbc.org">sponsors@hackumbc.org</a><br />
+                    <a href="http://f16.hackumbc.org/#sponsors">View last year's sponsors</a>
+                </div>
+            </div>
 
-                <li>
-                    <a href="https://hackumbcs16.slack.com/"
-                       class="btn-social btn-outline">
-                        <i class="fa fa-fw fa-slack"></i>
+    </section>
+
+    <!-- Clients Aside -->
+    <!-- <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
                     </a>
-                </li>
-            </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
-    </div>
-</footer>
+    </aside> -->
+
+    <!-- Contact Section -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; HACKUMBC 2017</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://www.facebook.com/hackumbc"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/hackumbc"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://github.com/umbchackers"><i class="fa fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
-<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-    <a class="btn btn-primary" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-    </a>
-</div>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
 
-<!-- jQuery -->
-<script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
 
-<!-- Plugin JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
-<!-- Contact Form JavaScript -->
-<script src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+    <script>
+    "use strict";
 
-<!-- Theme JavaScript -->
-<script src="js/freelancer.min.js"></script>
+// background animation
+(function() {
+
+var Base, Particle, canvas, colors, context, draw, drawables, i, mouseX, mouseY, mouseVX, mouseVY, rand, update, click, min, max, colors, particles;
+
+min = 1;
+max = 8;
+particles = 200;
+colors = ["0, 0, 255", "0, 0, 200", "0, 255, 200", "150,150, 150"];
+
+rand = function(a, b) {
+  return Math.random() * (b - a) + a;
+};
+
+Particle = (function() {
+  function Particle() {
+    this.reset();
+  }
+
+  Particle.prototype.reset = function() {
+    this.color = colors[~~(Math.random()*colors.length)];
+    this.radius = rand(min, max);
+    this.x = rand(0, canvas.width);
+    this.y = rand(-20, canvas.height*0.5);
+    this.vx = -5 + Math.random()*10;
+    this.vy = 0.7 * this.radius;
+    this.valpha = rand(0.02, 0.09);
+    this.opacity = 0;
+    this.life = 0;
+    this.onupdate = undefined;
+    this.type = "dust";
+  };
+
+  Particle.prototype.update = function() {
+    this.x = (this.x + this.vx/3);
+    this.y = (this.y + this.vy/3);
+
+    if(this.opacity >=1 && this.valpha > 0) this.valpha *=-1;
+    this.opacity += this.valpha/3;
+    this.life += this.valpha/3;
+
+    if(this.type === "dust")
+      this.opacity = Math.min(1, Math.max(0, this.opacity));
+    else
+      this.opacity = 1;
+
+    if(this.onupdate) this.onupdate();
+    if(this.life < 0 || this.radius <= 0 || this.y > canvas.height){
+      this.onupdate = undefined;
+      this.reset();
+    }
+  };
+
+  Particle.prototype.draw = function(c) {
+    c.strokeStyle = "rgba(" + this.color + ", " + Math.min(this.opacity, 0.85) + ")";
+    c.fillStyle = "rgba(" + this.color + ", " + Math.min(this.opacity, 0.65) + ")";
+    c.beginPath();
+    c.arc(this.x, this.y, this.radius, 2 * Math.PI, false);
+    c.fill();
+    c.stroke();
+  };
+
+  return Particle;
+
+})();
+
+mouseVX = mouseVY = mouseX = mouseY = 0;
+
+canvas = document.getElementById("bg");
+context = canvas.getContext("2d");
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+drawables = (function() {
+  var _i, _results;
+  _results = [];
+  for (i = _i = 1; _i <= particles; i = ++_i) {
+    _results.push(new Particle);
+  }
+  return _results;
+})();
+
+draw = function() {
+  var d, _i, _len;
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  context.clearRect(0, 0, canvas.width, canvas.height)
+
+  for (_i = 0, _len = drawables.length; _i < _len; _i++) {
+    d = drawables[_i];
+    d.draw(context);
+  }
+};
+
+update = function() {
+  var d, _i, _len, _results;
+  _results = [];
+  for (_i = 0, _len = drawables.length; _i < _len; _i++) {
+    d = drawables[_i];
+    _results.push(d.update());
+  }
+  return _results;
+};
+
+document.onmousemove = function(e) {
+  mouseVX = mouseX;
+  mouseVY = mouseY;
+  mouseX = ~~e.pageX;
+  mouseY = ~~e.pageY;
+  mouseVX = ~~((mouseVX - mouseX)/2);
+  mouseVY = ~~((mouseVY - mouseY)/2);
+
+};
+
+window.addEventListener('resize', draw, false);
+setInterval(draw, 1000 / 30);
+setInterval(update, 1000 / 60);
+}).call(this);
+
+</script>
+<script>
+$('#logodog').hover(function(){
+    $(this).attr('src','./img/logo-evil.svg');
+},function(){
+     $(this).attr('src','./img/logo.svg');
+});
+</script>
 </body>
 
 </html>
