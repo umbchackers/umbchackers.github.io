@@ -761,11 +761,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #ff8B9B;
+  background: linear-gradient(180deg, #19374d, #ff8b9b 60%, #FFF);
 }
 ::selection {
   text-shadow: none;
-  background: #ff8B9B;
+  background: linear-gradient(180deg, #19374d, #ff8b9b 60%, #FFF);
 }
 img::selection {
   background: transparent;
