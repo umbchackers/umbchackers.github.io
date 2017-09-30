@@ -238,7 +238,7 @@ fieldset[disabled] .btn-xl.active {
   z-index: 200;
 }
 header {
-  width: 100%; height: 100%; position: relative; margin: 0; padding: 0; background: #19374d;
+  width: 100%; height: 100%; position: relative; margin: 0; padding: 0; background: #FFF; background: linear-gradient(180deg, #19374d, #ff8b9b 60%, #FFF);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
