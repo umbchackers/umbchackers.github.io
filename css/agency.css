@@ -21,6 +21,14 @@ body {
 .text-primary {
   color: #ff8B9B;
 }
+.text-secondary {
+  color: #19374d;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+
+
+}
 p {
   font-size: 14px;
   line-height: 1.75;
