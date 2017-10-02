@@ -149,72 +149,19 @@
                 <div>
                 <h3>Our Speakers</h3>
                     <br>
-                    <div class="col-xs-5">
+                    <div class="col-xs-6">
                         <img src="img/speakers/F2017/2047-0180_TQuinn.jpg" align="right" height="60%" width="60%">
                     </div>
-                    <div class="col-xs-7" style="text-align: left">
-                    <h3>Tom Quinn, CISM @ T. Rowe Price</h3>
+                    <div class="col-xs-6" style="text-align: left">
+                    <h3>Tom Quinn, CISM</h3>
                     <div>
                     Tom Quinn is head of Enterprise Security for T. Rowe Price and serves as the firm's chief information security officer. Before joining T. Rowe Price in May 2016, he was managing director and technology controls officer for JPMC Consumer and Community Banking. Previously, Tom was managing director, chief information security officer, for BNY Mellon and senior vice president, chief information security officer, for State Street Corporation. He also managed both infrastructure and application security teams at Goldman Sachs. Tom earned a B.A. in political science from Old Dominion University and an M.S. in information technology management from the Naval Postgraduate School. He is also a Certified Information Security Manager (CISM).
                     </div>
                     </div>
-                    <div class="col-xs-12"><br /></div>
-                    <!--<div class="col-xs-7" style="text-align: right">-->
-                    <!--<h3>Dr. Keith Bowman, Dean @ College of Engineering and IT, UMBC </h3>-->
-                    <!-- Keith Bowman Bio below
-                    <div>
-                    Biography...
-                    </div>  
-                    --> 
-                    <div class="col-xs-12"><br /></div>
-
-
-                    <div class="col-xs-12"><br /></div>
-                
-
                 </div>
-
+                
             </div>
         </div>
-
-        <div id="closing_modal" class="modal">
-            <div class="modal-content">
-            <span class="close">&times;</span>
-                <h3>Closing Ceremony Schedule</h3>
-                <h5>UC Ballroom</h5>
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th class="text-center" width="33%">Time</th>
-                            <th class="text-center" width="33%">Event</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                            <td>1:30 PM</td>
-                            <td>Expo Begins!</td>
-                            <!-- 1:30-3:00; 1h 30mins -->
-                        </tr>
-                        <tr>
-                            <td>3:00 PM</td>
-                            <td>Top 5 Demo</td>
-                            <!-- 3:00-3:25; 30 mins; 5 mins per team + transitions -->
-                        </tr>
-                        <tr>
-                            <td>3:30 PM</td>
-                            <td>Awards Ceremony</td>
-                            <!-- 3:30 - 4:00; 30 mins -->
-                        </tr> 
-                        <tr>
-                            <td>4:00 PM</td>
-                            <td>HackUMBC Ends<br>Thank you for coming!</td>
-                        </tr>  
-                     </tbody>
-                </table>
-            </div>
-        </div>
-
-
 
     </header>
 
@@ -261,7 +208,7 @@
                             </tr>
                             <tr>
                                 <td>11:00 AM</td>
-                                <td id="opening_schedule" class="text-primary">Opening Ceremony</td>
+                                <td id="opening_schedule">Opening Ceremony</td>
                                 <td>Meyerhoff 030</td>
                             </tr>
                             <tr>
@@ -350,7 +297,7 @@
                             </tr>
                             <tr>
                                 <td>3:30 PM</td>
-                                <td id="closing_schedule" class="text-primary">Closing Ceremonies</td>
+                                <td>Closing Ceremonies</td>
                                 <td>UC Ballroom</td>
                             </tr>
                         </tbody>
@@ -847,35 +794,23 @@ setInterval(update, 1000 / 60);
 
 // Get the modal
 var opening_modal = document.getElementById('opening_modal');
-var closing_modal = document.getElementById('closing_modal');
 
 // Get the button that opens the modal
 var opening_schedule = document.getElementById("opening_schedule");
-var closing_schedule = document.getElementById("closing_schedule");
 
 // Get the <span> element that closes the modal
-var opening_span = document.getElementsByClassName("close")[0];
-var closing_span = document.getElementsByClassName("close")[0];
-
+var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal 
 opening_schedule.onclick = function() {
     opening_modal.style.display = "block";
     document.body.className += ' stop-scrolling';
+
 }
-// When the user clicks on the button, open the modal 
-closing_schedule.onclick = function() {
-    closing_modal.style.display = "block";
-    document.body.className += ' stop-scrolling';
-}
+
 // When the user clicks on <span> (x), close the modal
-opening_span.onclick = function() {
+span.onclick = function() {
     opening_modal.style.display = "none";
-    document.body.classList.remove('stop-scrolling');
-}
-// When the user clicks on <span> (x), close the modal
-closing_span.onclick = function() {
-    closing_modal.style.display = "none";
     document.body.classList.remove('stop-scrolling');
 }
 
@@ -884,10 +819,7 @@ window.onclick = function(event) {
     if (event.target == opening_modal) {
         opening_modal.style.display = "none";
         document.body.classList.remove('stop-scrolling');
-    }
-    if (event.target == closing_modal) {
-        closing_modal.style.display = "none";
-        document.body.classList.remove('stop-scrolling');
+
     }
 }
 

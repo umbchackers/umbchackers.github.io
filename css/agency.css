@@ -801,8 +801,7 @@ body {
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
     font-size: 18px;
-    height: auto;
-    display: inline-block;
+    height: 100%;
 }
 
 /* The Close Button */
