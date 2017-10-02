@@ -39,7 +39,6 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
     <![endif]-->
 
-
 </head>
 
 <body id="page-top" class="index">
@@ -102,69 +101,7 @@
             <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:absolute;right:5%;top:10%;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=blue" target="_blank">
                 <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/blue.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
         </div>
-
-        <!-- Modals -->
-                <!-- The Modal -->
-        <div id="opening_modal" class="modal">
-            <div class="modal-content">
-            <span class="close">&times;</span>
-                <h3>Opening Ceremony Schedule</h3>
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th class="text-center" width="33%">Time</th>
-                            <th class="text-center" width="33%">Event</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                            <td>11:00 AM</td>
-                            <td>Welcome, Opening Remarks</td>
-                            <!-- 11:00-10; 10 mins -->
-                        </tr>
-                        <tr>
-                            <td>11:10 AM</td>
-                            <td>Sponsor Introductions</td>
-                            <!-- 11:10-25; 15 mins -->
-                        </tr>
-                        <tr>
-                            <td>11:25 AM</td>
-                            <td>Keynote Speakers</td>
-                            <!-- 11:25-50; 25 mins -->
-                        </tr>
-                        <tr>
-                            <td>11:50 AM</td>
-                            <td>Keynote Speakers</td>
-                            <!-- 11:50-12:15 PM; 25 mins -->                        
-                        </tr>    
-                        <tr>
-                            <td>12:15 PM</td>
-                            <td>Code of Conduct</td>
-                            <!-- 12:15-25 PM; 10 mins -->
-                            <!-- 5 mins left for buffer -->
-                        </tr>    
-                     </tbody>
-                </table>
-                
-                <div>
-                <h3>Our Speakers</h3>
-                    <br>
-                    <div class="col-xs-6">
-                        <img src="img/speakers/F2017/2047-0180_TQuinn.jpg" align="right" height="60%" width="60%">
-                    </div>
-                    <div class="col-xs-6" style="text-align: left">
-                    <h3>Tom Quinn, CISM</h3>
-                    <div>
-                    Tom Quinn is head of Enterprise Security for T. Rowe Price and serves as the firm's chief information security officer. Before joining T. Rowe Price in May 2016, he was managing director and technology controls officer for JPMC Consumer and Community Banking. Previously, Tom was managing director, chief information security officer, for BNY Mellon and senior vice president, chief information security officer, for State Street Corporation. He also managed both infrastructure and application security teams at Goldman Sachs. Tom earned a B.A. in political science from Old Dominion University and an M.S. in information technology management from the Naval Postgraduate School. He is also a Certified Information Security Manager (CISM).
-                    </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-
     </header>
-
     <!-- Services Section -->
     <section id="about">
         <div class="container">
@@ -188,7 +125,7 @@
 
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 text-center">
-                    <h2 class="section-heading">General Schedule</h2>
+                    <h2 class="section-heading">Schedule</h2>
 
                     <h3>Saturday</h3>
                     <table class="table table-striped">
@@ -208,7 +145,7 @@
                             </tr>
                             <tr>
                                 <td>11:00 AM</td>
-                                <td id="opening_schedule">Opening Ceremony</td>
+                                <td>Opening Ceremony</td>
                                 <td>Meyerhoff 030</td>
                             </tr>
                             <tr>
@@ -599,7 +536,6 @@
             </div>
     </section>
 
-
     <!-- Clients Aside -->
 
     <!--
@@ -791,37 +727,6 @@ window.addEventListener('resize', draw, false);
 setInterval(draw, 1000 / 30);
 setInterval(update, 1000 / 60);
 }).call(this);
-
-// Get the modal
-var opening_modal = document.getElementById('opening_modal');
-
-// Get the button that opens the modal
-var opening_schedule = document.getElementById("opening_schedule");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal 
-opening_schedule.onclick = function() {
-    opening_modal.style.display = "block";
-    document.body.className += ' stop-scrolling';
-
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    opening_modal.style.display = "none";
-    document.body.classList.remove('stop-scrolling');
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == opening_modal) {
-        opening_modal.style.display = "none";
-        document.body.classList.remove('stop-scrolling');
-
-    }
-}
 
 </script>
 </body>
