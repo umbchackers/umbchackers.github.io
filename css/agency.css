@@ -762,11 +762,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: linear-gradient(180deg, #19374d, #ff8b9b 60%, #FFF);
+  background: #ff8B9B;
 }
 ::selection {
   text-shadow: none;
-  background: linear-gradient(180deg, #19374d, #ff8b9b 60%, #FFF);
+  background: #ff8B9B;
 }
 img::selection {
   background: transparent;
