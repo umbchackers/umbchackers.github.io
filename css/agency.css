@@ -245,8 +245,9 @@ fieldset[disabled] .btn-xl.active {
   margin: 0 auto;
   z-index: 200;
 }
+/*This is the gradient bg*/
 header {
-  width: 100%; height: 100%; position: relative; margin: 0; padding: 0; background: #FFF; background: linear-gradient(180deg, #19374d, #ff8b9b 60%, #FFF);
+  width: 100%; height: 100%; position: relative; margin: 0; padding: 0; background: #FFF; background:  radial-gradient(circle, white, #21374b, black);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
