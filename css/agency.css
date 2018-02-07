@@ -3,11 +3,11 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
- @import url('https://fonts.googleapis.com/css?family=Quicksand');
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
 
 body {
   overflow-x: hidden;
-  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #bg {
   position: absolute;
@@ -58,7 +58,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -75,7 +75,7 @@ h6 {
   color: white;
   background-color: #890D0D;
   border-color: #890D0D;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Open sans", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -119,7 +119,7 @@ fieldset[disabled] .btn-primary.active {
   color: #fff;
   background-color: #ff8B9B;
   border-color: #ff8B9B;
-  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 3px;
@@ -163,12 +163,12 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #19374D;
+  background-color: #21374B;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #ff8B9B;
-  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, cursive;
+  color: #fff;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -182,7 +182,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-toggle {
   background-color: #ff8B9B;
   border-color: #ff8B9B;
-  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 12px;
@@ -192,7 +192,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: #ff8B9B;
 }
 .navbar-custom .nav li a {
-  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
@@ -247,8 +247,24 @@ fieldset[disabled] .btn-xl.active {
 }
 /*This is the gradient bg*/
 header {
-  width: 100%; height: 100%; position: relative; margin: 0; padding: 0; 
-  background-image: linear-gradient(to top right, #21374B 45%, #BE4248 100%);
+  width: 100%; height: 100%; position: relative; margin: 0; padding: 0;
+  /* IE10+ */ 
+background-image: -ms-linear-gradient(bottom left, #21374B 45%, #BE4248 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom left, #21374B 45%, #BE4248 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom left, #21374B 45%, #BE4248 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, right top, color-stop(45, #21374B), color-stop(100, #BE4248));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom left, #21374B 45%, #BE4248 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to top right, #21374B 45%, #BE4248 100%);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -260,12 +276,12 @@ header {
   color: white;
   z-index: 100;
 }
-/*header .intro-text {
+header .intro-text {
   z-index: 500 !important;
 }
 header .intro-text img {
     z-index: 99999 !important;
-}*/
+}
 p {
   font-size: 1.5em;
 }
@@ -281,7 +297,7 @@ header .info-text {
   font-size: 1.5em;
 }
 header .intro-text .intro-heading {
-  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slabs", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 50px;
@@ -306,7 +322,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 75px;
@@ -330,7 +346,7 @@ section .section-text {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-weight: 400;
   margin-bottom: 75px;
