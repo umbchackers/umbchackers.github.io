@@ -4,7 +4,6 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 .img-logo {
 	width: 18em;
@@ -91,4 +90,15 @@ h3{
 .head a:active{
 	text-decoration: underline;
 	color: #ffffff !important;
+}
+#particles-js canvas{
+    position: absolute;
+    top:0;
+  right:0;
+  bottom:0;
+  left:0;
+    z-index: -1;
+}
+#overlay{
+	position: relative;
 }
