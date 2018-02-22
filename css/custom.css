@@ -11,6 +11,12 @@ body {
 	padding: 0;
 }
 
+@media (min-width: 768px) {
+.buttongroup{
+  width:30%;
+
+}
+}
 
 
 .simple {

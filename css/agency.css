@@ -19,7 +19,7 @@ body {
   color: #777777;
 }
 .text-primary {
-  color: #ff8B9B;
+  color: #BE4248;
 }
 .text-secondary {
   color: #19374d;
@@ -44,13 +44,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #ff8B9B;
+  color: #BE4248;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #ff8B9B;
+  color: #BE4248;
 }
 h1,
 h2,
@@ -108,8 +108,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #ff8B9B;
-  border-color: #ff8B9B;
+  background-color: #BE4248;
+  border-color: #BE4248;
 }
 .btn-primary .badge {
   color: #890D0D;
@@ -117,14 +117,15 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: #fff;
-  background-color: #ff8B9B;
-  border-color: #ff8B9B;
+  background-color: #BE4248;
+  border-color: #BE4248;
   font-family: "Open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
+  display:block;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -155,11 +156,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #ff8B9B;
-  border-color: #ff8B9B;
+  background-color: #BE4248;
+  border-color: #BE4248;
 }
 .btn-xl .badge {
-  color: #ff8B9B;
+  color: #BE4248;
   background-color: white;
 }
 .navbar-custom {
@@ -180,8 +181,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #ff8B9B;
-  border-color: #ff8B9B;
+  background-color: #BE4248;
+  border-color: #BE4248;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -189,7 +190,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #ff8B9B;
+  background-color: #BE4248;
 }
 .navbar-custom .nav li a {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -200,18 +201,18 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #ff8B9B;
+  color: #BE4248;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #ff8B9B;
+  background-color: #BE4248;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #ff8B9B;
+  background-color: #BE4248;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -247,23 +248,23 @@ fieldset[disabled] .btn-xl.active {
 }
 /*This is the gradient bg*/
 header {
-  width: 100%; height: 100%; position: relative; margin: 0; padding: 0;
-  /* IE10+ */ 
+  width: 100%; min-height: 100%; position: relative; margin: 0; padding: 0 padding-bottom:50px;
+  /* IE10+ */
 background-image: -ms-linear-gradient(bottom left, #21374B 45%, #BE4248 100%);
 
-/* Mozilla Firefox */ 
+/* Mozilla Firefox */
 background-image: -moz-linear-gradient(bottom left, #21374B 45%, #BE4248 100%);
 
-/* Opera */ 
+/* Opera */
 background-image: -o-linear-gradient(bottom left, #21374B 45%, #BE4248 100%);
 
-/* Webkit (Safari/Chrome 10) */ 
+/* Webkit (Safari/Chrome 10) */
 background-image: -webkit-gradient(linear, left bottom, right top, color-stop(45, #21374B), color-stop(100, #BE4248));
 
-/* Webkit (Chrome 11+) */ 
+/* Webkit (Chrome 11+) */
 background-image: -webkit-linear-gradient(bottom left, #21374B 45%, #BE4248 100%);
 
-/* W3C Markup */ 
+/* W3C Markup */
 background-image: linear-gradient(to top right, #21374B 45%, #BE4248 100%);
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -479,7 +480,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #ff8B9B;
+  background-color: #BE4248;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -634,7 +635,7 @@ section#contact .form-group textarea.form-control {
   height: 236px;
 }
 section#contact .form-control:focus {
-  border-color: #ff8B9B;
+  border-color: #BE4248;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
@@ -703,7 +704,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #ff8B9B;
+  background-color: #BE4248;
 }
 .btn:focus,
 .btn:active,
@@ -787,11 +788,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: linear-gradient(180deg, #19374d, #ff8b9b 60%, #FFF);
+  background: linear-gradient(180deg, #19374d, #BE4248 60%, #FFF);
 }
 ::selection {
   text-shadow: none;
-  background: linear-gradient(180deg, #19374d, #ff8b9b 60%, #FFF);
+  background: linear-gradient(180deg, #19374d, #BE4248 60%, #FFF);
 }
 img::selection {
   background: transparent;
@@ -800,5 +801,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #ff8B9B;
+  webkit-tap-highlight-color: #BE4248;
 }
