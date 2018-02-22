@@ -11,6 +11,10 @@ body {
 	padding: 0;
 }
 
+.bottom30{
+  margin-bottom: 30px;
+}
+
 @media (min-width: 768px) {
 .buttongroup{
   width:30%;
@@ -18,6 +22,9 @@ body {
 }
 }
 
+#faq h3{
+  margin-bottom:10px;
+}
 
 .simple {
   margin: 0 !important;
