@@ -18,6 +18,8 @@ body {
 @media (min-width: 768px) {
 .buttongroup{
   width:30%;
+  font-size: 20px;
+  background-color: #BE4248;
 
 }
 }
