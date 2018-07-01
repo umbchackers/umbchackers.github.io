@@ -16,9 +16,9 @@ body {
 }
 
 @media (min-width: 768px) {
-.buttongroup{
+.buttongroup{ 
   width:30%;
-  font-size: 20px;
+  font-size: 30px;
   background-color: #BE4248;
 
 }
