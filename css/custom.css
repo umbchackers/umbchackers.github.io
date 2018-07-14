@@ -20,9 +20,23 @@ body {
   width:30%;
   font-size: 30px;
   background-color: #BE4248;
+  text-align: center;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
 
 }
 }
+.buttongroup:hover {
+	background-color: #a31d23;
+	color: white;
+}
+.buttongroup:active {
+  background-color: #a31d23 !important;
+    color: white;
+  }
+
 
 #faq h3{
   margin-bottom:10px;
