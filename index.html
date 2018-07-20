@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HACKUMBC FALL 2018</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="./css/app.css">
     <link rel="apple-touch-icon" sizes="57x57" href="./img/favicons/">
     <link rel="apple-touch-icon" sizes="60x60" href="./img/favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./img/favicons/apple-icon-72x72.png">
@@ -26,7 +31,33 @@
 </head>
 
 <body>
+    <header class="mdc-top-app-bar">
+        <div class="mdc-top-app-bar__row">
+            <section class="custom-top-app-bar-section mdc-top-app-bar__section" role="toolbar">
+                <button class="custom-top-app-bar-button mdc-button" href="#About">About</button>
+                <button class="custom-top-app-bar-button mdc-button" href="#FAQ">FAQ</button>
+                <img src="./img/HackUMBC.Logo.Silver.png" class="custom-top-app-bar-logo"></img>
+                <button class="custom-top-app-bar-button mdc-button" href="#Sponsors">Sponsors</button>
+                <button class="custom-top-app-bar-button mdc-button" href="#Gallery">Gallery</button>
+            </section>
+        </div>
+    </header>
 
+    <main class="main">
+        <section class="splash">
+            <div class="splash-container">
+                <h1 class="splash-title1 mdc-typography--headline1"> HackUMBC </h1>
+                <h2 class="splash-title2 mdc-typography--headline2"> Fall 2018 </h2>
+                <button class="splash-button mdc-button--outlined" href="#Gallery">Gallery</button>
+            </div>
+        </section>
+        <section class="about">
+
+        </section>
+    </main>
+
+    <script type="text/javascript" src="./js/material-components-web.min.js"> </script>
+    <script type="text/javascript" src="./js/app.js"> </script>
 </body>
 
 </html>
