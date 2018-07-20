@@ -72,4 +72,12 @@ body {
 }
 
 .splash-button {
+  padding: 1.5rem 2.2rem ;
+  line-height: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.15rem !important;
+  border: solid !important;
+  border-radius: 10px !important;
+  border-color: #ffffff !important;
+  color: #ffffff !important ;
 }
