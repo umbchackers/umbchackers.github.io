@@ -790,10 +790,10 @@ ul.social-buttons li a:active {
   text-shadow: none;
   background: linear-gradient(180deg, #19374d, #BE4248 60%, #FFF);
 }
-::selection {
+/*::selection {
   text-shadow: none;
   background: linear-gradient(180deg, #19374d, #BE4248 60%, #FFF);
-}
+}*/
 img::selection {
   background: transparent;
 }
