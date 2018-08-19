@@ -1,5 +1,0 @@
-Usage instruction
-run in console.  --image [filename] and --model [resnet, vgg16, vgg19, inception, xception]
-
-example (python 3.6)
-python imgCls.py --image ~/Downloads/images/dragon.png --model xception
