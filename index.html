@@ -39,7 +39,7 @@
     <nav class="navbar fixed-top navbar-dark" id="myNav">
       <div class="wrapper">
         <a id="aboutTab" class="navbar-brand" href="#about">about</a>
-        <a id="faqTab" class="navbar-brand" href="#faq">faq</a>
+        <a id="faqTab"class="navbar-brand" href="#faq">faq</a>
       </div>
       <a id="logo" class="navbar-brand" href="#top">
         <img src="./assets/img/HackUMBC.Logo.Gold-2.png" style="width:50px;height:50px;"></img>
@@ -49,24 +49,19 @@
         <a id="social-mediaTab" class="navbar-brand" href="#footer">social media</a>
       </div>
       <a id="burger">
-        <!--<i class="fa fa-bars"></i>-->
-        <div class="burgContainer" onclick="changeBurger(this)" id="myBurg">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </div>
+        <i class="fa fa-bars"></i>
       </a>
-
-      <div id="fullscreen_menu" class="overlay">
-        <!--<a href="javascript:void(0)" id="closebtn" class="closebtn">&times;</a>-->
-        <div class="overlay-content">
-          <a href="#about" onclick="changeBurger(myBurg)">about</a>
-          <a href="#faq" onclick="changeBurger(myBurg)">faq</a>
-          <a href="#sponsors" onclick="changeBurger(myBurg)">sponsors</a>
-          <a href="#footer" onclick="changeBurger(myBurg)">social media</a>
-        </div>
-      </div>
     </nav>
+  </div>
+
+  <div id="fullscreen_menu" class="overlay" style="z-index: 100">
+    <a href="javascript:void(0)" id="closebtn" class="closebtn" style="color: #fddf87">&times;</a>
+    <div class="overlay-content">
+      <a href="#about" onclick="changeBurger(myBurg)">about</a>
+      <a href="#faq" onclick="changeBurger(myBurg)">faq</a>
+      <a href="#sponsors" onclick="changeBurger(myBurg)">sponsors</a>
+      <a href="#footer" onclick="changeBurger(myBurg)">social media</a>
+    </div>
   </div>
 
   <!-- MLH Trust Badge -->
