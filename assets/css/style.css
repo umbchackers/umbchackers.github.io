@@ -1,0 +1,644 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900");
+@import url("linkStyles.css");
+
+body,
+html {
+  height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar a {
+  margin: 0;
+}
+nav.navbar a.navbar-brand {
+  font-size: 1.2em;
+  line-height-step: 1em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 700px) {
+  .navbar {
+    font-size: 30px;
+  }
+  .navbar.responsive {
+    z-index: 10001;
+    height: 100% !important;
+    background-color: #494849;
+    width: 100%;
+    overflow: hidden;
+    display: table;
+  }
+
+  #logo {
+    position: relative;
+    left: 41%;
+  }
+  .navbar.responsive .navbar-brand {
+    font-size: 4em;
+    text-align: center;
+  }
+  .navbar .navbar-brand {
+    display: none;
+  }
+  .container .navbar div.wrapper {
+    display: none;
+  }
+  .navbar #logo.navbar-brand,
+  #menu {
+    font-size: 1em;
+    display: unset;
+  }
+  .navbar #burger .fa {
+    display: inline;
+  }
+  .bannerPos {
+    -webkit-transition: top 0.3s;
+    -moz-transition: top 0.3s;
+    top: -130px !important;
+    transition: top 0.3s ease 0s;
+    /*pointer-events: none;
+    cursor: default;*/
+  }
+  /*****************************************
+new Burger
+*******************************************/
+  .burgContainer {
+    height: 0px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 26px;
+    height: 4px;
+    background-color: #fddf87;
+    margin: 5px 0;
+    transition: 0.4s;
+    top: -25px;
+    position: relative;
+    z-index: 10002;
+  }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-7px, -7px);
+    transform: rotate(45deg) translate(-7px, -7px);
+  }
+  /*****************************************
+new Burger
+*******************************************/
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -2%;
+  right: 2%;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.transparent {
+  display: none !important;
+}
+
+.navbar.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+/*Burger properties*/
+.navbar .fa {
+  display: none;
+  font-size: 1em;
+  color: #fddf87;
+}
+
+/*This is for Navbar*/
+.navbar {
+  height: auto;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: height 0.5s ease 0s background-color 0.5s ease 0s;
+  /* height: 100px; */
+}
+
+.navbar div.wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 33.33%;
+  text-align: center;
+}
+
+/*Navbar transition*/
+.navbar.solid {
+  height: auto;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  transition: height 0.5s ease 0s;
+  background-color: #494849;
+  transition: background-color 0.5s ease 0s;
+  box-shadow: 0 0 4px grey;
+
+  .navbar-brand {
+    color: #494849;
+    transition: color 0.5s ease 0s;
+  }
+  .navbar-dark {
+    > a {
+      color: #494849;
+      transition: color 0.5s ease 0s;
+    }
+  } //end .navbar-dark
+}
+
+/*links will highlight over hover and active*/
+.navbar a:hover,
+.navbar .active {
+  outline-style:none;
+  box-shadow:none;
+  border-color:transparent;
+  color: #fddf87 !important;
+}
+
+/*This is for main background*/
+.parallax {
+  /* The image used */
+  background-image: linear-gradient(#544178, #d95115ce),
+    url("../img/UMBC-bg1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tile-bg {
+  background-image: url("../img/tile-bg.svg");
+  background-repeat: repeat;
+}
+
+/*Wrapper for entire webpage*/
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+
+  max-width: 960px; /* 2 */
+
+  padding-right: 10px; /*  3 */
+  padding-left: 10px; /* 3 */
+}
+
+.valign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.content {
+  margin-top: 50px;
+  padding-left: 40px;
+}
+
+/*For header section*/
+#header-date {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#header-year {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#header-apply {
+  margin: 0 !important;
+  display: block;
+  background: transparent;
+  border: 2px white solid;
+  padding: 20px 50px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 50px auto;
+  cursor: pointer;
+}
+
+#header-apply:hover,
+#header-apply:active {
+  background: white;
+  transition: background 0.3s;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  color: #343a40;
+}
+
+.header-container {
+  display: block;
+  align-content: right;
+}
+
+.mlh-trust-badge {
+  z-index: 1;
+  position: fixed;
+  margin-top: 76px;
+  right: 10px;
+  -webkit-transition: top 0.3s;
+  -moz-transition: top 0.3s;
+  top: 0px;
+  transition: top 0.3s ease 0s;
+  transition: ease .3s;
+}
+@media only screen and (min-width: 800px) {
+  .mlh-trust-badge {
+    opacity: .7;
+  }
+  .mlh-trust-badge:hover {
+    opacity: 1;
+    transition: ease .3s;
+  }
+}
+
+.parallax a:hover {
+  text-decoration: none;
+}
+
+.parallax h1 sup {
+  font-size: 0.65em;
+}
+
+/*This is for about section */
+.about-background {
+  /*background-image: url("../img/HackUMBC.LightBlue.Pattern.jpg");*/
+  background-image: linear-gradient(#639bf1ce, #639bf1ce),
+    url("../img/tile-bg@2x.png");
+  /*background-color: #639BF1;*/
+  margin: 0 auto;
+  min-height: 40%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about-background .content {
+  color: white;
+}
+
+.about-background p {
+  font-size: 1.5em;
+  line-height: 40px;
+}
+
+/* FAQ Section */
+.faq-background .card {
+  background: transparent;
+  border: none;
+  font-size: 1.5em;
+}
+
+.card-header {
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+  background: inherit;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.faq-background .card-header button {
+  color: #404040;
+  font-weight: 600;
+  font-size: 2rem;
+  white-space: normal;
+  text-align: inherit;
+}
+
+.card-header button {
+  text-decoration: none !important;
+  color: #404040 !important;
+}
+
+.card-header .fa {
+  color: #404040;
+  font-size: 110%;
+  margin: 0 0.25em;
+}
+
+#accordion .card-header i.fa {
+  -webkit-transition: all 500ms cubic-bezier(0.075, 0.05, 0.165, 0.9);
+  transition: all 500ms cubic-bezier(0.075, 0.05, 0.165, 0.9);
+}
+
+.rotate-up {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.rotate-down {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  transition-duration: 0.2s;
+}
+
+.faq-background .content {
+  color: #404040;
+}
+
+.faq-background a {
+  color: #404040;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.faq-background a:hover {
+  text-decoration: underline;
+}
+
+.faq-background {
+  background-image: linear-gradient(#e5e1dfce, #e5e1dfce),
+    url("../img/tile-bg@2x.png");
+  /*background-color: #E5E1DF;*/
+  margin: 0 auto;
+  min-height: 40%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/*This is for sponsors background*/
+.sponsors-background {
+  /*background-image: url("../img/HackUMBC.White.Pattern.png");*/
+  /*background-color: white;*/
+  background-image: linear-gradient(#ffffffce, #ffffffce),
+    url("../img/tile-bg@2x.png");
+  margin: 0 auto;
+  min-height: 40%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.sponsors {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.sponsors-background p {
+  font-size: 1.5em;
+  line-height: 40px;
+  color: #404040;
+}
+
+.footer-background {
+  background-color: #494849;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.bracket-color {
+  color: orange;
+  font-weight: bold;
+}
+
+@keyframes minus {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+
+/*Edits for mobile site*/
+@media only screen and (max-width: 800px) {
+  .card-body {
+    font-size: 1em;
+  }
+  .collapsed {
+    font-size: 12px;
+  }
+  .expanded {
+    font-size: 12px;
+  }
+  .content {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  #header-apply {
+    font-size: 14px;
+  }
+  .faq-background .card-header button {
+    font-size: 1.25em;
+    word-wrap: normal;
+  }
+  .faq-background .card-body a {
+    font-size: 0.9em;
+  }
+  .col-sm-5 {
+    padding-left: 70px;
+  }
+  .section-footer {
+    font-size: 35px;
+  }
+  #footer .fa {
+    height: 60px;
+    width: 60px !important;
+    padding: 15px !important;
+  }
+}
+
+/* Style all font awesome icons */
+#footer .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Set a specific color for each brand */
+a.fa:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+/* Github */
+.fa-github {
+  background: white;
+  color: black;
+}
+a.fa-github:hover {
+  color: black;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #e5497b;
+  /*#d6249f*/
+  /*background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );*/
+  /* box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25); */
+  color: white;
+}
+/* *****************************************************
+Typography
+***************************************************** */
+.section-header {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.section-header-gray {
+  color: #404040;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.section-footer {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* slide animation for text */
+.slideanim {
+  visibility: hidden;
+}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
