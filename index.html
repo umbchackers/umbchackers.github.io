@@ -1,916 +1,512 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
 
-    <title>HACKUMBC FALL 2018</title>
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- Favicon settings set -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <link rel="manifest" href="favicons/manifest.json">
-    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/favicons/">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicons/favicon-16x16.png">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Theme CSS -->
-	<link href="js/particles.js">
-	<link href="js/app.js">
-    <link href="css/agency.css" rel="stylesheet">
-	<link href="css/custom.css" rel="stylesheet"></link>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
-    <![endif]-->
-
+  <title>HACKUMBC FALL 2018</title>
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">FALL 2018</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#faq">FAQ</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#sponsors">Sponsors</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="http://club.hackumbc.org/resources/" target="_blank">Resources</a>
-                    </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="https://widgets.scribblemaps.com/sm/?d&z&l&gc&af&mc&lat=39.256430262193305&lng=-76.71513308283386&vz=16&type=hybrid&ti&s&width=550&height=400&id=m6ddSbcEWj" target="_blank">Event Map</a>
-                    </li> -->
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  <div class="container">
+    <nav class="navbar fixed-top navbar-dark" id="myNav">
+      <div class="wrapper">
+        <a id="aboutTab" class="navbar-brand" href="#about">about</a>
+        <a id="faqTab"class="navbar-brand" href="#faq">faq</a>
+      </div>
+      <a id="logo" class="navbar-brand" href="#top">
+        <img src="./assets/img/HackUMBC.Logo.Gold-2.png" style="width:50px;height:50px;"></img>
+      </a>
+      <div class="wrapper">
+        <a id="sponsorsTab" class="navbar-brand" href="#sponsors">sponsors</a>
+        <a id="social-mediaTab" class="navbar-brand" href="#footer">social media</a>
+      </div>
+      <a id="burger">
+        <!--<i class="fa fa-bars"></i>-->
+        <div class="burgContainer" onclick="changeBurger(this)" id="myBurg">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
         </div>
-        <!-- /.container-fluid -->
+      </a>
+
+      <div id="fullscreen_menu" class="overlay">
+        <!--<a href="javascript:void(0)" id="closebtn" class="closebtn">&times;</a>-->
+        <div class="overlay-content">
+          <a href="#about" onclick="changeBurger(myBurg)">about</a>
+          <a href="#faq" onclick="changeBurger(myBurg)">faq</a>
+          <a href="#sponsors" onclick="changeBurger(myBurg)">sponsors</a>
+          <a href="#footer" onclick="changeBurger(myBurg)">social media</a>
+        </div>
+      </div>
     </nav>
+  </div>
 
-    <!-- Header -->
-    <header>
-        <section id="page-top">
-		<div id = "particles-js"></div>
-        <div id = "overlay" class="container">
-            <div class="intro-text">
-            <canvas id="bg"></canvas>
-              <img class="img-responsive" id="logodog" src="./img/logo.svg" width="30%"
-                    alt="logo" />
+  <!-- MLH Trust Badge -->
+  <a id="mlh-trust-badge" class="mlh-trust-badge transparent" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&amp;utm_medium=TrustBadge&amp;utm_campaign=2019-season&amp;utm_content=white"
+    target="_blank">
+    <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-black.svg" alt="Major League Hacking 2019 Hackathon Season"
+      style="width:100%">
+  </a>
 
-                    <br /><br />
-                <div class="intro-heading">
-                    HackUMBC
-                </div>
+  <!--wrapper-->
+  <div class="wrapper">
 
-                <div class="intro-heading">
-                    <h1>October 20-21, 2018</h1>
-                    <h2>
-                        <button type="button"  style="font-color: #BE4248" class="btn buttongroup" onclick=" window.open('http://register.hackumbc.org','_blank')">Register Now!</button>
-                    </h2>
-                </div>
+  </div>
 
-                <div class="intro-heading">
-                    <h1 style="text-transform: none">Interested in sponsoring us? Send us an email at
-                    <a href="mailto:sponsor@hackumbc.org">sponsor@hackumbc.org</a><br></h1>
-                </div>
+  <!-- Home Splash -->
+  <section class="parallax" id="top" style="position: relative; z-index: 2 !important;">
+    <!--wrapper-->
+    <div class="wrapper valign">
+      <img src="./assets/img/textLogo-white.svg" id="text-logo"></img>
+      <h1 id="header-date">
+        OCT 20<sup>th</sup>-21<sup>st</sup>
+      </h1>
+      <h5 id="header-year">Fall 2018</h5>
+      <a href="https://register.hackumbc.org/" target="_blank">
+        <button id="header-apply">Apply Now</button>
+      </a>
+    </div>
+  </section>
 
-                <!-- Social Media -->
-               <div class="intro-heading">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <ul class="list-inline social-buttons">
-                                <li><a target="_blank" href="https://www.facebook.com/hackumbc"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a target="_blank" href="https://twitter.com/hackumbc"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li><a target="_blank" href="https://github.com/umbchackers"><i class="fa fa-github"></i></a>
-                                </li>
-                                <li><a target="_blank" href="https://www.instagram.com/hackumbc/"><i class="fa fa-instagram"></i></a>
-                                </li>
-                            </ul>
-                        </div>
+  <!-- About Section -->
+  <section class="about-background" id="about">
+    <!--wrapper-->
+    <div class="wrapper">
+      <h1 class="section-header">
+        <span class="bracket-color">{</span> About
+        <span class="bracket-color">}</span>
+      </h1>
+      <div class="content slideanim">
+        <p>The University of Maryland, Baltimore County's 24-hour tech innovation marathon where students across the East
+          Coast collaborate on new ideas to build mobile, web, and hardware projects. HackUMBC invites diverse groups of
+          students to enjoy a weekend of hacking, workshops, tech talks, networking, and other fun activities. At the end
+          of 24 hours, participants' projects are presented and judged for different prize categories from sponsors and other
+          organizations.
+        </p>
+      </div>
 
-                    </div>
-                </div>
+    </div>
+  </section>
 
+  <!-- FAQ Section -->
+  <section class="faq-background" id="faq">
+    <!--wrapper-->
+    <div class="wrapper">
+      <h1 class="section-header-gray">
+        <span class="bracket-color">{</span> FAQ
+        <span class="bracket-color">}</span>
+      </h1>
 
+      <div class="content">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link">
+                  WHAT IS A HACKATHON
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
             </div>
-                <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:5%;top:8%;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=blue" target="_blank">
-                <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/blue.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                A hackathon is a tech innovation marathon. This is where your dreams run wild. Solve a real-world problem with technology
+                or build the next Iron Man suit.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link">
+                  WHAT IF I DON'T HAVE A TEAM OR AN IDEA
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                No problem! You can find a team once you arrive. Most hackers arrive without a team. You will often find inspiration for
+                ideas at the hackathon.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed">
+                  WHAT IF I DON'T CODE
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                This is the perfect opportunity to learn something new! There will be workshops geared towards beginners and mentors to help
+                you throughout the event.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed">
+                  WHO CAN ATTEND
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body">
+                Current undergraduate students can compete. Anyone is welcome to drop by and see what participants are working on!
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed">
+                  WHAT CAN I BUILD
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+              <div class="card-body">
+                Anything! Web, mobile, desktop, and hardware projects are all welcome. Projects will be judged based on creativity, technical
+                difficulty, polish, and usefulness.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed">
+                  WILL THERE BE HARDWARE
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+              <div class="card-body">
+                We have partnered with MLH to provide hardware hacking resources to all hackers. Check out the full
+                <a class="textLink" href="https://sponsor.mlh.io/directory/#hardware-lab"> list of hardware.</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingSeven" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed">
+                  HOW MUCH DOES IT COST
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+              <div class="card-body">
+                HackUMBC is free! Food, beverages, swag, and workspaces will be provided. You just have to travel to the event and we will
+                take care of the rest! :)
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingEight" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed">
+                  WHAT SHOULD I BRING
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+              <div class="card-body">
+                Valid photo ID is required. (State issued ID is highly recommended.) Laptops, sleeping bags, and toiletries are highly recommended.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingNine" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed">
+                  HOW BIG SHOULD TEAMS BE? CAN I HACK ALONE
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+              <div class="card-body">
+                Teams should be at most FOUR people. We highly recommend that you form a team, but solo hackers are allowed.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTen" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed">
+                  CAN I BUILD ON PAST PROJECTS
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+              <div class="card-body">
+                We strongly discourage building off of existing projects you've worked on. However, using third–party APIs and libraries
+                are encouraged, as long as they're accessible by everyone.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingEleven" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed">
+                  WILL THERE BE TRAVEL REIMBURSEMENT
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+              <div class="card-body">
+                At this time we will NOT be able to provide travel reimbursement to hackers due to shortage of funds. However, we WILL be
+                able to provide busing to University of Maryland, College Park this semester so watch out for that.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwelve" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed">
+                  DO I HAVE TO SLEEP OVER AT THE HACKATHON
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
+              <div class="card-body">
+                You are always able to come and go at the hackathon but only work done at the venue will be eligible for judging. You are
+                also welcome to bring a sleeping bag but we will not have a designated area for sleeping.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThirteen" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false"
+              aria-controls="collapseThirteen">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed">
+                  IS THERE A CODE OF CONDUCT
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
+              <div class="card-body">
+                Yes it can be found
+                <a class="textLink" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">here</a>.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFourteen" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false"
+              aria-controls="collapseFourteen">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed">
+                  I HAVE MORE QUESTIONS!
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion">
+              <div class="card-body">
+                You can get in touch with us via
+                <a class="textLink" href="mailto:team@hackumbc.org">team@hackumbc.org</a>,
+                <a class="textLink" href="https://twitter.com/hackumbc" target="_blank">Twitter</a>, or
+                <a class="textLink" href="https://www.facebook.com/hackumbc" target="_blank">Facebook</a>.
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    </header>
+        <!--accordion-->
 
-    <!-- Portfolio Grid Section -->
-        <!-- <section id="schedule" class="bg-light-gray">
-            <div class="container">
-                <div class="row">
+      </div>
+    </div>
 
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-8 text-center">
-                        <h2 class="section-heading">Schedule</h2>
-                      </br>
+  </section>
 
-                        <h3>Saturday</h3>
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th class="text-center" width="33%">Time</th>
-                                    <th class="text-center" width="33%">Event</th>
-                                    <th class="text-center" width="33%">Location</th>
-                                </tr>
-                            </thead>
+  <!-- Sponsors Section -->
+  <section class="sponsors-background" id="sponsors">
+    <!--wrapper-->
+    <div class="wrapper">
+      <h1 class="section-header-gray">
+        <span class="bracket-color">{</span> Sponsors
+        <span class="bracket-color">}</span>
+      </h1>
+      <br>
 
-                            <tbody>
-                                <tr>
-                                    <td>10:00 AM</td>
-                                    <td><b>Check-In!</b></td>
-                                    <td>ENG</td>
-                                </tr>
-                                <tr>
-                                    <td>11:00 AM</td>
-                                    <td>Opening Ceremony</td>
-                                    <td>ENG 027</td>
-                                </tr>
-                                <tr>
-                                    <td>12:00 PM</td>
-                                    <td>Lunch</td>
-                                    <td>ENG Atrium</td>
-                                </tr>
-                                <tr>
-                                    <td>12:30 PM</td>
-                                    <td>Team Formation</td>
-                                    <td>ENG 027</td>
-                                </tr>
-                                <tr>
-                                    <td>1:00 PM</td>
-                                    <td><b>Hacking Begins!</b></td>
-                                    <td>ENG</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td>Hackathon101/</br>Programming Mindset Workshop</td>
-                                    <td>ENG 027</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td>Introduction to Web Development</td>
-                                    <td>ENG 022</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td>IEEE: Intro to Arduino</td>
-                                    <td>ENG 122</td>
-                                </tr>
-                                <tr>
-                                    <td>2:00 PM</td>
-                                    <td>Booz Allen Hamilton: </br>An Introduction to Visualizing Data using D3.js</td>
-                                    <td>ENG 027</td>
-                                </tr>
-                                <tr>
-                                    <td>3:15 PM</td>
-                                    <td>Freedom Consulting: </br>Intro to Git/Tackling the Technical Interview</td>
-                                    <td>ENG 027</td>
-                                </tr>
-                                <tr>
-                                    <td>4:30 PM</td>
-                                    <td>Introduction to Web Development Part 2</td>
-                                    <td>ENG 027</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td>Learning JavaScript by Making a Chat Bot</td>
-                                    <td>ENG 022</td>
-                                </tr>
-                                <tr>
-                                    <td>5:15 PM</td>
-                                    <td>Cupstacking</td>
-                                    <td>ENG Atrium</td>
-                                </tr>
-                                <tr>
-                                    <td>6:00 PM</td>
-                                    <td>Dinner</td>
-                                    <td>ENG Atrium</td>
-                                </tr>
-                                <tr>
-                                    <td>7:00 PM</td>
-                                    <td>Clear Edge: </br>Becoming a Better Developer</td>
-                                    <td>ENG 027</td>
-                                </tr>
-                                <tr>
-                                    <td>8:15 PM</td>
-                                    <td>Dog Collar Comedy</td>
-                                    <td>ENG 027</td>
-                                </tr>
-                                <tr>
-                                    <td>9:00 PM</td>
-                                    <td>Trivia</td>
-                                    <td>ENG 027</td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                        <h3>Sunday</h3>
-                        <table class="table table-striped text-center">
-                            <thead>
-                                <tr>
-                                    <th class="text-center" width="33%">Time</th>
-                                    <th class="text-center" width="33%">Event</th>
-                                    <th class="text-center" width="33%">Location</th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <tr>
-                                    <td>12:00 AM</td>
-                                    <td>Midnight Snacks</td>
-                                    <td>ENG Atrium</td>
-                                </tr>
-                                <tr>
-                                    <td>8:30 AM</td>
-                                    <td>Breakfast</td>
-                                    <td>ENG Atrium</td>
-                                </tr>
-                                <tr>
-                                    <td>11:30 AM</td>
-                                    <td><b>Submit Hacks!</b></td>
-                                    <td>ENG</td>
-                                </tr>
-                                <tr>
-                                    <td>1:00 PM</td>
-                                    <td><b>Hacking Ends!</b></td>
-                                    <td>ENG</td>
-                                </tr>
-                                <tr>
-                                    <td>1:00 PM</td>
-                                    <td>Lunch</td>
-                                    <td>ENG Atrium</td>
-                                </tr>
-                                <tr>
-                                    <td>1:30 PM</td>
-                                    <td><b>Expo Begins!</b></td>
-                                    <td>ENG Atrium</td>
-                                </tr>
-                                <tr>
-                                    <td>3:30 PM</td>
-                                    <td>Closing Ceremonies</td>
-                                    <td>ENG 027</td>
-                                </tr>
-                            </tbody>
-                        </table> -->
-                    <!-- </div> -->
-                <!-- </div> -->
-
-                <!-- <br>
-
-	            <div class="row col-lg-12 text-center">
-						<h2 class="section-heading">Hacking Rooms</h2>
-						<h3 class="section-heading">
-						Atrium, 005B, 022, 122, 021, 027, 122A, 021A, 104, 333, 104A, 336
-						</h3>
-					</div>
-				</div>
+      <div class="row sponsors">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4" style="text-align: center">
+          <a href="https://ledios.com" target="_blank">
+            <img class="img-fluid" src="assets/img/sponsors/leidos.png">
+          </a>
         </div>
+        <div class="col-sm-4"></div>
+      </div>
+      <br>
+      <br>
 
-        </section> -->
-
-
-
-    <!-- Services Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12 section-text">
-                The University of Maryland, Baltimore County’s 24-hour tech innovation marathon where students across the East Coast collaborate on new ideas to build mobile, web and hardware projects. HackUMBC invites diverse groups of students to enjoy a weekend of hacking, workshops, tech talks, networking, and other fun activities. At the end of 24 hours, participants’ projects are presented and judged for different prize categories from sponsors and other organizations.
-                </div>
-            </div>
+      <div class="row sponsors">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4" style="text-align: center">
+          <a href="https://www.clear-edge.com" target="_blank">
+            <img class="img-fluid" src="assets/img/sponsors/clear-edge.png">
+          </a>
         </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section id="faq" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Frequently Asked Questions</h2>
-                    <div class="container">
-            </div>
-        <div class="row bottom30">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-8">
-                <hr>
-            </div>
-            <div class="col-md-2">
-            </div>
+        <div class="col-sm-4" style="text-align: center">
+          <a href="https://freedomconsultinggroup.com/" target="_blank">
+            <img class="img-fluid" src="assets/img/sponsors/freedom.png">
+          </a>
         </div>
+        <div class="col-sm-2"></div>
+      </div>
+      <br>
+      <br>
 
-        <div class="row bottom30">
-
-            <div class="col-md-4 col-md-offset-2">
-                <h3>
-                    What is a hackathon?
-                </h3>
-                <p>
-                    A hackathon is a tech innovation marathon. This is where
-                    your dreams run wild. Solve a real-world problem with
-                    technology or build the next Iron Man suit.
-                </p>
-            </div>
-
-            <div class="col-md-4">
-                <h3>
-                    What if I don't have a team or an idea?
-                </h3>
-                <p>
-                    No problem! You can find a team once you arrive. Most
-                    hackers arrive without a team. You will often find
-                    inspiration for ideas at the hackathon.
-                </p>
-            </div>
+      <div class="row sponsors">
+        <div class="col-sm-4" style="text-align: center">
+          <a href="https://github.com" target="_blank">
+            <img class="img-fluid" src="assets/img/sponsors/github.png">
+          </a>
         </div>
-
-        <div class="row bottom30">
-            <div class="col-md-4 col-md-offset-2">
-                <h3>
-                    What if I don't code?
-                </h3>
-                <p>
-                    This is the perfect opportunity to learn something new!
-                    There will be workshops geared towards beginners and mentors
-                    to help you throughout the event.
-                </p>
-            </div>
-
-            <div class="col-md-4">
-                <h3>
-                    Who can attend?
-
-                </h3>
-                <p>
-                    Current undergraduate students can compete. High school students who are juniors or seniors are also eligible. Anyone is welcome to drop by and see what participants are working on!
-                </p>
-            </div>
+        <div class="col-sm-4" style="text-align: center">
+          <a href="https://facebook.com" target="_blank">
+            <img class="img-fluid" src="assets/img/sponsors/facebook.png">
+          </a>
         </div>
-
-        <div class="row bottom30">
-            <div class="col-md-4 col-md-offset-2">
-                <h3>
-                    What can I build?
-                </h3>
-                <p>
-                    Anything! Web, mobile, desktop, and hardware projects are
-                    all welcome. Projects will be judged based on creativity,
-                    technical difficulty, polish, and usefulness.
-                </p>
-            </div>
-
-            <div class="col-md-4">
-                <h3>
-                    Will there be hardware?
-                </h3>
-                <p>
-                    We have partnered with MLH to provide hardware hacking
-                    resources to all hackers.
-                    <a target="_blank" href="https://mlh.io/hardware-lab">
-                        Check out the full list of hardware.
-                    </a>
-
-                </p>
-            </div>
+        <div class="col-sm-4" style="text-align: center">
+          <a href="http://www.focusedsupport.com/" target="_blank">
+            <img class="img-fluid" src="assets/img/sponsors/focused-support.png">
+          </a>
         </div>
+      </div>
+      <br>
+      <br>
 
-        <div class="row bottom30">
-            <div class="col-md-4 col-md-offset-2">
-                <h3>
-                    How much does it cost?
-
-                </h3>
-                <p>
-                    HackUMBC is free! Food, beverages, swag, and workspaces will be provided. You just have to travel to
-                    the event and we will take care of the rest! :)
-                </p>
-            </div>
-
-            <div class="col-md-4">
-                <h3>
-                    What should I bring?
-                </h3>
-                <p>
-                    Valid photo ID is required. (State issued ID is highly recommended.) Laptops, sleeping bags, and
-                    toiletries are highly recommended.
-                </p>
-            </div>
+      <div class="row sponsors">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-3" style="text-align: center">
+          <a href="https://mlh.io" target="_blank">
+            <img class="img-fluid" style="max-width: 250px" src="assets/img/sponsors/mlh.png">
+          </a>
         </div>
-
-
-        <div class="row bottom30">
-            <div class="col-md-4 col-md-offset-2">
-                <h3>
-                    How big should teams be? Can I hack alone?
-                </h3>
-                <p>
-                    Teams should be at most <b>FOUR</b> people. We highly recommend
-                    that you form a team, but solo hackers are allowed.
-                </p>
-            </div>
-
-            <div class="col-md-4">
-                <h3>
-                    Can I build on past projects?
-
-                </h3>
-                <p>
-                    We strongly discourage building off of existing projects
-                    you've worked on. However, using third–party APIs and
-                    libraries are encouraged, as long as they're accessible by
-                    everyone.
-                </p>
-            </div>
+        <div class="col-sm-2"></div>
+        <br>
+        <br>
+        <div class="col-sm-3" style="text-align: center">
+          <a href="https://jetbrains.com" target="_blank">
+            <img class="img-fluid" style="max-width: 250px" src="assets/img/sponsors/jet-brains.png">
+          </a>
         </div>
-        <div class="row bottom30">
-            <div class="col-md-4 col-md-offset-2">
-                <h3>
-                    Will there be travel reimbursement?
-                </h3>
-                <p>
-                    At this time we will <b>NOT</b> be able to provide travel reimbursement to hackers due to shortage of funds. However, we <b>WILL</b> be able to
-                    provide busing to <b>University of Maryland, College Park</b> this semester so watch out for that.
-                </p>
-            </div>
+        <div class="col-sm-2"></div>
+      </div>
 
-            <div class="col-md-4  ">
-              <h3>
-                  Do I have to sleep over at the hackathon?
-              </h3>
-              <p>
-                You are always able to come and go at the hackathon but only work done at the venue will be eligible for judging.
-                You are also welcome to bring a sleeping bag but we will not have a designated area for sleeping.
-              </p>
-            </div>
+      <br>
+      <br>
+      <p class="cl-effect-3">Interested in sponsoring us? Email us at
+        <a class="textLink" href="mailto:sponsor@hackumbc.org">sponsor@hackumbc.org</a>.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <section class="footer-background" id="footer">
+    <!--wrapper-->
+    <div class="wrapper">
+      <h1 class="section-footer">
+        <!-- <span class="bracket-color">{</span> Social Media
+        <span class="bracket-color">}</span>
+        <br>
+        <br> -->
+        <div style="text-align: center;">
+          <div style="margin-top: 2vh;">
+            <a href="https://www.facebook.com/hackumbc" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.instagram.com/hackumbc/" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://twitter.com/hackumbc" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://github.com/umbchackers" class="fa fa-github" target="_blank"></a>
+          </div>
+
+          <p style="margin-top: 2vh; font-size: 1rem; font-weight: 400; line-height: 1.5;">
+            © 2018 HackUMBC
+          </p>
         </div>
-
-        <div class="row bottom30">
-            <div class="col-md-4 col-md-offset-2">
-                <h3>
-                    Is there a code of conduct?
-                </h3>
-                <p>
-
-                    <a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
-                        Yes.
-                    </a>
-                    Be nice to others.
-                </p>
-            </div>
-
-            <div class="col-md-4">
-                <h3>
-                    I have more questions!
-                </h3>
-                <p>
-                    You can get in touch with us via
-
-                    <a href="mailto:team@hackumbc.org">
-                        email</a>,
-                    <a target="_blank" href="https://twitter.com/hackumbc">
-                        Twitter</a>,
-                    or
-                    <a target="_blank" href="https://www.facebook.com/hackumbc">
-                        Facebook</a>.
-                </p>
-            </div>
-        </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- Team Section -->
-    <section id="sponsors">
-        <div class="container">
-            <div class = "row">
-              <div class="col-xs-12 text-center" style="padding-bottom: 5px;">
-                  <h2 class="section-heading">Previous Sponsors</h2>
-              </div>
-            </div>
-            <!-- Seciton 1 -->
-            <div class = "row">
-              <div class = "col-sm-3">
-                </br>
-                </br>
-
-                <a href="https://www.boozallen.com/" target="_blank"><img src = "img/sponsors/s18/BAH.png" class = "img-responsive bottom30" alt = "Booz Allen Hamilton"></a>
-              </div>
-
-              <div class = "col-sm-3">
-                </br>
-                </br>
-                <a href="http://clearedgeit.com/" target="_blank"><img src = "img/sponsors/f17/gold/clearedge.png" class = "img-responsive bottom30" alt = "Clear Edge"></a>
-              </div>
-
-              <div class = "col-sm-3">
-                </br>
-                <a href="https://freedomconsultinggroup.com/" target="_blank">
-                    <img src="img/sponsors/s18/freedom-cg.png" class="img-responsive bottom30" alt="Freedom Consulting Group">
-                </a>
-              </div>
-
-              <div class = "col-sm-3">
-                <a href="http://www.jhuapl.edu/" target="_blank">
-                    <img src="img/sponsors/f17/silver/APL/JHU_APL.png" width="70%" class="img-responsive bottom30" alt="JHU APL">
-                </a>
-              </div>
-            </div>
-            </br>
-            </br>
-
-            <!-- Section 2 -->
-            <div class = "row">
-              <div class = "col-sm-3">
-              </div>
-
-              <div class = "col-sm-2">
-                <a href="https://entrepreneurship.umbc.edu/" target="_blank"><img src = "img/sponsors/s18/AlexBrown.jpg" class = "img-responsive bottom30" alt = "Alex Brown Center for Entrepeneurship"></a>
-              </div>
-              <div class = "col-sm-2">
-              </div>
-              <div class = "col-sm-2">
-                <a href="https://www.paypal.com/us/home" target="_blank"> <img src = "img/sponsors/s18/paypal.png" class = "img-responsive bottom30" alt = "Paypal"></a>
-              </div>
-
-              <div class = "col-sm-3">
-              </div>
-            </div>
-
-            <div class = "row">
-              <div class="col-xs-12 text-center" style="padding-bottom: 5px;">
-                  <h2 class="section-heading">Partners</h2>
-              </div>
-            </div>
-
-            <!-- Section 3 -->
-            <div class = "row">
-                <div class="col-sm-2"></div>
-                <div class = "col-sm-2">
-                    </br>
-                    <a href="http://mlh.io" target="_blank">
-                        <img src="img/partners/mlh-logo-grayscale.png" class="img-responsive bottom30"  alt="MLH">
-                    </a>
-                </div>
-                <div class = "col-sm-2">
-                    </br>
-                    </br>
-                    <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank">
-                        <img src = "img/sponsors/s18/stickermule.png" class = "img-responsive bottom30" alt = "Stickermule">
-                    </a>
-                    </div>
-                <div class = "col-sm-2">
-                    </br>
-                    <a href="http://github.com/" target="_blank">
-                        <img src = "img/sponsors/s18/github.png" class = "img-responsive bottom30"  alt = "Github">
-                    </a>
-                </div>
-                <div class = "col-sm-2">
-                    <a href="https://www.soylent.com/" target="_blank">
-                        <img src="img/sponsors/s18/soylent.png" class="img-responsive bottom30"  alt="Soylent">
-                    </a>
-                </div>
-                <div class="col-sm-2"></div>
-            </div>
-
-            <div class="row">
-              <div class = "col-sm-2"></div>
-
-              <div class = "col-sm-2">
-                </br>
-                </br>
-                <a href="https://www.monsterenergy.com/" target="_blank">
-                    <img src="img/sponsors/s18/monster.png" class="img-responsive bottom30"  alt="Monster Energy">
-                </a>
-              </div>
-
-              <div class = "col-sm-2">
-                <a href="https://insomniacookies.com/" target="_blank">
-                    <img src="img/sponsors/s18/insomnia.png" class="img-responsive bottom30"  alt="Insomnia Cookies">
-                </a>
-              </div>
-
-              <div class = "col-sm-2">
-                <a href="http://www.ceremonycoffee.com/" target="_blank">
-                    </br>
-                    </br>
-                    </br>
-                    <img src="img/partners/ceremony_logo.png" class="img-responsive bottom30"  alt="Ceremony Coffee">
-                </a>
-              </div>
-
-              <div class = "col-sm-2">
-              </br>
-                <a href="https://cloud.google.com/" target="_blank">
-                    <img src="img/sponsors/s18/google.png" class="img-responsive bottom30"  alt="Google Cloud Platform">
-                </a>
-              </div>
-
-
-            </div>
-            <!-- Section 3
-            <div class = "row">
-              <div class = "col-sm-2">
-
-              </div>
-              <div class = "col-sm-2">
-
-              </div>
-              <div class = "col-sm-2">
-
-              </div>
-              <div class = "col-sm-2">
-
-              </div>
-              <div class = "col-sm-2">
-
-              </div>
-            </div>
-
-            <div class = "row">
-              <div class = "col-sm-2">
-              </br>
-              </br>
-
-              </div>
-              <div class = "col-sm-2">
-
-              </div>
-              <div class = "col-sm-2">
-
-              </div>
-              <div class = "col-sm-2">
-
-              </div>
-              <div class = "col-sm-2">
-
-              </div>
-            </div>-->
-
-            <div class="row">
-
-                <div class="col-xs-12"><br /></div>
-
-                <div class="col-xs-12 text-center">
-                    <div class="slightly-bigger-font">
-                        Interested in sponsoring us? Send us an email at
-                        <a href="mailto:sponsor@hackumbc.org">sponsor@hackumbc.org</a>.<br />
-                    </div>
-                </div>
-
-            </div>
-    </section>
-
-    <!-- Clients Aside -->
-
-    <!--
-    <aside class="clients">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/sponsors/f17/gold/clearedge.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/sponsors/f17/gold/clearedge.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/sponsors/f17/gold/clearedge.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/sponsors/f17/gold/clearedge.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside>
-    -->
-
-    <!-- Contact Section -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <span class="copyright">Copyright &copy; HACKUMBC 2018</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="list-inline social-buttons">
-                        <li><a target="_blank" href="https://www.facebook.com/hackumbc"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a target="_blank" href="https://twitter.com/hackumbc"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a target="_blank" href="https://github.com/umbchackers"><i class="fa fa-github"></i></a>
-                        </li>
-                        <li><a target="_blank" href="https://www.instagram.com/hackumbc/"><i class="fa fa-instagram"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/agency.min.js"></script>
-	<script src="js/particles.js"></script>
-	<script src="js/app.js"></script>
-    <!--<script>
-    "use strict";
-
-// background animation
-(function() {
-
-var Base, Particle, canvas, colors, context, draw, drawables, i, mouseX, mouseY, mouseVX, mouseVY, rand, update, click, min, max, colors, particles;
-
-min = 1;
-max = 8;
-particles = 200;
-colors = ["75, 156, 211", "0, 0, 200, .5", "0, 255, 200", "150,150, 150"];
-
-rand = function(a, b) {
-  return Math.random() * (b - a) + a;
-};
-
-Particle = (function() {
-  function Particle() {
-    this.reset();
-  }
-
-  Particle.prototype.reset = function() {
-    this.color = colors[~~(Math.random()*colors.length)];
-    this.radius = rand(min, max);
-    this.x = rand(0, canvas.width);
-    this.y = rand(-20, canvas.height*0.5);
-    this.vx = -5 + Math.random()*10;
-    this.vy = 0.7 * this.radius;
-    this.valpha = rand(0.02, 0.09);
-    this.opacity = 0;
-    this.life = 0;
-    this.onupdate = undefined;
-    this.type = "dust";
-  };
-
-  Particle.prototype.update = function() {
-    this.x = (this.x + this.vx/3);
-    this.y = (this.y + this.vy/3);
-
-    if(this.opacity >=1 && this.valpha > 0) this.valpha *=-1;
-    this.opacity += this.valpha/3;
-    this.life += this.valpha/3;
-
-    if(this.type === "dust")
-      this.opacity = Math.min(1, Math.max(0, this.opacity));
-    else
-      this.opacity = 1;
-
-    if(this.onupdate) this.onupdate();
-    if(this.life < 0 || this.radius <= 0 || this.y > canvas.height){
-      this.onupdate = undefined;
-      this.reset();
-    }
-  };
-
-  Particle.prototype.draw = function(c) {
-    c.strokeStyle = "rgba(" + this.color + ", " + Math.min(this.opacity, 0.85) + ")";
-    c.fillStyle = "rgba(" + this.color + ", " + Math.min(this.opacity, 0.65) + ")";
-    c.beginPath();
-    c.arc(this.x, this.y, this.radius, 2 * Math.PI, false);
-    c.fill();
-    c.stroke();
-  };
-
-  return Particle;
-
-})();
-
-mouseVX = mouseVY = mouseX = mouseY = 0;
-
-canvas = document.getElementById("bg");
-context = canvas.getContext("2d");
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
-drawables = (function() {
-  var _i, _results;
-  _results = [];
-  for (i = _i = 1; _i <= particles; i = ++_i) {
-    _results.push(new Particle);
-  }
-  return _results;
-})();
-
-draw = function() {
-  var d, _i, _len;
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-  context.clearRect(0, 0, canvas.width, canvas.height)
-
-  for (_i = 0, _len = drawables.length; _i < _len; _i++) {
-    d = drawables[_i];
-    d.draw(context);
-  }
-};
-
-update = function() {
-  var d, _i, _len, _results;
-  _results = [];
-  for (_i = 0, _len = drawables.length; _i < _len; _i++) {
-    d = drawables[_i];
-    _results.push(d.update());
-  }
-  return _results;
-};
-
-document.onmousemove = function(e) {
-  mouseVX = mouseX;
-  mouseVY = mouseY;
-  mouseX = ~~e.pageX;
-  mouseY = ~~e.pageY;
-  mouseVX = ~~((mouseVX - mouseX)/2);
-  mouseVY = ~~((mouseVY - mouseY)/2);
-
-};
-
-window.addEventListener('resize', draw, false);
-setInterval(draw, 1000 / 30);
-setInterval(update, 1000 / 60);
-}).call(this);
-
-</script>-->
+      </h1>
+    </div>
+  </section>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./assets/components/js/jquery.min.js "></script>
+  <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="./assets/components/js/main.js "></script>
 </body>
 
 </html>
