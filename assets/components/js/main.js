@@ -151,13 +151,16 @@ $(window).on("resize", function(e) {
 });
 function checkMobile() {
   var newWindowWidth = $(window).width();
-  if (newWindowWidth < 900) {
+  if (newWindowWidth < 900) 
     return true;
-  } else {
-    false;
-  }
+  else 
+    return false;
 }
-//Burger
+// Burger
 function changeBurger(x) {
-  x.classList.toggle("change");
+  var burger = document.getElementById("burger");
+  if (x.classList.contains("change"))
+    x.classList.remove("change");
+  else
+    x.classList.add("change");
 }
