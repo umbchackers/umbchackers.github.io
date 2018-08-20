@@ -55,7 +55,7 @@ nav.navbar a.navbar-brand {
   .bannerPos {
     -webkit-transition: top 0.3s;
     -moz-transition: top 0.3s;
-    top: -130px !important;
+    top: -90px !important;
     transition: top 0.3s ease 0s;
     /*pointer-events: none;
     cursor: default;*/

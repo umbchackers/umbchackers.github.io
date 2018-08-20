@@ -101,7 +101,7 @@ $(document).ready(function() {
   //Hide MLH banner when you get past About section
   $(window).scroll(function() {
     //Hide Banner
-    if ($(this).scrollTop() > 750) {
+    if ($(this).scrollTop() > 900) {
       //$("#mlh-trust-badge").animate({top: "-130px"});
       if (checkMobile() == true) {
         $("#mlh-trust-badge").removeAttr("href");
@@ -110,7 +110,7 @@ $(document).ready(function() {
       $("#mlh-trust-badge").addClass("bannerPos");
     }
     //Bring back Banner
-    else if ($(this).scrollTop() < 750) {
+    else if ($(this).scrollTop() < 900) {
       $("#mlh-trust-badge").attr(
         "href",
         "https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&amp;utm_medium=TrustBadge&amp;utm_campaign=2019-season&amp;utm_content=white"
