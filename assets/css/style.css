@@ -521,9 +521,6 @@ new Burger
   .faq-background .card-body a {
     font-size: 0.9em;
   }
-  .col-sm-5 {
-    padding-left: 70px;
-  }
   .section-footer {
     font-size: 35px;
   }
@@ -598,12 +595,20 @@ a.fa-github:hover {
   );*/
   /* box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25); */
   color: white;
-  transition: ease .2s;
+  transition: background ease .2s;
 }
 .fa-instagram:hover {
   background: #ed6893;
+  /*background: radial-gradient(
+    circle at 30% 107%,
+    #fff7aa 0%,
+    #fff7aa 5%,
+    #ff786b 45%,
+    #e238ae 60%,
+    #3f6ef4 90%
+    );*/
   color: white;
-  transition: ease .2s;
+  transition: background ease .2s;
 }
 /* *****************************************************
 Typography
