@@ -524,11 +524,11 @@ new Burger
   .section-footer {
     font-size: 35px;
   }
-  #footer .fa {
+  /*#footer .fa {
     height: 60px;
     width: 60px !important;
     padding: 15px !important;
-  }
+  }*/
 }
 
 /* Style all font awesome icons */
