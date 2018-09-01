@@ -471,6 +471,28 @@ new Burger
   color: #404040;
 }
 
+.col-sm-4 {
+  transition: ease .3s;
+}
+.col-sm-4:hover {
+  opacity: .8;
+  transition: ease .3s;
+}
+.col-sm-7 {
+  transition: ease .3s;
+}
+.col-sm-7:hover {
+  opacity: .8;
+  transition: ease .3s;
+}
+.col-sm-5 {
+  transition: ease .3s;
+}
+.col-sm-5:hover {
+  opacity: .8;
+  transition: ease .3s;
+}
+
 .footer-background {
   background-color: #494849;
   padding-top: 1em;
