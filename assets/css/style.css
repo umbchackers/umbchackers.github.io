@@ -305,7 +305,9 @@ new Burger
   font-weight: bold;
   letter-spacing: 3px;
   margin: 50px auto;
-  cursor: pointer;
+  transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
 }
 
 #header-apply:hover {
@@ -318,6 +320,9 @@ new Burger
 #header-apply:active {
   background-color: #d6d6d6;
   background-size: 100%;
+  outline-style:none;
+  box-shadow:none;
+  border-color:transparent;
   transition: background 0s;
 }
 
