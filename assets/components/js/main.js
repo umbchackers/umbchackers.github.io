@@ -164,3 +164,7 @@ function changeBurger(x) {
   else
     x.classList.add("change");
 }
+function delay (URL) {
+
+    setTimeout( function() { window.location = URL },80 );
+}
