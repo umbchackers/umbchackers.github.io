@@ -728,3 +728,9 @@ Typography
     -webkit-transform: translateY(0%);
   }
 }
+
+/*Prevent Highlighting*/
+::selection {
+  text-shadow: none;
+  background: linear-gradient(180deg, #19374d, #BE4248 60%, #FFF);
+}
