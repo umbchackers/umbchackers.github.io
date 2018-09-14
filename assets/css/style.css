@@ -297,6 +297,7 @@ new Burger
   margin: 0 !important;
   display: block;
   background: transparent;
+  background-position: center;
   border: 2px white solid;
   padding: 20px 50px;
   color: white;
@@ -304,16 +305,30 @@ new Burger
   font-weight: bold;
   letter-spacing: 3px;
   margin: 50px auto;
-  cursor: pointer;
-}
-
-#header-apply:hover,
-#header-apply:active {
-  background: white;
   transition: background 0.3s;
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
+  outline-style:none;
+
+}
+
+#header-apply:hover {
+  background: white radial-gradient(circle, transparent 1%, #d6d6d6 1%) center/15000%;
+  transition: background 0.3s;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  outline-style:none;
+  box-shadow:none;
+  border-color:transparent;
   color: #343a40;
+}
+#header-apply:active {
+  background-color: #d6d6d6;
+  background-size: 100%;
+  outline-style:none;
+  box-shadow:none;
+  border-color:transparent;
+  transition: background 0s;
 }
 
 .header-container {
@@ -495,7 +510,7 @@ new Burger
 .minerKaschLogo {
     padding-bottom: 30px;
   }
-  .coeit {
+  .coeitLogo {
     max-width: 200px;
   }
 @media only screen and (min-width: 800px) {
@@ -712,4 +727,10 @@ Typography
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
+}
+
+/*Prevent Highlighting*/
+::selection {
+  text-shadow: none;
+  background: linear-gradient(180deg, #19374d, #BE4248 60%, #FFF);
 }
