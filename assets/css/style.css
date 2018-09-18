@@ -507,21 +507,28 @@ new Burger
   opacity: .8;
   transition: ease .3s;
 }
+.nsaLogo {
+    max-width: 150px;
+  }
 .minerKaschLogo {
     padding-bottom: 30px;
   }
-  .coeitLogo {
+.coeitLogo {
     max-width: 200px;
   }
 @media only screen and (min-width: 800px) {
   .firstRow {
     padding-left: 170px;
   }
+  .BoozLogo {
+    max-width: 250px;
+  }
   .nsaLogo {
     max-width: 150px;
   }
   .leidosLogo {
     padding-left: 30px;
+    padding-right: 30px;
     padding-top: 35px;
     max-width: 360px;
   }
