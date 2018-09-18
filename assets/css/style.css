@@ -531,9 +531,10 @@ background:  /* Chrome10+,Safari5.1+ */
     padding-left: 170px;
   }
   .BoozLogo {
-    max-width: 320px;
-    display:block;
-    margin-left:10px;
+    max-width: 350px;
+    padding-top: 30px;
+
+
   }
   .nsaLogo {
     max-width: 150px;
