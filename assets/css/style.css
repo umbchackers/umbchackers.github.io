@@ -531,7 +531,7 @@ background:  /* Chrome10+,Safari5.1+ */
     padding-left: 170px;
   }
   .BoozLogo {
-    max-width: 300px;
+    max-width: 320px;
     display:block;
     margin-left:10px;
   }
@@ -539,10 +539,10 @@ background:  /* Chrome10+,Safari5.1+ */
     max-width: 150px;
   }
   .leidosLogo {
-    padding-left: 30px;
+
     padding-right: 30px;
     padding-top: 35px;
-    max-width: 360px;
+    max-width: 350px;
   }
   .cseeLogo {
     max-width: 200px;
