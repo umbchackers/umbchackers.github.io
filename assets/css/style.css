@@ -244,6 +244,13 @@ new Burger
   background-size: cover;
 }
 
+@media only screen and (max-width: 800px) {
+  .parallax {
+    background-image: linear-gradient(#544178, #d95115ce), url("../img/UMBC-bg2.jpg");
+  }
+}
+
+
 .tile-bg {
   background-image: url("../img/tile-bg.svg");
   background-repeat: repeat;
