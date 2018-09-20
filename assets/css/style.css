@@ -535,6 +535,12 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
 .coeitLogo {
     max-width: 200px;
   }
+.whitingLogo {
+  max-width: 150px;
+}
+.wolframLogo {
+  max-width: 220px;
+}
 @media only screen and (min-width: 800px) {
   .firstRow {
     padding-left: 170px;
