@@ -246,9 +246,18 @@ new Burger
 
 @media only screen and (max-width: 800px) {
   .parallax {
-    background-image: -webkit-linear-gradient(#544178,#d95115ce), url("../img/UMBC-bg2.jpg");
+  /* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178), color-stop(100, #d95115ce)), url("../img/UMBC-bg1.jpg");
 
-background:  /* Chrome10+,Safari5.1+ */
+
+  background-image: linear-gradient(top, #544178 45%, #d95115ce 100%),url("../img/UMBC-bg1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
 
   }
 }
