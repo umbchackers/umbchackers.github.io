@@ -539,7 +539,7 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   max-width: 150px;
 }
 .wolframLogo {
-  max-width: 220px;
+  max-width: 240px;
 }
 @media only screen and (min-width: 800px) {
   .firstRow {
