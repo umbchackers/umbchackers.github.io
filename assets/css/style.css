@@ -548,8 +548,12 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   .BoozLogo {
     max-width: 350px;
     padding-top: 30px;
-
-
+  }
+  .twoRow {
+    padding-left: 180px !important;
+  }
+  .twoRowWolf {
+    padding-left: 100px !important;
   }
   .nsaLogo {
     max-width: 150px;
