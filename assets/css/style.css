@@ -550,10 +550,10 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
     padding-top: 30px;
   }
   .twoRow {
-    padding-left: 180px !important;
+    left: 160px !important;
   }
   .twoRowWolf {
-    padding-left: 100px !important;
+    left: 200px;
   }
   .nsaLogo {
     max-width: 150px;
