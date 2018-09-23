@@ -541,6 +541,9 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
 .wolframLogo {
   max-width: 240px;
 }
+.alexBrownLogo {
+  max-width: 120px;
+}
 @media only screen and (min-width: 800px) {
   .firstRow {
     padding-left: 170px;
@@ -548,12 +551,6 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   .BoozLogo {
     max-width: 350px;
     padding-top: 30px;
-  }
-  .twoRow {
-    left: 160px !important;
-  }
-  .twoRowWolf {
-    left: 200px;
   }
   .nsaLogo {
     max-width: 150px;
