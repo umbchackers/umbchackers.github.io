@@ -568,14 +568,24 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   .leidosLogo {
     max-width: 350px;
   }
+  .cseePos {
+    left: 150px;
+  }
   .cseeLogo {
     max-width: 200px;
+  }
+  .coeitPos {
+    left: 240px;
+    top: 20px;
+  }
+  .minerPos {
+    left: 240px;
   }
   .minerKaschLogo {
     max-width: 300px;
   }
   .alexRow {
-    left: 325px;
+    left: 140px;
   }
   .twoRow {
     left: 100px;
