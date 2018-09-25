@@ -504,7 +504,7 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   line-height: 40px;
   color: #404040;
 }
-
+/*Hovering animations*/
 .col-sm-4 {
   transition: ease .3s;
 }
@@ -526,6 +526,7 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   opacity: .8;
   transition: ease .3s;
 }
+/*Sponsor Logo specifications*/
 .nsaLogo {
     max-width: 150px;
   }
@@ -533,7 +534,7 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
     padding-bottom: 30px;
   }
 .coeitLogo {
-    max-width: 200px;
+  max-width: 200px;
   }
 .whitingLogo {
   max-width: 150px;
@@ -544,21 +545,27 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
 .alexBrownLogo {
   max-width: 120px;
 }
+.ltsLogo {
+  width: 230px;
+  padding-top: 30px;
+}
 @media only screen and (min-width: 800px) {
   .firstRow {
-    padding-left: 170px;
+    left: 100px;
   }
   .BoozLogo {
     max-width: 350px;
-    padding-top: 30px;
   }
-  .nsaLogo {
-    max-width: 150px;
+  .ltsPos {
+    left: 100px;
+  }
+  .nsaPos {
+    left: 180px;
+  }
+  .leidosPos {
+    left: 200px;
   }
   .leidosLogo {
-
-    padding-right: 30px;
-    padding-top: 35px;
     max-width: 350px;
   }
   .cseeLogo {
@@ -567,6 +574,16 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   .minerKaschLogo {
     max-width: 300px;
   }
+  .alexRow {
+    left: 325px;
+  }
+  .twoRow {
+    left: 100px;
+  }
+  .twoRowWolfram {
+    left: 200px;
+  }
+
 }
 
 .footer-background {
