@@ -549,6 +549,9 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   width: 230px;
   padding-top: 30px;
 }
+.intelliforceLogo {
+  top: 10px;
+}
 @media only screen and (min-width: 800px) {
   .firstRow {
     left: 100px;
@@ -568,15 +571,29 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   .leidosLogo {
     max-width: 350px;
   }
+  .cseePos {
+    left: 150px;
+  }
   .cseeLogo {
     max-width: 200px;
   }
+  .coeitPos {
+    left: 240px;
+    top: 20px;
+  }
+  /*.minerPos {
+    left: 240px;
+  }*/
   .minerKaschLogo {
     max-width: 300px;
   }
-  .alexRow {
-    left: 325px;
-  }
+  /*.alexRow {
+    left: 140px;
+  }*/
+  .intelliforcePos {
+  bottom: 80px;
+  left: 20px;
+}
   .twoRow {
     left: 100px;
   }
