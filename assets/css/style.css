@@ -533,6 +533,19 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
 .TRoweLogo {
     max-width: 500px;
   }
+.portLogo {
+    max-width: 240px;
+  }
+.BoozLogo {
+  max-width: 330px;
+}
+.leidosLogo {
+    left: 10px;
+    max-width: 330px;
+  }
+.wellerLogo {
+  max-width: 170px;
+}
 .nsaLogo {
     max-width: 400px;
   }
@@ -570,24 +583,8 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   .TRowePos {
     left: 240px;
   }
-  .firstRow {
-    left: 100px;
-  }
-  .BoozLogo {
-    max-width: 350px;
-  }
-  .ltsPos {
-    left: 100px;
-  }
-  .nsaPos {
-    left: 140px;
-    top: 20px;
-  }
   .leidosPos {
-    left: 200px;
-  }
-  .leidosLogo {
-    max-width: 350px;
+    left: 20px;
   }
   .cseePos {
     left: 150px;
@@ -599,19 +596,13 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
     left: 200px;
     top: 20px;
   }
-  /*.minerPos {
-    left: 240px;
-  }*/
   .minerKaschLogo {
     max-width: 300px;
   }
-  /*.alexRow {
-    left: 140px;
-  }*/
   .intelliforcePos {
   bottom: 80px;
   left: 20px;
-}
+  }
   .twoRow {
     left: 100px;
   }
