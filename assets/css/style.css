@@ -531,11 +531,20 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
 }
 /*Sponsor Logo specifications*/
 .TRoweLogo {
-    max-width: 400px;
+    max-width: 500px;
   }
 .nsaLogo {
     max-width: 400px;
   }
+.clearLogo {
+  max-width: 270px;
+}
+.aplLogo {
+  max-width: 270px;
+}
+.freedomLogo {
+  max-width: 270px;
+}
 .minerKaschLogo {
     padding-bottom: 30px;
   }
@@ -559,7 +568,7 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
 }
 @media only screen and (min-width: 800px) {
   .TRowePos {
-    left: 280px;
+    left: 240px;
   }
   .firstRow {
     left: 100px;
@@ -571,7 +580,7 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
     left: 100px;
   }
   .nsaPos {
-    left: 180px;
+    left: 140px;
     top: 20px;
   }
   .leidosPos {
@@ -587,7 +596,7 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
     max-width: 200px;
   }
   .coeitPos {
-    left: 240px;
+    left: 200px;
     top: 20px;
   }
   /*.minerPos {
@@ -613,7 +622,7 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
 }
 @media only screen and (max-width: 800px) {
   .TRoweLogo {
-    max-width: 270px !important;
+    max-width: 300px !important;
   }
 }
 
