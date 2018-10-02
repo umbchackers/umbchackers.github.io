@@ -526,9 +526,15 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   opacity: .8;
   transition: ease .3s;
 }
+.cl-effect-3 {
+  text-align: center;
+}
 /*Sponsor Logo specifications*/
+.TRoweLogo {
+    max-width: 400px;
+  }
 .nsaLogo {
-    max-width: 150px;
+    max-width: 400px;
   }
 .minerKaschLogo {
     padding-bottom: 30px;
@@ -546,13 +552,15 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   max-width: 120px;
 }
 .ltsLogo {
-  width: 230px;
-  padding-top: 30px;
+  max-width: 180px;
 }
 .intelliforceLogo {
-  top: 10px;
+  max-width: 250px; 
 }
 @media only screen and (min-width: 800px) {
+  .TRowePos {
+    left: 280px;
+  }
   .firstRow {
     left: 100px;
   }
@@ -564,6 +572,7 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   }
   .nsaPos {
     left: 180px;
+    top: 20px;
   }
   .leidosPos {
     left: 200px;
@@ -601,6 +610,11 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
     left: 200px;
   }
 
+}
+@media only screen and (max-width: 800px) {
+  .TRoweLogo {
+    max-width: 270px !important;
+  }
 }
 
 .footer-background {
