@@ -531,7 +531,7 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
 }
 /*Sponsor Logo specifications*/
 .TRoweLogo {
-    max-width: 400px;
+    max-width: 500px;
   }
 .nsaLogo {
     max-width: 400px;
@@ -559,7 +559,7 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
 }
 @media only screen and (min-width: 800px) {
   .TRowePos {
-    left: 280px;
+    left: 260px;
   }
   .firstRow {
     left: 100px;
@@ -613,7 +613,7 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
 }
 @media only screen and (max-width: 800px) {
   .TRoweLogo {
-    max-width: 270px !important;
+    max-width: 300px !important;
   }
 }
 
