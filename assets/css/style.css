@@ -558,6 +558,9 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
 .freedomLogo {
   max-width: 270px;
 }
+.jpMorganLogo {
+  max-width: 300px;
+}
 .minerKaschLogo {
     padding-bottom: 30px;
   }
@@ -586,14 +589,13 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   .leidosPos {
     left: 20px;
   }
-  .cseePos {
-    left: 150px;
+  .jpMorgonPos {
+    top: 40px;
   }
   .cseeLogo {
     max-width: 200px;
   }
   .coeitPos {
-    left: 200px;
     top: 20px;
   }
   .minerKaschLogo {
