@@ -79,7 +79,7 @@ $(document).ready(function() {
       $("#faqTab").removeClass("active");
     }
     //SPONSORS tab highlighting
-    if ($(this).scrollTop() < 3200 && $(this).scrollTop() > 2750) {
+    if ($(this).scrollTop() < 4200 && $(this).scrollTop() > 2750) {
       $("#sponsorsTab").focus();
       $("#sponsorsTab").addClass("active");
     }
@@ -88,7 +88,7 @@ $(document).ready(function() {
       $("#sponsorsTab").removeClass("active");
     }
     //SOCIAL MEDIA tab highlighting
-    if ($(this).scrollTop() > 3200) {
+    if ($(this).scrollTop() > 4200) {
       $("#social-mediaTab").focus();
       $("#social-mediaTab").addClass("active");
     }
