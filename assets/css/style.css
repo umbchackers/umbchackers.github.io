@@ -349,7 +349,6 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   border-color:transparent;
   transition: background 0s;
 }
-
 .header-container {
   display: block;
   align-content: right;
