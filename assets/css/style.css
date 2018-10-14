@@ -7,6 +7,38 @@ html {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+#demo {
+  margin-top: 10px;
+}
+blink {
+  /*animation: blink 2s linear infinite;*/
+  -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
+  -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
+  -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
+  animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
+@keyframes blink {
+  0%{opacity: 1;}
+  /*50%{opacity: 0;}*/
+  100%{opacity:0;}
+
+}
+.recordButton {
+    top: 20px;
+  }
+@media only screen and (min-width: 800px){
+  .recordButton {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #demo {
+  font-size: 20px;
+  }
+  .buttonBox {
+    display: unset !important;
+  }
+}
 .navbar a {
   margin: 0;
 }
@@ -32,7 +64,6 @@ nav.navbar a.navbar-brand {
 
   #logo {
     position: relative;
-    left: 41%;
   }
   .navbar.responsive .navbar-brand {
     font-size: 4em;
@@ -358,6 +389,7 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   z-index: 1;
   position: fixed;
   margin-top: 76px;
+  /*margin-top: 70px;*/
   right: 10px;
   -webkit-transition: top 0.3s;
   -moz-transition: top 0.3s;
@@ -403,6 +435,20 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   font-size: 1.5em;
   line-height: 40px;
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#93bbf9;}
 
 /* FAQ Section */
 .faq-background .card {
@@ -819,3 +865,24 @@ Typography
   text-shadow: none;
   background: linear-gradient(180deg, #19374d, #BE4248 60%, #FFF);
 }
+<!--Twitter API-->
+.twitter-timeline {
+  max-width: 100%;
+  max-height: 30% !important;
+}
+.panel-title {
+ font-size: 25px; 
+ color: #FFFFFF;
+ font-family: 'Open Sans', sans-serif;
+}
+.panel-heading {
+ background-color: #1da1f2 !important;
+ color: #1da1f2 !important;;
+}
+.panel {
+ margin-top: 25px;
+}
+.tlContainer {
+  height: 100px;
+}
+<!--end of Twitter API-->
