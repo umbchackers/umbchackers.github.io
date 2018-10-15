@@ -39,11 +39,13 @@
   <div class="container">
     <nav class="navbar fixed-top navbar-dark" id="myNav">
       <div class="wrapper">
-        <a id="aboutTab" class="navbar-brand" href="#about">about</a>
-        <a id="faqTab"class="navbar-brand" href="#faq">faq</a>
+        <a id="aboutTab" class="navbar-brand" href="#about"><!-- about -->schedule</a>
+        <a id="faqTab" class="navbar-brand" href="#faq"><!-- faq --><blink><img id="liveButton" src="./assets/img/live.png" style="width:15px;height:auto;"></blink> news</a>
       </div>
+      <a class="recordButton" href="#faq" id="live"><blink><img id="mobileLiveButton" src="./assets/img/live.png" style="width:15px;"></blink></a>
       <a id="logo" class="navbar-brand" href="#top">
-        <img src="./assets/img/HackUMBC.Logo.Gold-2.png" style="width:50px;height:50px;">
+        <!-- <img src="./assets/img/HackUMBC.Logo.Gold-2.png" style="width:50px;height:50px;"> -->
+        <p id="demo"></p>
       </a>
       <div class="wrapper">
         <a id="sponsorsTab" class="navbar-brand" href="#sponsors">sponsors</a>
@@ -58,8 +60,8 @@
   <div id="fullscreen_menu" class="overlay" style="z-index: 100">
     <a href="javascript:void(0)" id="closebtn" class="closebtn" style="color: #fddf87">&times;</a>
     <div class="overlay-content">
-      <a href="#about" onclick="changeBurger(myBurg)">about</a>
-      <a href="#faq" onclick="changeBurger(myBurg)">faq</a>
+      <a href="#about" onclick="changeBurger(myBurg)"><!-- about -->schedule</a>
+      <a href="#faq" onclick="changeBurger(myBurg)"><!-- faq -->news</a>
       <a href="#sponsors" onclick="changeBurger(myBurg)">sponsors</a>
       <a href="#footer" onclick="changeBurger(myBurg)">social media</a>
     </div>
@@ -86,12 +88,17 @@
         OCT 20<sup>th</sup>-21<sup>st</sup>
       </h1>
       <h5 id="header-year">Fall 2018</h5>
+      <div class= "buttonBox" style="display: flex;">
       <a href="https://register.hackumbc.org/" target="_blank">
-        <button id="header-apply" style="margin-bottom: 6px !important;">Apply Now</button>
+        <button id="header-apply" style="margin-bottom: 6px !important; margin-right: 10px !important;"><!-- Apply Now -->Sign In</button>
       </a>
-      <a href="https://hackumbc.typeform.com/to/Wzldxi" target="_blank">
+      <!-- <a href="https://hackumbc.typeform.com/to/Wzldxi" target="_blank">
         <button id="header-apply" style="padding: 10px 35px;">Looking to <br> be a Mentor?</button>
+      </a> -->
+      <a href="https://ite.hackumbc.org/" target="_blank">
+        <button id="header-apply" style="padding-left: 67px; padding-right: 67px !important;">Map</button>
       </a>
+      </div>
     </div>
   </section>
 
@@ -100,25 +107,204 @@
     <!--wrapper-->
     <div class="wrapper">
       <h1 class="section-header">
-        <span class="bracket-color">{</span> About
+        <span class="bracket-color">{</span> <!-- About --> Schedule
         <span class="bracket-color">}</span>
       </h1>
       <div class="content slideanim">
-        <p>The University of Maryland, Baltimore County's 24-hour tech innovation marathon where students across the East
+        <!-- <p>The University of Maryland, Baltimore County's 24-hour tech innovation marathon where students across the East
           Coast collaborate on new ideas to build mobile, web, and hardware projects. HackUMBC invites diverse groups of
           students to enjoy a weekend of hacking, workshops, tech talks, networking, and other fun activities. At the end
           of 24 hours, participants' projects are presented and judged for different prize categories from sponsors and other
           organizations.
-        </p>
+        </p> -->
+        <center>
+        <p style="text-decoration: underline;">Saturday October 20</p>
+        <table>
+            <tr>
+              <th>Time</th>
+              <th>Event</th>
+              <th>Venue</th>
+            </tr>
+            <tr>
+              <td>10:00 AM</td>
+              <td>Check-In</td>
+              <td>FINE ARTS</td>
+            </tr>
+            <tr>
+              <td>11:00 AM</td>
+              <td>Opening Ceremony</td>
+              <td>FINE ARTS RECITAL</td>
+            </tr>
+            <tr>
+              <td>12:30 PM</td>
+              <td>Lunch - Mediterranean Halal</td>
+              <td>ENG / ITE Atrium</td>
+            </tr>
+            <tr>
+              <td>1:00 PM</td>
+              <td>Hacking Begins!</td>
+              <td>ENG / ITE</td>
+            </tr>
+            <tr>
+              <td>1:30 PM</td>
+              <td>Team Formation</td>
+              <td>ITE 104</td>
+            </tr>
+            <tr>
+              <td>2:00-2:30 PM</td>
+              <td>LTS: Visualization of a Network in real time</td>
+              <td>ITE 104</td>
+            </tr>
+            <tr>
+              <td>2:00-2:30 PM</td>
+              <td>Beginner Workshop: Intro to Web Design</td>
+              <td>ENG 022</td>
+            </tr>
+            <tr>
+              <td>3:00-3:30 PM</td>
+              <td>T Rowe. Price: Machine Learning</td>
+              <td>ITE 104</td>
+            </tr>
+            <tr>
+              <td>3:00-3:30 PM</td>
+              <td>Beginner Workshop: Intro to IOS Application Development</td>
+              <td>Eng 022</td>
+            </tr>
+            <tr>
+              <td>3:30 PM</td>
+              <td>Dogs!</td>
+              <td>ENG Entrance (ITE if rainy)</td>
+            </tr>
+            <tr>
+              <td>4:00-4:30 PM</td>
+              <td>Freedom Consulting Workshop: Hosting a Static Website Using Amazon Web Services</td>
+              <td>ITE 104</td>
+            </tr>
+            <!-- <tr>
+              <td>4:30 PM</td>
+              <td></td>
+              <td></td>
+            </tr> -->
+            <tr>
+              <td>5:00-5:30 PM</td>
+              <td>Booz Allen Hamilton: Introduction to Cyber Security</td>
+              <td>ITE 104</td>
+            </tr>
+            <tr>
+              <td>6:00 PM</td>
+              <td>Dinner - Absolutely Perfect</td>
+              <td>ITE 104</td>
+            </tr>
+            <tr>
+              <td>6:00 PM</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>7:00-7:30 PM</td>
+              <td>Clear Edge IT Workshop</td>
+              <td>ITE 104</td>
+            </tr>
+            <!-- <tr>
+              <td>7:30 PM</td>
+              <td></td>
+              <td></td>
+            </tr> -->
+            <tr>
+              <td>8:00-8:30 PM</td>
+              <td></td>
+              <td>ITE 104</td>
+            </tr>
+            <!-- <tr>
+              <td>8:30 PM</td>
+              <td></td>
+              <td></td>
+            </tr> -->
+            <tr>
+              <td>9:00 PM</td>
+              <td></td>
+              <td>ENG Atrium</td>
+            </tr>
+            <tr>
+              <td>10:00 PM</td>
+              <td>Trivia</td>
+              <td>ITE 104</td>
+            </tr>
+          </table>
+          <p style="text-decoration: underline; margin-top: 10px;">Sunday October 21</p>
+          <table>
+            <tr>
+              <th>Time</th>
+              <th>Event</th>
+              <th>Venue</th>
+            </tr>
+            <tr>
+              <td>12:00 AM</td>
+              <td>Midnight Snacks</td>
+              <td>ENG Atrium</td>
+            </tr>
+            <tr>
+              <td>8:30 AM</td>
+              <td>Breakfast - Dunkin Donuts or Krispy</td>
+              <td>ENG / ITE Atrium</td>
+            </tr>
+            <tr>
+              <td>11:30 AM</td>
+              <td>Begin Submitting Hacks</td>
+              <td>Devpost</td>
+            </tr>
+            <tr>
+              <td>12:00 PM</td>
+              <td>Judge Deliberation </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>1:00 PM</td>
+              <td>Hacking Ends! <br>/ Lunch - Potbelly's</td>
+              <td>ENG / ITE Atrium</td>
+            </tr>
+            <tr>
+              <td>1:30-2:00 PM</td>
+              <td>Expo Begins</td>
+              <td>UC Ballroom</td>
+            </tr>
+            <!-- <tr>
+              <td>2:00 AM</td>
+              <td></td>
+              <td></td>
+            </tr> -->
+            <tr>
+              <td>3:00 AM</td>
+              <td>Final Demos</td>
+              <td>UC Ballroom</td>
+            </tr>
+            <tr>
+              <td>3:30 AM</td>
+              <td>Closing Ceremonies</td>
+              <td>UC Ballroom</td>
+            </tr>
+          </table>
+        </center>
       </div>
-
     </div>
   </section>
 
   <!-- FAQ Section -->
   <section class="faq-background" id="faq">
+    <h1 class="section-header-gray">
+        <span class="bracket-color">{</span>
+        <a><blink><img src="./assets/img/live.png" style="width:15px;"></blink></a>
+        News
+        <span class="bracket-color">}</span>
+      </h1>
+      <br>
+<div class="container">
+      <center>
+      <a class="twitter-timeline bg-black" href="https://twitter.com/hackumbc?ref_src=twsrc%5Etfw" data-theme="light" data-height="500" data-chrome="nofooter noborders transparent noscrollbar noheader" >Tweets by Ruted_IO</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </center>
+      </div>
     <!--wrapper-->
-    <div class="wrapper">
+    <!-- <div class="wrapper">
       <h1 class="section-header-gray">
         <span class="bracket-color">{</span> FAQ
         <span class="bracket-color">}</span>
@@ -585,6 +771,7 @@
           <div style="margin-top: 2vh;">
             <a href="https://www.facebook.com/hackumbc" class="fa fa-facebook" target="_blank"></a>
             <a href="https://twitter.com/hackumbc" class="fa fa-twitter" target="_blank"></a>
+            <!-- <a href="https://slack.com/" class="fa fa-slack" target="_blank"></a> -->
             <a href="https://www.instagram.com/hackumbc/" class="fa fa-instagram" target="_blank"></a>
             <a href="https://github.com/umbchackers" class="fa fa-github" target="_blank"></a>
           </div>

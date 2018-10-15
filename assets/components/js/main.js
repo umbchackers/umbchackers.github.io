@@ -1,5 +1,42 @@
 //called when page DONE loading
 $(document).ready(function() {
+
+// Set the date we're counting down to
+var countDownDate = new Date("Oct 21, 2018 13:00:00").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+    // Get todays date and time
+    var now = new Date().getTime(); 
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    // Output the result in an element with id="demo"
+    if (days > 0){
+      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+    }
+    else if (days == 0) {
+      document.getElementById("demo").innerHTML = hours + "h "
+      + minutes + "m " + seconds + "s ";
+    }   
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "Submit";
+    }
+}, 1000);
+
+//Hide Live button on mobile when clicked
+$("#live").on("click", function() {
+    $("#mobileLiveButton").css("display", "none");
+  });
+$("#faqTab").on("click", function() {
+    $("#liveButton").css("display", "none");
+  });
   // Smooth Scrolling
   $(document).on("click", 'a[href^="#"]', function(event) {
     // Prevent default link clicking behavior
@@ -60,7 +97,8 @@ $(document).ready(function() {
   //Link Styles
   $(window).scroll(function() {
     //ABOUT tab highlighting
-    if ($(this).scrollTop() < 1200 && $(this).scrollTop() > 500) {
+    // 1200 500
+    if ($(this).scrollTop() < 2000 && $(this).scrollTop() > 500) {
       $("#aboutTab").focus();
       $("#aboutTab").addClass("active");
       $
@@ -70,15 +108,18 @@ $(document).ready(function() {
       $("#aboutTab").blur();
     }
     //FAQ tab highlighting
-    if ($(this).scrollTop() < 2750 && $(this).scrollTop() > 1200) {
+    // 2750 1200
+    if ($(this).scrollTop() < 2750 && $(this).scrollTop() > 2000) {
       $("#faqTab").focus();
       $("#faqTab").addClass("active");
+      $("#liveButton").css("display", "none");
     }
     else {
       $("#faqTab").blur();
       $("#faqTab").removeClass("active");
     }
     //SPONSORS tab highlighting
+    // 4200 2750
     if ($(this).scrollTop() < 4200 && $(this).scrollTop() > 2750) {
       $("#sponsorsTab").focus();
       $("#sponsorsTab").addClass("active");
@@ -88,6 +129,7 @@ $(document).ready(function() {
       $("#sponsorsTab").removeClass("active");
     }
     //SOCIAL MEDIA tab highlighting
+    // 4200
     if ($(this).scrollTop() > 4200) {
       $("#social-mediaTab").focus();
       $("#social-mediaTab").addClass("active");
@@ -144,6 +186,7 @@ $(document).ready(function() {
     });
   });
 });
+//end of Ready function
 
 //Check Screen size
 $(window).on("resize", function(e) {
