@@ -804,6 +804,18 @@ a.fa-github:hover {
   color: white;
   transition: background ease .2s;
 }
+/* Slack */
+.fa-slack {
+  background: #89D3DF;
+  color: #fff;
+  transition: ease .2s;
+}
+a.fa-slack:hover {
+  background: #9de6f2;
+  color: #fff;
+  transition: ease .2s;
+}
+
 /* *****************************************************
 Typography
 ***************************************************** */
