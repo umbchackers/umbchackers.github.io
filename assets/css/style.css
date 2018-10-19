@@ -440,8 +440,9 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-
-
+.hackerTable {
+  width: 400px !important;
+}
 th, td {
     padding: 8px;
     text-align: left;
@@ -450,6 +451,15 @@ th, td {
 }
 
 tr:hover {background-color:#93bbf9;}
+
+@media only screen and (max-width: 800px) {
+  table {
+    width: 70%;
+  }
+  .hackerTable {
+    width: 100px !important;
+  }
+}
 
 /* FAQ Section */
 .faq-background .card {
