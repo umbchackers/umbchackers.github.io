@@ -64,6 +64,7 @@ nav.navbar a.navbar-brand {
 
   #logo {
     position: relative;
+    left: 42%;
   }
   .navbar.responsive .navbar-brand {
     font-size: 4em;
@@ -86,8 +87,8 @@ nav.navbar a.navbar-brand {
   .bannerPos {
     -webkit-transition: top 0.3s;
     -moz-transition: top 0.3s;
-    /*top: -120px !important;*/
-    top: -115px !important;
+    top: -120px !important;
+    /*top: -115px !important;*/
     transition: top 0.3s ease 0s;
     /*pointer-events: none;
     cursor: default;*/
