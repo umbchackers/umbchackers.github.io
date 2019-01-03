@@ -26,11 +26,11 @@ module.exports = {
       //     }
       //   ]
       // },
-      // {
-      //   test: /\.(png|woff|woff2|eot|ttf|svg)$/,
-      //   loader: "url-loader",
-      //   options: { limit: 100000 }
-      // },
+      {
+        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        loader: "url-loader",
+        options: { limit: 100000 }
+      },
       {
         test: /\.js$/,
         exclude: /node_modules/,
