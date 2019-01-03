@@ -4,10 +4,9 @@
   "description": "Basic page for development of a static react website.",
   "main": "/src/index.js",
   "scripts": {
-    "start": "echo start script is undefined. && exit 1",
+    "start": "webpack-dev-server --mode development --devtool eval-source-map --hot",
     "build": "webpack --mode production",
-    "deploy": "npm run build && gh-pages -d ./build",
-    "dev": "webpack-dev-server --mode development --devtool eval-source-map --hot"
+    "deploy": "npm run build && gh-pages -d ./build"
   },
   "repository": {
     "type": "git",
