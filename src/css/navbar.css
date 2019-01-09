@@ -208,12 +208,12 @@ new Burger
     color: #494849;
     transition: color 0.5s ease 0s;
   }
-  .navbar-dark {
+  /*.navbar-dark {
     > a {
       color: #494849;
       transition: color 0.5s ease 0s;
     }
-  } //end .navbar-dark
+  } //end .navbar-dark*/
 }
 
 /*links will highlight over hover and active*/

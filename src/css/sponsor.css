@@ -23,6 +23,7 @@
 /*Hovering animations*/
 .col-sm-4 {
   transition: ease .3s;
+  text-align: center !important;
 }
 .col-sm-4:hover {
   opacity: .8;
@@ -47,53 +48,62 @@
 }
 /*Sponsor Logo specifications*/
 .TRoweLogo {
-    max-width: 500px;
+    max-width: 500px !important;
   }
 .portLogo {
-    max-width: 240px;
+    max-width: 240px !important;
   }
 .BoozLogo {
-  max-width: 330px;
+  max-width: 330px !important;
 }
 .leidosLogo {
     left: 10px;
-    max-width: 330px;
+    max-width: 330px !important; 
   }
 .wellerLogo {
-  max-width: 170px;
+  max-width: 170px !important;
 }
 .nsaLogo {
-    max-width: 400px;
+    max-width: 400px !important;
   }
 .clearLogo {
-  max-width: 270px;
+  max-width: 270px !important;
 }
 .aplLogo {
-  max-width: 270px;
+  max-width: 270px !important;
 }
 .freedomLogo {
-  max-width: 270px;
+  max-width: 270px !important;
 }
 .jpMorganLogo {
-  max-width: 300px;
+  max-width: 300px !important;
 }
 .minerKaschLogo {
-    padding-bottom: 30px;
+    padding-bottom: 30px !important;
   }
 .coeitLogo {
-  max-width: 200px;
-  }
+  max-width: 200px !important;
+}
+.mlhLogo {
+  max-width: 200px !important;
+}
+.jetLogo {
+  max-width: 200px !important;
+}
+.muleLogo {
+  max-width: 200px !important;
+}
 .whitingLogo {
-  max-width: 150px;
+  max-width: 150px !important;
 }
 .wolframLogo {
-  max-width: 240px;
+  max-width: 240px !important;
 }
 .alexBrownLogo {
-  max-width: 120px;
+  max-width: 120px !important;
 }
 .ltsLogo {
-  max-width: 180px;
+  max-width: 180px !important;
 }
 .intelliforceLogo {
   max-width: 250px; 

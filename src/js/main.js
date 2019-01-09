@@ -1,3 +1,5 @@
+import $ from 'jquery'; 
+
 //called when page DONE loading
 $(document).ready(function() {
 
@@ -27,7 +29,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "Submit";
+        // document.getElementById("demo").innerHTML = "Submit";
     }
 }, 1000);
 
@@ -102,7 +104,6 @@ $("#faqTab").on("click", function() {
     if ($(this).scrollTop() < 1200 && $(this).scrollTop() > 500) {
       $("#aboutTab").focus();
       $("#aboutTab").addClass("active");
-      $
     }
     else {
       $("#aboutTab").removeClass("active");

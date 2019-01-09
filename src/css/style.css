@@ -13,6 +13,11 @@ html {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+#top {
+  position: relative;
+  z-index: 2 !important;
+}
+
 /*This is for main background*/
 .parallax {
   /* The image used */

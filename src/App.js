@@ -1,39 +1,28 @@
-import React, { Component } from "react";
-import { withStyles } from "@material-ui/core/styles";
-import { createMuiTheme, MuiThemeProvider } from "@material-ui/core";
-import theme from "./Theme.js";
-import NavBar from "./Components/NavBar";
-
-const styles = (theme) => ({
-  root: {
-    flexGrow: 1
-  }
-});
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      page: this.homePage
-    };
-  }
   render() {
-    const { classes } = this.props;
     return (
-      <div className={classes.root}>
-        <MuiThemeProvider theme={createMuiTheme(theme)}>
-          <NavBar />
-          <this.state.page />
-        </MuiThemeProvider>
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header>
       </div>
     );
   }
-
-  homePage = () => (
-    <div>
-      <div>Home Page</div>
-    </div>
-  );
 }
 
-export default withStyles(styles)(App);
+export default App;

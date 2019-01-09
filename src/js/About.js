@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './css/style.css';
+// import './css/style.css';
 
 function live(i) {
 	if (i == true) {
@@ -16,8 +16,8 @@ class About extends React.Component {
 		super(props);
 		this.state = {
 			title: "About",
-			open_bracket: "{",
-			close_bracket: "}",
+			open_bracket: "{ ",
+			close_bracket: " }",
 			info: "The University of Maryland, Baltimore County's 24-hour tech innovation marathon where students across the East Coast collaborate on new ideas to build mobile, web, and hardware projects. HackUMBC invites diverse groups of students to enjoy a weekend of hacking, workshops, tech talks, networking, and other fun activities. At the end of 24 hours, participants' projects are presented and judged for different prize categories from sponsors and other organizations."
 		};
 	}
@@ -40,11 +40,8 @@ class About extends React.Component {
   	}
 }
 
-class live extends React.Component {
+class Live extends React.Component {
 
 }
 
-ReactDom.render(
-	<About />,
-	document.getElementById("about")
-);
+export default About;
