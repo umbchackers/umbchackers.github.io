@@ -13,7 +13,7 @@ function MakeSponsor(props) {
 		<div className={props.position}>
 			<a
 	        	href={props.url}
-				// target="_blank"
+				target="_blank"
 	        >
 			<img
 				className={props.className}
