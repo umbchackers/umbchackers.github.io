@@ -20,4 +20,20 @@ ReactDOM.render(<Sponsor />, document.getElementById('sponsors'));
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
+class AppComponent extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {height: props.height};
+  }
+
+  componentWillMount(){
+    this.setState({height: window.innerHeight + 'px'});
+  }
+
+  render() {
+    return("");
+  }
+}
+
 serviceWorker.unregister();

@@ -5,7 +5,7 @@ navbar
 .navbar a {
   margin: 0;
 }
-nav.navbar a.navbar-brand {
+navbar.navbar a.navbar-brand {
   font-size: 1.2em;
   line-height-step: 1em;
   font-weight: bold;
@@ -13,12 +13,16 @@ nav.navbar a.navbar-brand {
   text-transform: uppercase;
 }
 
+#fullscreen_menu {
+  z-index: 10000 !important;
+}
+
 @media only screen and (max-width: 700px) {
   .navbar {
     font-size: 30px;
   }
   .navbar.responsive {
-    z-index: 10001;
+    z-index: 1000;
     height: 100% !important;
     background-color: #494849;
     width: 100%;
@@ -61,7 +65,7 @@ nav.navbar a.navbar-brand {
 new Burger
 *******************************************/
   .burgContainer {
-    height: 0px;
+    height: 0px !important;
     display: inline-block;
     cursor: pointer;
   }
@@ -69,12 +73,12 @@ new Burger
   .bar1,
   .bar2,
   .bar3 {
-    width: 26px;
+    width: 25px;
     height: 4px;
     background-color: #fddf87;
     margin: 5px 0;
     transition: 0.4s;
-    top: -25px;
+    top: -15px;
     position: relative;
     z-index: 10002;
   }

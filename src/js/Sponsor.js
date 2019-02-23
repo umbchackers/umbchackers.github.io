@@ -117,17 +117,17 @@ class Rows extends React.Component {
         	<div className="row sponsors">
 		    	{this.renderSponsor("col-sm-4 jpMorgonPos",
 		            				"https://www.jpmorgan.com/country/US/en/jpmorgan",
-									"img-fluid jpMorgonLogo",
+									"img-fluid jpMorganLogo",
 									images['jpmorgan.png'])
 		        }
 		        {this.renderSponsor("col-sm-4",
 		            				"https://facebook.com",
-									"img-fluid",
+									"img-fluid facebookLogo",
 									images['facebook.png'])
 		        }
 		        {this.renderSponsor("col-sm-4",
 		            				"http://www.focusedsupport.com/",
-									"img-fluid",
+									"img-fluid focusedLogo",
 									images['focused-support.png'])
 		        }
 		    </div>
@@ -192,7 +192,7 @@ class Rows extends React.Component {
         	<div className="row sponsors">
 		    	{this.renderSponsor("col-sm-4 twoRow",
 		            				"https://github.com",
-									"img-fluid",
+									"img-fluid githubLogo",
 									images['github.png'])
 		        }
 		        {this.renderSponsor("col-sm-4 twoRowWolfram",

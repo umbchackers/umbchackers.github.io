@@ -79,6 +79,7 @@
   max-width: 300px !important;
 }
 .minerKaschLogo {
+    padding-top: 10px !important;
     padding-bottom: 30px !important;
   }
 .coeitLogo {
@@ -110,37 +111,49 @@
 }
 @media only screen and (min-width: 800px) {
   .TRowePos {
-    left: 240px;
+    left: 240px !important;
   }
   .leidosPos {
-    left: 20px;
+    left: 20px !important;
   }
   .jpMorgonPos {
-    top: 40px;
+    top: 40px !important;
   }
   .cseeLogo {
-    max-width: 200px;
+    max-width: 200px !important;
   }
   .coeitPos {
-    top: 20px;
+    top: 20px !important;
   }
   .minerKaschLogo {
-    max-width: 300px;
+    max-width: 300px !important;
   }
   .intelliforcePos {
-  bottom: 80px;
-  left: 20px;
+  bottom: 80px !important;
+  left: 20px !important;
   }
   .twoRow {
-    left: 100px;
+    left: 100px !important;
   }
   .twoRowWolfram {
-    left: 200px;
+    left: 200px !important;
   }
 
 }
 @media only screen and (max-width: 800px) {
   .TRoweLogo {
+    max-width: 300px !important;
+  }
+  .minerKaschLogo {
+    max-width: 300px !important;
+  }
+  .githubLogo {
+    max-width: 300px !important;
+  }
+  .intelliforceLogo {
+    max-width: 300px !important;
+  }
+  .leidosLogo {
     max-width: 300px !important;
   }
 }
