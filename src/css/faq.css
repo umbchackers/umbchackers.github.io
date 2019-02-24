@@ -1,7 +1,6 @@
 /*
 faq
 */
-
 /* FAQ Section */
 .faq-background .card {
   background: transparent;
@@ -123,7 +122,7 @@ faq
   max-height: 30% !important;
 }
 .panel-title {
- font-size: 25px; 
+ font-size: 25px;
  color: #FFFFFF;
  font-family: 'Open Sans', sans-serif;
 }

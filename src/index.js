@@ -8,13 +8,14 @@ import Navbar from './js/Navbar';
 import About from './js/About';
 import Sponsor from './js/Sponsor';
 import Header from './js/Header';
+import Faq from './js/Faq';
 import * as serviceWorker from './serviceWorker';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<Navbar />, document.getElementById('myNav'));
 ReactDOM.render(<Header />, document.getElementById('top'));
 ReactDOM.render(<About />, document.getElementById('about'));
-// ReactDOM.render(<Faq />, document.getElementById('faq'));
+ReactDOM.render(<Faq />, document.getElementById('faq'));
 ReactDOM.render(<Sponsor />, document.getElementById('sponsors'));
 // ReactDOM.render(<SocialMedia />, document.getElementById('social_media'));
 // If you want your app to work offline and load faster, you can change
