@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import './../css/style.css';
 
 function importAll(r) {
   let images = {};
