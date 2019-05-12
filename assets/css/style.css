@@ -76,8 +76,13 @@ background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178),
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  align-items: center;
+  /*align-items: center;*/
 }
+
+.buttonBox {
+    margin: 0 auto !important;
+}
+
 
 .content {
   margin-top: 50px;
