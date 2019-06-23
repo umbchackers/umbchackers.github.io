@@ -187,6 +187,21 @@ $("#faqTab").on("click", function() {
       }
     });
   });
+
+var width = $(window).width();
+
+  if (width >= 900) {
+    $('#diamond-row').addClass('row');
+    $('#gold-row').addClass('row');
+    $('#third-row').addClass('row');
+    $('#fourth-row').addClass('row');
+    $('#fifth-row').addClass('row');
+    $('#sixth-row').addClass('row');
+    $('#seventh-row').addClass('row');
+    $('#eighth-row').addClass('row');
+    $('#ninth-row').addClass('row');
+  }
+
 });
 //end of Ready function
 

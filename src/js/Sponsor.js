@@ -48,7 +48,7 @@ class Rows extends React.Component {
 		return(
 			<div>
 		{/*Diamond Sponsors*/}
-			<div className="row sponsors">
+			<div className="sponsors" id='diamond-row'>
 		        {this.renderSponsor("col-sm-4 TRowePos", //Positioning
 		            				"https://www3.troweprice.com/usis/corporate/en/home.html", //Url
 									"img-fluid TRoweLogo", //Logo size
@@ -58,7 +58,7 @@ class Rows extends React.Component {
 		    <br />
         	<br />
     	{/*Gold Sponsor*/}
-		    <div className="row sponsors">
+		    <div className="sponsors" id="gold-row">
 		    	{this.renderSponsor("col-sm-4",
 		            				"http://buildportcovington.com/",
 									"img-fluid portLogo",
@@ -78,7 +78,7 @@ class Rows extends React.Component {
 		    </div>
 		    <br />
         	<br />
-        	<div className="row sponsors">
+        	<div className="sponsors" id='third-row'>
 		    	{this.renderSponsor("col-sm-4",
 		            				"http://wellerdevelopment.com/",
 									"img-fluid wellerLogo",
@@ -98,7 +98,7 @@ class Rows extends React.Component {
 		    <br />
         	<br />
         {/*Silver Sponsors*/}
-        	<div className="row sponsors">
+        	<div className="sponsors" id='fourth-row'>
 		    	{this.renderSponsor("col-sm-4",
 		            				"http://clearedgeit.com/",
 									"img-fluid clearLogo",
@@ -116,7 +116,7 @@ class Rows extends React.Component {
 		        }
 		    </div>
 		{/*Bronze Sponsors*/}
-        	<div className="row sponsors">
+        	<div className="sponsors" id='fifth-row'>
 		    	{this.renderSponsor("col-sm-4 jpMorgonPos",
 		            				"https://www.jpmorgan.com/country/US/en/jpmorgan",
 									"img-fluid jpMorganLogo",
@@ -135,7 +135,7 @@ class Rows extends React.Component {
 		    </div>
 		    <br />
 		    <br />
-        	<div className="row sponsors">
+        	<div className="sponsors" id='sixth-row'>
 		    	{this.renderSponsor("col-sm-4",
 		            				"http://www.whiting-turner.com/",
 									"img-fluid whitingLogo",
@@ -152,7 +152,7 @@ class Rows extends React.Component {
 									images['intelliforce.png'])
 		        }
 		    </div>
-        	<div className="row sponsors">
+        	<div className="sponsors" id='seventh-row'>
 		    	{this.renderSponsor("col-sm-4 alexRow",
 		            				"https://entrepreneurship.umbc.edu",
 									"img-fluid alexBrownLogo",
@@ -172,7 +172,7 @@ class Rows extends React.Component {
 		    <br />
 		    <br />
 		{/*Partners*/}
-        	<div className="row sponsors">
+        	<div className="sponsors" id='eighth-row'>
 		    	{this.renderSponsor("col-sm-4",
 		            				"https://mlh.io",
 									"img-fluid mlhLogo",
@@ -191,7 +191,7 @@ class Rows extends React.Component {
 		    </div>
 		    <br />
 		    <br />
-        	<div className="row sponsors">
+        	<div className="sponsors" id='ninth-row'>
 		    	{this.renderSponsor("col-sm-4 twoRow",
 		            				"https://github.com",
 									"img-fluid githubLogo",
