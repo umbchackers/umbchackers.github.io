@@ -52,7 +52,7 @@ a.fa:hover {
   color: black;
   transition: ease .2s;
 }
-a.fa-github:hover {
+.fa-github:hover {
   background: #e0dede;
   color: black;
   transition: ease .2s;
@@ -97,4 +97,18 @@ a.fa-slack:hover {
   background: #9de6f2;
   color: #fff;
   transition: ease .2s;
+}
+
+.socialCenterBox {
+  text-align: center;
+}
+.socialMargins {
+  margin-top: 2vh;
+}
+
+.Trademark {
+  margin-top: 2vh;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
