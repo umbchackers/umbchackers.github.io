@@ -30,8 +30,8 @@ class Footer extends React.Component {
 
 	render() {
 		return(
-		    <div class="wrapper">
-        <h1 class="section-footer">
+		    <div className="wrapper">
+        <h1 className="section-footer">
           <div className="socialCenterBox">
             <div className="socialMargins">
               <renderSocial url="https://www.facebook.com/hackumbc" className="fa fa-facebook" />

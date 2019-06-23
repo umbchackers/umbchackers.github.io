@@ -29,6 +29,8 @@ a.fa:hover {
   background: #3b5998;
   color: white;
   transition: ease .2s;
+  margin-right: 3px;
+  margin-left: 3px;
 }
 .fa-facebook:hover {
   background: #4672ce;
@@ -40,6 +42,8 @@ a.fa:hover {
   background: #55acee;
   color: white;
   transition: ease .2s;
+  margin-right: 3px;
+  margin-left: 3px;
 }
 .fa-twitter:hover {
   background: #76bcf2;
@@ -51,6 +55,8 @@ a.fa:hover {
   background: white;
   color: black;
   transition: ease .2s;
+  margin-right: 3px;
+  margin-left: 3px;
 }
 .fa-github:hover {
   background: #e0dede;
@@ -61,6 +67,8 @@ a.fa:hover {
 /* Instagram */
 .fa-instagram {
   background: #e5497b;
+  margin-right: 3px;
+  margin-left: 3px;
   /*#d6249f*/
   /*background: radial-gradient(
     circle at 30% 107%,
@@ -76,6 +84,7 @@ a.fa:hover {
 }
 .fa-instagram:hover {
   background: #ed6893;
+
   /*background: radial-gradient(
     circle at 30% 107%,
     #fff7aa 0%,
@@ -93,7 +102,7 @@ a.fa:hover {
   color: #fff;
   transition: ease .2s;
 }
-a.fa-slack:hover {
+.fa-slack:hover {
   background: #9de6f2;
   color: #fff;
   transition: ease .2s;
