@@ -1,2 +1,2 @@
-# HackUMBC-New-Site-2018
-New Website for HackUMBC Fall 2018
+# HackUMBC-New-Site-2019
+New Website for HackUMBC Fall 2019

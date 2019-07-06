@@ -13,6 +13,17 @@ html {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+/*volunteerign mentorship message*/
+.vol_ment_msg {
+  color: white;
+}
+@media only screen and (min-width: 800px) {
+  .vol_ment_msg {
+    margin-left: 190px;
+  }
+}
+
+
 /*This is for main background*/
 .parallax {
   /* The image used */
