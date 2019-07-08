@@ -64,8 +64,7 @@ buttons
   align-content: right;
 }
 
-
-#header-soon {
+#header-soon-volunteer {
   margin: 0 !important;
   display: block;
   background: grey;
@@ -81,5 +80,40 @@ buttons
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
   outline-style:none;
+
+}
+
+#header-soon-mentor {
+  margin: 0 !important;
+  display: block;
+  background: grey;
+  background-position: center;
+  border: 2px #757778 solid;
+  padding: 20px 50px;
+  color: #c7c7c7;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 50px auto;
+  transition: background 0.3s;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  outline-style:none;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+  #header-soon-volunteer {
+    font-size: 13px;
+    padding: 20px 45px;
+  }
+
+  #header-soon-mentor {
+    font-size: 12px;
+    padding: 20px 42px;
+  }
+
+}
 
 }
