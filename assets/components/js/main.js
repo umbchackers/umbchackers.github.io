@@ -110,7 +110,7 @@ $("#faqTab").on("click", function() {
     }
     //FAQ tab highlighting
     // 2750 1200
-    if ($(this).scrollTop() < 2750 && $(this).scrollTop() > 1200) {
+    if ($(this).scrollTop() < 2500 && $(this).scrollTop() > 1200) {
       $("#faqTab").focus();
       $("#faqTab").addClass("active");
       $("#liveButton").css("display", "none");
@@ -121,7 +121,7 @@ $("#faqTab").on("click", function() {
     }
     //SPONSORS tab highlighting
     // 4200 2750
-    if ($(this).scrollTop() < 4200 && $(this).scrollTop() > 2750) {
+    if ($(this).scrollTop() < 4200 && $(this).scrollTop() > 2500) {
       $("#sponsorsTab").focus();
       $("#sponsorsTab").addClass("active");
     }
