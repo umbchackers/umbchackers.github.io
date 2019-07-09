@@ -27,8 +27,8 @@ html {
 /*This is for main background*/
 .parallax {
   /* The image used */
-  background-image: linear-gradient(#544178, #d95115ce),
-    url("../img/UMBC-bg1.jpg");
+  /*linear-gradient(#544178, #d95115ce),*/
+  background-image: url("../img/hackumbc-bg2020.png");
 
   /* Full height */
   height: 100%;
@@ -51,10 +51,11 @@ html {
 @media only screen and (max-width: 800px) {
   .parallax {
   /* Webkit (Safari/Chrome 10) */
-background-image: -webkit-gradient(linear, bottom, top, color-stop(45, #544178), color-stop(100, #d95115ce)), url("../img/UMBC-bg1.jpg");
+  /*-webkit-gradient(linear, bottom, top, color-stop(45, #544178), color-stop(100, #d95115ce))*/
+background-image: , url("../img/hackumbc-bg2020.png");
 
-
-  background-image: linear-gradient(top, #544178 45%, #d95115ce 100%),url("../img/UMBC-bg1.jpg");
+  /*linear-gradient(top, #544178 45%, #d95115ce 100%),*/
+  background-image: url("../img/hackumbc-bg2020.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   -webkit-background-size: cover;
