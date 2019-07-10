@@ -31,10 +31,16 @@ nav.navbar a.navbar-brand {
     left: 42%;
     -webkit-transition: height 0.5s;
     -moz-transition: height 0.5s;
+    transition: height 0.5s ease 0s;
+    transition: background-color 0.5s ease 0s;
     visibility: hidden;
   }
   .showLogo {
     visibility: visible !important;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    transition: height 0.5s ease 0s;
+    transition: background-color 0.5s ease 0s;
   }
   .navbar.responsive .navbar-brand {
     font-size: 4em;
