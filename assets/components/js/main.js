@@ -88,10 +88,17 @@ $("#faqTab").on("click", function() {
       $(".navbar").addClass("solid");
       $(".navbar").animate({ height: "auto" });
       $("#mlh-trust-badge").removeClass("transparent");
-    } else {
+      if ( checkMobile() ) {
+        $("#logo").addClass("showLogo");
+        $(".fa-bars").addClass("shift-bars");
+      }
+    } else if ($(this).scrollTop() <= 200) {
       $("#mlh-trust-badge").addClass("transparent");
       $(".navbar").removeClass("solid");
       $(".navbar").animate({ height: "auto" });
+      if ( checkMobile() ) {
+        $("#logo").removeClass("showLogo");
+      }
     }
   });
 
