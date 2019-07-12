@@ -1,7 +1,8 @@
 //called when page DONE loading
 $(document).ready(function() {
 
-  var easterEgg = new Konami("https://hackumbc.org/space-hackers");
+  var easterEgg = new Konami();
+  easterEgg.load("https://hackumbc.org/space-hackers");
 
 // Set the date we're counting down to
 // var countDownDate = new Date("Oct 21, 2018 11:30:00").getTime();
