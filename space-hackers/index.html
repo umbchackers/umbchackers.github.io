@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>hackUMBC Invaders</title>
+
+        <style>
+            body {
+                background-image: url("img/back.png");
+                background-repeat: no-repeat;
+                background-position: 0 0;
+                background-size: cover;
+            }
+
+            #player, .laser, .enemy { 
+                position: absolute; 
+            }
+
+            #scoreboard {
+                color: white;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            }
+
+            #level {
+                float: left;
+            }
+
+            #score {
+                float: right;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="scoreboard">
+            <span id="level"></span>
+            <span id="score"></span>
+        </div>
+
+        <div id="game"></div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
