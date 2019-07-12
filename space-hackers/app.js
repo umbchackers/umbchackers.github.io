@@ -1,12 +1,12 @@
-var PLAYER_SPRITE_SRC = "/img/player.png";
+var PLAYER_SPRITE_SRC = "img/player.png";
 var PLAYER_DIM = 75;
 var PLAYER_MOVE_INC = 50;
 
-var LASER_SPRITE_SRC = "/img/laser.png";
+var LASER_SPRITE_SRC = "img/laser.png";
 var LASER_DIM = 20;
 var LASER_MOVE_INC = 40;
 
-var ENEMY_SPRITE_SRC = "/img/enemy.png";
+var ENEMY_SPRITE_SRC = "img/enemy.png";
 var ENEMY_DIM = 30;
 var ENEMY_MOVE_INC = 55;
 
