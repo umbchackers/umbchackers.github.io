@@ -10,6 +10,13 @@ var ENEMY_SPRITE_SRC = "img/enemy.png";
 var ENEMY_DIM = 30;
 var ENEMY_MOVE_INC = 55;
 
+var BOSS_SPRITE_SRC = "img/enemy-1.png";
+var BOSS_DIM = 100;
+var BOSS_MOVE_INC = 5;
+var BOSS_HEALTH = 500;
+
+var GAMEOVER_SPRITE_SRC = "img/game-over.png";
+
 var WINDOW_HEIGHT = window.innerHeight;
 var WINDOW_WIDTH =  window.innerWidth;
 
@@ -18,6 +25,7 @@ var ENEMY_HIT_PTS = 10;
 var GAME = document.getElementById("game");
 var LEVEL_DISPLAY = document.getElementById("level");
 var SCORE_DISPLAY = document.getElementById("score");
+var BOSS_HEALTH_DISPLAY = document.getElementById("bossHealth");
 
 var PLAYER = createPlayer();
 
@@ -87,7 +95,6 @@ function createEnemies() {
     // Start at 20% width and height of screen
     var startX = WINDOW_WIDTH * .2;
     var startY = WINDOW_HEIGHT * .2;
-
     // Create three rows
     for (var j = 0; j < 3; j++) {
         startX = WINDOW_WIDTH * .2;
@@ -101,6 +108,47 @@ function createEnemies() {
                     
         startY += ENEMY_DIM + 50;
     }
+}
+
+function createBoss(x,y) {
+    // Start at 20% width and height of screen
+    var startX = WINDOW_WIDTH * .6;
+    var startY = WINDOW_HEIGHT * .6;
+
+    var boss = document.createElement("IMG");
+    boss.id = "boss";
+    boss.className = "boss";
+    boss.src = BOSS_SPRITE_SRC;
+    boss.style.width = BOSS_DIM + "px";
+    boss.style.height = BOSS_DIM + "px";
+
+    // Set location
+    boss.style.top = y + "px";
+    boss.style.left = x + "px";
+
+    // Add to game panel
+    GAME.appendChild(boss);
+}
+
+//Called when Game is over
+function GameOver() {
+    // Start at 20% width and height of screen
+    var startX = WINDOW_WIDTH * .6;
+    var startY = WINDOW_HEIGHT * .6;
+
+    var game_over = document.createElement("IMG");
+    game_over.id = "game-over";
+    game_over.className = "game-over";
+    game_over.src = GAMEOVER_SPRITE_SRC;
+    game_over.style.width = 250 + "px";
+    game_over.style.height = 250 + "px";
+
+    // Set location
+    game_over.style.top = 200 + "px";
+    game_over.style.left = 500 + "px";
+
+    // Add to game panel
+    GAME.appendChild(game_over);
 }
 
 function shootLaser() {
@@ -126,6 +174,7 @@ function paint() {
     //  Get all lasers and all enemies
     var lasers = document.getElementsByClassName("laser");
     var enemies = document.getElementsByClassName("enemy");
+    var boss = document.getElementsByClassName("boss")[0];
 
     // Go through every laser
     for (var laser of lasers) {
@@ -136,9 +185,9 @@ function paint() {
                 enemy.parentNode.removeChild(enemy);
                 laser.parentNode.removeChild(laser);
                 score += ENEMY_HIT_PTS;
+                UpdateLevel();
             }
         }
-
         // Get laser position
         var laserPosition = laser.style.top;
         laserPosition = parseInt(laserPosition.replace("px", ""));
@@ -157,6 +206,46 @@ function paint() {
     // Update scoreboard
     LEVEL_DISPLAY.innerHTML = "Level: " + levelNum;
     SCORE_DISPLAY.innerHTML = "Score: " + score;
+}
+
+//This is the scoreboard setup for level 2
+function paintLevelTwo() {
+    //  Get all lasers and boss
+    var lasers = document.getElementsByClassName("laser");
+    var boss = document.getElementsByClassName("boss")[0];
+
+    // Go through every laser
+    for (var laser of lasers) {
+        // Check if the laser has hit boss and he loses health otherwise he goes away
+        if (detectOverlap(laser, boss)) {
+            // enemy.parentNode.removeChild(enemy);
+            BOSS_HEALTH -= 25;
+            laser.parentNode.removeChild(laser);
+            //if Boss is put of health Boss dies and GameOver is called
+            if (BOSS_HEALTH == 0) {
+                boss.parentNode.removeChild(boss);
+                GameOver();
+            }
+            score += ENEMY_HIT_PTS;
+            // UpdateLevel();
+        }
+        // Get laser position
+        var laserPosition = laser.style.top;
+        laserPosition = parseInt(laserPosition.replace("px", ""));
+
+        // Change laser position
+        laserPosition -= LASER_MOVE_INC;
+
+        // If laser is still visible, move it
+        if (laserPosition >= 0) 
+            laser.style.top = laserPosition + "px";
+        // If laser is not visible, remove from HTML
+        else 
+            laser.parentNode.removeChild(laser);
+    }
+
+    // Update Boss health
+    BOSS_HEALTH_DISPLAY.innerHTML = "Boss Health: " + BOSS_HEALTH;
 }
 
 /**
@@ -183,6 +272,80 @@ function moveEnemies() {
         // Update enemy position
         enemy.style.left = enemyPosition + "px";
     }
+}
+
+
+//Handles moving boss to the right
+function moveBossRight() {
+    // Get boss
+    var boss = document.getElementsByClassName('boss')[0];
+    // Get boss position
+    var bossPosition = boss.style.left;
+    bossPosition = parseInt(bossPosition.replace("px", ""));
+    direction = 1;
+    var id = setInterval(frame, 10);
+    function frame() {
+        if (bossPosition == 1000) {
+            clearInterval(id);
+            moveBossLeft();
+        }
+        bossPosition += direction;
+        boss.style.left = bossPosition + "px";
+    }
+
+}
+
+// Handles moving boss to the left
+function moveBossLeft() {
+    // Get boss
+    var boss = document.getElementsByClassName('boss')[0];
+    // Get boss position
+    var bossPosition = boss.style.left;
+    bossPosition = parseInt(bossPosition.replace("px", ""));
+    direction = -1;
+    var id = setInterval(frame, 10);
+    function frame() {
+        if (bossPosition == 50) {
+            clearInterval(id)
+            moveBossRight();
+        }
+        bossPosition += direction;
+        boss.style.left = bossPosition + "px";
+    }
+}
+
+
+/*
+* counts number of enemies on screen
+*/
+function UpdateLevel() {
+    // return 
+    var numOfEnemies = document.querySelectorAll(".enemy").length;
+    //level 2
+    if (numOfEnemies == 0) {
+        levelNum++;
+        clearInterval(paint);
+        clearInterval(moveEnemies);
+        LevelTwo();
+        // addBoss(750,30);
+
+    }
+    // level 3?
+    return numOfEnemies;
+}
+
+/*
+* calls Level 2
+*/
+function LevelTwo() {
+    // adds boss
+    createBoss(750,30);
+
+    setInterval(paintLevelTwo, 50);
+
+    moveBossRight();
+    BOSS_HEALTH_DISPLAY.innerHTML = "Boss Health: " + BOSS_HEALTH;
+
 }
 
 /**
@@ -222,8 +385,9 @@ function initGame() {
     createEnemies();
 
     setInterval(paint, 100);
-
+    
     setInterval(moveEnemies, 500);
+
 }
 
 initGame();

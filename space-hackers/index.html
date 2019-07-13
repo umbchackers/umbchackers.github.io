@@ -19,12 +19,24 @@
                 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             }
 
+            .boss {
+              position: absolute;
+            }
+
             #level {
                 float: left;
             }
 
             #score {
                 float: right;
+            }
+            #bossHealth {
+                margin-top: 20px;
+                float: right;
+                clear: left;
+            }
+            #game-over {
+                position: absolute; 
             }
         </style>
     </head>
@@ -33,6 +45,7 @@
         <div id="scoreboard">
             <span id="level"></span>
             <span id="score"></span>
+            <span id="bossHealth"></span>
         </div>
 
         <div id="game"></div>
