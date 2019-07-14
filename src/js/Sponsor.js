@@ -74,7 +74,7 @@ class Rows extends React.Component {
 									"img-fluid leidosLogo",
 									images['leidos.png'])
 		        }
-		        
+
 		    </div>
 		    <br />
         	<br />
