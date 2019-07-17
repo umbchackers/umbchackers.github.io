@@ -68,7 +68,7 @@ buttons
   margin: 0 !important;
   margin-left: 20px !important;
   margin-bottom: 6px !important;
-  display: inline-block;
+  display: inline-block !important;
   background: transparent;
   background-position: center;
   border: 2px white solid;
@@ -102,14 +102,14 @@ buttons
   transition: background 0s;
 }
 
-#header-soon-mentor {
+#header-mentor {
   margin: 0 !important;
   display: block;
-  background: grey;
+  background: transparent;
   background-position: center;
-  border: 2px #757778 solid;
+  border: 2px white solid;
   padding: 20px 50px;
-  color: #c7c7c7;
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 3px;
@@ -121,6 +121,25 @@ buttons
 
 }
 
+#header-mentor:hover {
+  background: white radial-gradient(circle, transparent 1%, #d6d6d6 1%) center/15000%;
+  transition: background 0.3s;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  outline-style:none;
+  box-shadow:none;
+  border-color:transparent;
+  color: #343a40;
+}
+#header-mentor:active {
+  background-color: #d6d6d6;
+  background-size: 100%;
+  outline-style:none;
+  box-shadow:none;
+  border-color:transparent;
+  transition: background 0s;
+}
+
 
 @media only screen and (max-width: 800px) {
   #header-volunteer {
@@ -128,7 +147,7 @@ buttons
     padding: 20px 45px;
   }
 
-  #header-soon-mentor {
+  #header-mentor {
     font-size: 12px;
     padding: 20px 42px;
   }
