@@ -90,13 +90,13 @@ $("#faqTab").on("click", function() {
     if ($(this).scrollTop() > 200) {
       $(".navbar").addClass("solid");
       $(".navbar").animate({ height: "auto" });
-      $("#mlh-trust-badge").removeClass("transparent");
+      // $("#mlh-trust-badge").removeClass("transparent");
       if ( checkMobile() ) {
         $("#logo").addClass("showLogo");
         $(".fa-bars").addClass("shift-bars");
       }
     } else if ($(this).scrollTop() <= 200) {
-      $("#mlh-trust-badge").addClass("transparent");
+      // $("#mlh-trust-badge").addClass("transparent");
       $(".navbar").removeClass("solid");
       $(".navbar").animate({ height: "auto" });
       if ( checkMobile() ) {

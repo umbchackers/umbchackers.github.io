@@ -105,9 +105,9 @@ background-image: , url("../img/hackumbc-bg2020.png");
 /*MLH Banner*/
 
 .mlh-trust-badge {
-  z-index: 1;
+  z-index: 100000;
   position: fixed;
-  margin-top: 76px;
+  /*margin-top: 76px;*/
   /*margin-top: 70px;*/
   right: 10px;
   -webkit-transition: top 0.3s;
@@ -121,10 +121,15 @@ background-image: , url("../img/hackumbc-bg2020.png");
   .mlh-trust-badge {
     opacity: 1;
   }
-  .mlh-trust-badge:hover {
-    opacity: .7;
-    transition: ease .3s;
+  
+}
+
+@media only screen and (max-width: 800px) {
+  .mlh-trust-badge {
+    z-index: 1 !important;
+    margin-top: 76px;
   }
+  
 }
 
 .bracket-color {
