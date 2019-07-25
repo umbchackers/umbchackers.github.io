@@ -166,7 +166,7 @@ $("#faqTab").on("click", function() {
     else if ($(this).scrollTop() < 900) {
       $("#mlh-trust-badge").attr(
         "href",
-        "https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&amp;utm_medium=TrustBadge&amp;utm_campaign=2019-season&amp;utm_content=white"
+        "https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=black"
       );
       $("#mlh-trust-badge").attr("target", "_blank");
       $("#mlh-trust-badge").removeClass("bannerPos");
@@ -179,7 +179,7 @@ $("#faqTab").on("click", function() {
     if ($("#mlh-trust-badge").hasClass("bannerPos") == false) {
       $("#mlh-trust-badge").attr(
         "href",
-        "https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&amp;utm_medium=TrustBadge&amp;utm_campaign=2019-season&amp;utm_content=white"
+        "https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=black"
       );
       $("#mlh-trust-badge").attr("target", "_blank");
     }
