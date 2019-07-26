@@ -38,6 +38,8 @@ buttons
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
   outline-style:none;
+  transform: scale(1);
+  transition: .2s background-color ease-out, .2s color ease-out, .2s transform ease-out;
 
 }
 
@@ -50,6 +52,8 @@ buttons
   box-shadow:none;
   border-color:transparent;
   color: #343a40;
+  transform: scale(1.125);
+  transition: .2s background-color ease-out, .2s color ease-out, .2s transform ease-out;
 }
 #header-apply:active {
   background-color: #d6d6d6;
@@ -82,6 +86,8 @@ buttons
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
   outline-style:none;
+  transform: scale(1);
+  transition: .2s background-color ease-out, .2s color ease-out, .2s transform ease-out;
 }
 #header-volunteer:hover {
   background: white radial-gradient(circle, transparent 1%, #d6d6d6 1%) center/15000%;
@@ -92,6 +98,8 @@ buttons
   box-shadow:none;
   border-color:transparent;
   color: #343a40;
+  transform: scale(1.125);
+  transition: .2s background-color ease-out, .2s color ease-out, .2s transform ease-out;
 }
 #header-volunteer:active {
   background-color: #d6d6d6;
@@ -118,6 +126,8 @@ buttons
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
   outline-style:none;
+  transform: scale(1);
+  transition: .2s background-color ease-out, .2s color ease-out, .2s transform ease-out;
 
 }
 
@@ -130,6 +140,8 @@ buttons
   box-shadow:none;
   border-color:transparent;
   color: #343a40;
+  transform: scale(1.125);
+  transition: .2s background-color ease-out, .2s color ease-out, .2s transform ease-out;
 }
 #header-mentor:active {
   background-color: #d6d6d6;
