@@ -48,6 +48,58 @@ html {
   font-size: 0.65em;
 }
 
+.cloud1 {
+  /*left: 40px;*/
+  position: fixed;
+  width: 35%;
+  height: 57%;
+  z-index: 1;
+  
+}
+.cloud2 {
+  /*left: 40px;*/
+  position: fixed;
+  width: 40%;
+  height: 50%;
+  left: 17%;
+  bottom: -3%;
+  /*z-index: 10 !important;*/
+  
+}
+.cloud3 {
+  /*left: 40px;*/
+  position: fixed;
+  width: 36%;
+  height: 46%;
+  left: 30%;
+  bottom: 25%;
+  
+}
+.cloud4 {
+  /*left: 40px;*/
+  position: fixed;
+  width: 20%;
+  height: 30%;
+  left: 30%;
+  bottom: 33%;
+  
+}
+.cloud5 {
+  /*left: 40px;*/
+  position: fixed;
+  width: 40%;
+  height: 30%;
+  left: 35%;
+  bottom: 10%;
+  
+}
+
+#text-logo {
+  z-index: 11;
+}
+
+
+
 @media only screen and (max-width: 800px) {
   .parallax {
   /* Webkit (Safari/Chrome 10) */
