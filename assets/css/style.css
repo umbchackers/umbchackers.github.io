@@ -76,8 +76,8 @@ html {
 }
 
 @keyframes move_cloud1 {
-  0% {left: 0%;}
-  100% {left: 150%;}
+  0% {opacity: .3;left: 0%;}
+  100% {opacity: 1;left: 150%;}
 }
 
 #cloud2 {
@@ -136,8 +136,8 @@ html {
 }
 
 @keyframes move_cloud5 {
-  0% {left: 25%;}
-  100% {left: 150%;}
+  0% {opacity: .5; left: 25%;}
+  100% {opacity: 1; left: 150%;}
 }
 #cloud6 {
   margin-right: 0px;
@@ -165,8 +165,8 @@ html {
 }
 
 @keyframes move_cloud7 {
-  0% {left: -30%;}
-  100% {left: 150%;}
+  0% {opacity: .4; left: -30%;}
+  100% {opacity: 1; left: 150%;}
 }
 
 #cloud8 {
@@ -176,6 +176,7 @@ html {
   height: 35%;
   left: -40%;
   top: 45%;
+  opacity: .4;
   animation: move_cloud8 103s infinite linear; 
 }
 
@@ -191,6 +192,7 @@ html {
   height: 20%;
   left: -40%;
   top: 60%;
+  opacity: .7;
   animation: move_cloud9 94s infinite linear; 
 }
 
