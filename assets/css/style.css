@@ -48,50 +48,155 @@ html {
   font-size: 0.65em;
 }
 
-.cloud1 {
-  /*left: 40px;*/
-  position: fixed;
+#clouds {
+  position: relative;
+  margin-right: 0px;
+}
+
+#cloudno1 {
+  /* The image used */
+  /*linear-gradient(#544178, #d95115ce),*/
+  background-image: url("../img/assets/img/clouds/SVG/Asset1.svg");
+  /* Full height */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: left 10% top 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cloud1 {
+  margin-right: 0px;
+  position: absolute;
   width: 35%;
   height: 57%;
   z-index: 1;
-  
+  animation: move_cloud1 80s infinite linear;
 }
-.cloud2 {
-  /*left: 40px;*/
-  position: fixed;
+
+@keyframes move_cloud1 {
+  0% {left: 0%;}
+  100% {left: 150%;}
+}
+
+#cloud2 {
+  margin-right: 0px;
+  position: absolute;
   width: 40%;
   height: 50%;
-  left: 17%;
+  left: 5%;
   bottom: -3%;
-  /*z-index: 10 !important;*/
-  
+  animation: move_cloud2 40s infinite linear; 
 }
-.cloud3 {
-  /*left: 40px;*/
-  position: fixed;
+
+@keyframes move_cloud2 {
+  0% {left: 5%;}
+  100% {left: 100%;}
+}
+
+#cloud3 {
+  margin-right: 0px;
+  position: absolute;
   width: 36%;
   height: 46%;
   left: 30%;
   bottom: 25%;
-  
+  animation: move_cloud3 70s infinite linear; 
 }
-.cloud4 {
-  /*left: 40px;*/
-  position: fixed;
+
+@keyframes move_cloud3 {
+  0% {left: 30%;}
+  100% {left: 150%;}
+}
+
+#cloud4 {
+  margin-right: 0px;
+  position: absolute;
   width: 20%;
   height: 30%;
   left: 30%;
   bottom: 33%;
-  
+  animation: move_cloud4 65s infinite linear; 
 }
-.cloud5 {
-  /*left: 40px;*/
-  position: fixed;
+
+@keyframes move_cloud4 {
+  0% {left: 30%;}
+  100% {left: 150%;}
+}
+
+#cloud5 {
+  margin-right: 0px;
+  position: absolute;
   width: 40%;
   height: 30%;
-  left: 35%;
+  left: 25%;
   bottom: 10%;
-  
+  animation: move_cloud5 80s infinite linear; 
+}
+
+@keyframes move_cloud5 {
+  0% {left: 25%;}
+  100% {left: 150%;}
+}
+#cloud6 {
+  margin-right: 0px;
+  position: absolute;
+  width: 40%;
+  height: 30%;
+  left: 60%;
+  top: 10%;
+  animation: move_cloud6 100s infinite linear; 
+}
+
+@keyframes move_cloud6 {
+  0% {left: 60%;}
+  100% {left: 150%;}
+}
+
+#cloud7 {
+  margin-right: 0px;
+  position: absolute;
+  width: 40%;
+  height: 30%;
+  left: 60%;
+  top: 25%;
+  animation: move_cloud7 100s infinite linear; 
+}
+
+@keyframes move_cloud7 {
+  0% {left: -30%;}
+  100% {left: 150%;}
+}
+
+#cloud8 {
+  margin-right: 0px;
+  position: absolute;
+  width: 40%;
+  height: 35%;
+  left: -40%;
+  top: 45%;
+  animation: move_cloud8 103s infinite linear; 
+}
+
+@keyframes move_cloud8 {
+  0% {left: -40%;}
+  100% {left: 150%;}
+}
+
+#cloud9 {
+  margin-right: 0px;
+  position: absolute;
+  width: 30%;
+  height: 20%;
+  left: -40%;
+  top: 60%;
+  animation: move_cloud9 94s infinite linear; 
+}
+
+@keyframes move_cloud9 {
+  0% {left: -50%;}
+  100% {left: 150%;}
 }
 
 #text-logo {
