@@ -26,6 +26,8 @@ html {
 
 /*This is for main background*/
 .parallax {
+  /* prevent clouds from expanding screen width */
+  overflow: hidden;
   /* The image used */
   /*linear-gradient(#544178, #d95115ce),*/
   background-image: url("../img/hackumbc-bg2020.png");
