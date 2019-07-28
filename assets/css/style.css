@@ -54,19 +54,6 @@ html {
   position: relative;
 }
 
-#cloudno1 {
-  /* The image used */
-  /*linear-gradient(#544178, #d95115ce),*/
-  background-image: url("../img/assets/img/clouds/SVG/Asset1.svg");
-  /* Full height */
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: left 10% top 10%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #cloud1 {
   position: absolute;
   width: 35%;
@@ -210,21 +197,59 @@ html {
 
 @media only screen and (max-width: 800px) {
   .parallax {
-  /* Webkit (Safari/Chrome 10) */
-  /*-webkit-gradient(linear, bottom, top, color-stop(45, #544178), color-stop(100, #d95115ce))*/
-background-image: , url("../img/hackumbc-bg2020.png");
+    /* Webkit (Safari/Chrome 10) */
+    /*-webkit-gradient(linear, bottom, top, color-stop(45, #544178), color-stop(100, #d95115ce))*/
+    background-image: , url("../img/hackumbc-bg2020.png");
 
-  /*linear-gradient(top, #544178 45%, #d95115ce 100%),*/
-  background-image: url("../img/hackumbc-bg2020.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-
+    /*linear-gradient(top, #544178 45%, #d95115ce 100%),*/
+    background-image: url("../img/hackumbc-bg2020.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
   }
+
+  #cloud1 {
+    width: 55%;
+    height: 77%;
+  }
+  #cloud2 {
+    width: 50%;
+    height: 70%;
+  }
+  #cloud3 {
+    width: 56%;
+    height: 66%;
+  }
+  #cloud4 {
+    width: 55%;
+    height: 77%;
+  }
+  #cloud5{
+    width: 40%;
+    height: 50%;
+  }
+  #cloud6 {
+    width: 60%;
+    height: 50%;
+  }
+  #cloud7 {
+    width: 60%;
+    height: 50%;
+  }
+  #cloud8 {
+    width: 60%;
+    height: 55%;
+  }
+  #cloud9 {
+    width: 50%;
+  height: 40%;
+  }
+
+
 }
 
 .tile-bg {
