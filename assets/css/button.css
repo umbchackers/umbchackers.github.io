@@ -23,6 +23,7 @@ buttons
 }
 
 #header-apply {
+  z-index: 11;
   margin: 0 !important;
   display: block;
   background: transparent;
@@ -69,6 +70,7 @@ buttons
 }
 
 #header-volunteer {
+  z-index: 11;
   margin: 0 !important;
   margin-left: 20px !important;
   margin-bottom: 6px !important;
@@ -111,6 +113,7 @@ buttons
 }
 
 #header-mentor {
+  z-index: 11;
   margin: 0 !important;
   display: block;
   background: transparent;
