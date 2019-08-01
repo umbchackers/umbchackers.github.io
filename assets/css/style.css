@@ -51,10 +51,13 @@ html {
 }
 
 #clouds {
+  pointer-events: none;
   position: relative;
+  pointer-events: none;
 }
 
 #cloud1 {
+  pointer-events: none;
   position: absolute;
   width: 35%;
   height: 57%;
@@ -69,6 +72,7 @@ html {
 }
 
 #cloud2 {
+  pointer-events: none;
   position: absolute;
   width: 30%;
   height: 50%;
@@ -84,6 +88,7 @@ html {
 }
 
 #cloud3 {
+  pointer-events: none;
   position: absolute;
   width: 36%;
   height: 46%;
@@ -99,6 +104,7 @@ html {
 }
 
 #cloud4 {
+  pointer-events: none;
   position: absolute;
   width: 20%;
   height: 30%;
@@ -114,6 +120,7 @@ html {
 }
 
 #cloud5 {
+  pointer-events: none;
   position: absolute;
   width: 40%;
   height: 30%;
@@ -128,6 +135,7 @@ html {
   100% {opacity: 1;left: 100%;}
 }
 #cloud6 {
+  pointer-events: none;
   position: absolute;
   width: 40%;
   height: 30%;
@@ -143,6 +151,7 @@ html {
 }
 
 #cloud7 {
+  pointer-events: none;
   position: absolute;
   width: 40%;
   height: 30%;
@@ -158,6 +167,7 @@ html {
 }
 
 #cloud8 {
+  pointer-events: none;
   position: absolute;
   width: 40%;
   height: 35%;
@@ -174,6 +184,7 @@ html {
 }
 
 #cloud9 {
+  pointer-events: none;
   position: absolute;
   width: 30%;
   height: 20%;
@@ -213,38 +224,47 @@ html {
   }
 
   #cloud1 {
+    pointer-events: none;
     width: 55%;
     height: 77%;
   }
   #cloud2 {
+    pointer-events: none;
     width: 50%;
     height: 70%;
   }
   #cloud3 {
+    pointer-events: none;
     width: 56%;
     height: 66%;
   }
   #cloud4 {
+    pointer-events: none;
     width: 55%;
     height: 77%;
   }
   #cloud5{
+    pointer-events: none;
     width: 40%;
     height: 50%;
   }
   #cloud6 {
+    pointer-events: none;
     width: 60%;
     height: 50%;
   }
   #cloud7 {
+    pointer-events: none;
     width: 60%;
     height: 50%;
   }
   #cloud8 {
+    pointer-events: none;
     width: 60%;
     height: 55%;
   }
   #cloud9 {
+    pointer-events: none;
     width: 50%;
   height: 40%;
   }
