@@ -110,7 +110,7 @@ html {
   height: 30%;
   left: 30%;
   bottom: 33%;
-  animation: move_cloud4 65s infinite linear; 
+  animation: move_cloud4 65s infinite linear;
 }
 
 @keyframes move_cloud4 {
@@ -126,7 +126,7 @@ html {
   height: 30%;
   left: 25%;
   bottom: 10%;
-  animation: move_cloud5 80s infinite linear; 
+  animation: move_cloud5 80s infinite linear;
 }
 
 @keyframes move_cloud5 {
@@ -141,7 +141,7 @@ html {
   height: 30%;
   left: 60%;
   top: 10%;
-  animation: move_cloud6 100s infinite linear; 
+  animation: move_cloud6 100s infinite linear;
 }
 
 @keyframes move_cloud6 {
@@ -157,7 +157,7 @@ html {
   height: 30%;
   left: 60%;
   top: 25%;
-  animation: move_cloud7 100s infinite linear; 
+  animation: move_cloud7 100s infinite linear;
 }
 
 @keyframes move_cloud7 {
@@ -174,7 +174,7 @@ html {
   left: -40%;
   top: 45%;
   opacity: .4;
-  animation: move_cloud8 103s infinite linear; 
+  animation: move_cloud8 103s infinite linear;
 }
 
 @keyframes move_cloud8 {
@@ -191,7 +191,7 @@ html {
   left: -40%;
   top: 60%;
   opacity: .9;
-  animation: move_cloud9 94s infinite linear; 
+  animation: move_cloud9 94s infinite linear;
 }
 
 @keyframes move_cloud9 {
@@ -272,6 +272,63 @@ html {
 
 }
 
+
+  /* Facebook */
+  .facebook {
+    z-index: 1 !important;
+    position: relative;
+  }
+  .facebook:hover {
+    z-index: 1 !important;
+    fill: #ECE5E5 !important;
+    stroke: transparent;
+    stroke-width: 4px;
+    transition: ease .4s;
+  }
+
+  /* Twitter */
+  .twitter {
+    z-index: 1 !important;
+    position: relative;
+  }
+  .twitter:hover {
+    z-index: 1 !important;
+    fill: #ECE5E5 !important;
+    stroke: transparent;
+    stroke-width: 10px;
+    transition: ease .4s;
+  }
+
+  /* Github */
+  .github {
+    z-index: 1 !important;
+    position: relative;
+  }
+  .github:hover {
+    z-index: 1 !important;
+    fill: #ECE5E5 !important;
+    stroke: transparent;
+    stroke-width: 12px;
+    transition: ease .4s;
+  }
+  /* Instagram */
+  .instagram {
+    z-index: 1 !important;
+    position: relative;
+  }
+  .instagram:hover {
+    z-index: 1 !important;
+    fill: #ECE5E5 !important;
+    stroke: transparent;
+    stroke-width: 18px;
+    transition: ease .4s;
+  }
+  .instagram1 {
+    z-index: 1 !important;
+    position: relative;
+    pointer-events: none;
+  }
+
 .tile-bg {
   background-image: url("../img/tile-bg.svg");
   background-repeat: repeat;
@@ -326,7 +383,7 @@ html {
   .mlh-trust-badge {
     opacity: 1;
   }
-  
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -334,7 +391,7 @@ html {
     z-index: 1 !important;
     margin-top: 76px;
   }
-  
+
 }
 
 .bracket-color {
