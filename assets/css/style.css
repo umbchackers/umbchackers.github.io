@@ -277,54 +277,59 @@ html {
   .facebook {
     z-index: 1 !important;
     position: relative;
+    fill: #ECE5E5 !important;
   }
   .facebook:hover {
     z-index: 1 !important;
-    fill: #ECE5E5 !important;
+    fill: #696969 !important;
     stroke: transparent;
     stroke-width: 4px;
-    transition: ease .4s;
+    transition: ease .5s;
   }
 
   /* Twitter */
   .twitter {
     z-index: 1 !important;
     position: relative;
+    fill: #ECE5E5 !important;
   }
   .twitter:hover {
     z-index: 1 !important;
-    fill: #ECE5E5 !important;
+    fill: #696969 !important;
     stroke: transparent;
     stroke-width: 10px;
-    transition: ease .4s;
+    transition: ease .5s;
   }
 
   /* Github */
   .github {
     z-index: 1 !important;
     position: relative;
+    fill: #ECE5E5 !important;
   }
   .github:hover {
     z-index: 1 !important;
-    fill: #ECE5E5 !important;
+    fill: #696969 !important;
     stroke: transparent;
-    stroke-width: 12px;
-    transition: ease .4s;
+    stroke-width: 14px;
+    transition: ease .5s;
   }
   /* Instagram */
   .instagram {
     z-index: 1 !important;
     position: relative;
+    fill: #ECE5E5 !important;
   }
   .instagram:hover {
     z-index: 1 !important;
-    fill: #ECE5E5 !important;
+    fill: #696969 !important;
     stroke: transparent;
-    stroke-width: 18px;
-    transition: ease .4s;
+    stroke-width: 20px;
+    transition: ease .5s;
   }
   .instagram1 {
     z-index: 1 !important;
+    fill: #ECE5E5 !important;
     position: relative;
     pointer-events: none;
   }
