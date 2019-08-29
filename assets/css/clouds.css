@@ -1,0 +1,200 @@
+/*styling for the clouds*/
+
+#clouds {
+  pointer-events: none;
+  position: relative;
+  pointer-events: none;
+}
+
+#cloud1 {
+  pointer-events: none;
+  position: absolute;
+  width: 35%;
+  height: 57%;
+  z-index: 1;
+  animation: move_cloud1 80s infinite linear;
+}
+
+@keyframes move_cloud1 {
+  0% {opacity: 0; left: 0%;}
+  3% {opacity: 1;left: 5%;}
+  100% {opacity: 1;left: 100%;}
+}
+
+#cloud2 {
+  pointer-events: none;
+  position: absolute;
+  width: 30%;
+  height: 50%;
+  left: 5%;
+  bottom: -3%;
+  animation: move_cloud2 40s infinite linear;
+}
+
+@keyframes move_cloud2 {
+  0% {opacity: 0; left: 5%;}
+  2% {opacity: 1;left: 8%;}
+  100% {opacity: 1;left: 100%;}
+}
+
+#cloud3 {
+  pointer-events: none;
+  position: absolute;
+  width: 36%;
+  height: 46%;
+  left: 30%;
+  bottom: 25%;
+  animation: move_cloud3 70s infinite linear;
+}
+
+@keyframes move_cloud3 {
+  0% {opacity: 0;left: 30%;}
+  3% {opacity: 1;left: 35%;}
+  100% {opacity: 1;left: 100%;}
+}
+
+#cloud4 {
+  pointer-events: none;
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  left: 30%;
+  bottom: 33%;
+  animation: move_cloud4 65s infinite linear;
+}
+
+@keyframes move_cloud4 {
+  0% {opacity: 0;left: 30%;}
+  8% {opacity: 1;left: 35%;}
+  100% {opacity: 1;left: 100%;}
+}
+
+#cloud5 {
+  pointer-events: none;
+  position: absolute;
+  width: 40%;
+  height: 30%;
+  left: 25%;
+  bottom: 10%;
+  animation: move_cloud5 80s infinite linear;
+}
+
+@keyframes move_cloud5 {
+  0% {opacity: 0;left: 25%;}
+  3% {opacity: 1;left: 30%;}
+  100% {opacity: 1;left: 100%;}
+}
+#cloud6 {
+  pointer-events: none;
+  position: absolute;
+  width: 40%;
+  height: 30%;
+  left: 60%;
+  top: 10%;
+  animation: move_cloud6 100s infinite linear;
+}
+
+@keyframes move_cloud6 {
+  0% {opacity: 0;left: 60%;}
+  3% {opacity: 1;left: 65%;}
+  100% {opacity: 1;left: 100%;}
+}
+
+#cloud7 {
+  pointer-events: none;
+  position: absolute;
+  width: 40%;
+  height: 30%;
+  left: 60%;
+  top: 25%;
+  animation: move_cloud7 100s infinite linear;
+}
+
+@keyframes move_cloud7 {
+  0% {opacity: 0;left: -30%;}
+  3% {opacity: 1;left: -25%;}
+  100% {opacity: 1;left: 100%;}
+}
+
+#cloud8 {
+  pointer-events: none;
+  position: absolute;
+  width: 40%;
+  height: 35%;
+  left: -40%;
+  top: 45%;
+  opacity: .4;
+  animation: move_cloud8 103s infinite linear;
+}
+
+@keyframes move_cloud8 {
+  0% {opacity: 0;left: -40%;}
+  3% {opacity: 1;left: -35%;}
+  100% {opacity: 1;left: 100%;}
+}
+
+#cloud9 {
+  pointer-events: none;
+  position: absolute;
+  width: 30%;
+  height: 20%;
+  left: -40%;
+  top: 60%;
+  opacity: .9;
+  animation: move_cloud9 94s infinite linear;
+}
+
+@keyframes move_cloud9 {
+  0% {opacity: 0;left: -50%;}
+  3% {opacity: 1;left: -45%;}
+  100% {opacity: 1;left: 100%;}
+}
+
+
+@media only screen and (max-width: 800px) {
+	#cloud1 {
+    pointer-events: none;
+    width: 55%;
+    height: 77%;
+  }
+  #cloud2 {
+    pointer-events: none;
+    width: 50%;
+    height: 70%;
+  }
+  #cloud3 {
+    pointer-events: none;
+    width: 56%;
+    height: 66%;
+  }
+  #cloud4 {
+    pointer-events: none;
+    width: 55%;
+    height: 77%;
+  }
+  #cloud5{
+    pointer-events: none;
+    width: 40%;
+    height: 50%;
+  }
+  #cloud6 {
+    pointer-events: none;
+    width: 60%;
+    height: 50%;
+  }
+  #cloud7 {
+    pointer-events: none;
+    width: 60%;
+    height: 50%;
+  }
+  #cloud8 {
+    pointer-events: none;
+    width: 60%;
+    height: 55%;
+  }
+  #cloud9 {
+    pointer-events: none;
+    width: 50%;
+  height: 40%;
+  }
+}
