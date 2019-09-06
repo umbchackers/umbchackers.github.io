@@ -46,6 +46,12 @@
   text-align: center;
 }
 /*Sponsor Logo specifications*/
+.fdmLogo{
+  max-width: 200px;
+}
+.northropLogo{
+  max-width: 400px;
+}
 .TRoweLogo {
     max-width: 500px;
   }
@@ -53,7 +59,7 @@
     max-width: 240px;
   }
 .BoozLogo {
-  max-width: 330px;
+  max-width: 500px;
 }
 .leidosLogo {
     left: 10px;
@@ -69,6 +75,9 @@
   max-width: 270px;
 }
 .aplLogo {
+  max-width: 270px;
+}
+.generalLogo {
   max-width: 270px;
 }
 .freedomLogo {
@@ -96,30 +105,68 @@
   max-width: 180px;
 }
 .intelliforceLogo {
-  max-width: 250px; 
+  max-width: 250px;
 }
 @media only screen and (min-width: 800px) {
+  .northropPos {
+    display: block;
+
+    left: 250px;
+    width: 50%;
+  }
+  .generalPos {
+    bottom: 30px;
+  }
+  .stickermulePos{
+    bottom: 30px;
+  }
+  .jetbrainsPos{
+    bottom: 20px;
+  }
+  .wellerPos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+  }
+  .nsaPos{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+  }
+  .freedomPos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .ltsPos {
+    bottom: 50px;
+    left: 150px;
+  }
+  .boozallenPos {
+    left: 220px;
+    top: 10px;
+  }
   .TRowePos {
-    left: 240px;
+    left: -50px;
   }
   .leidosPos {
     left: 20px;
+    bottom: 30px;
   }
   .jpMorgonPos {
     top: 40px;
   }
-  .cseeLogo {
-    max-width: 200px;
-  }
-  .coeitPos {
-    top: 20px;
-  }
+
   .minerKaschLogo {
     max-width: 300px;
   }
   .intelliforcePos {
   bottom: 80px;
-  left: 20px;
+  left: 180px;
   }
   .twoRow {
     left: 100px;
@@ -132,5 +179,17 @@
 @media only screen and (max-width: 800px) {
   .TRoweLogo {
     max-width: 300px !important;
+  }
+  .BoozLogo {
+    max-width: 350px !important;
+  }
+  .northropLogo{
+    max-width: 250px !important;
+  }
+  .aplPos{
+    margin-top: 30px;
+  }
+  .gitPos{
+    margin-top: 30px;
   }
 }
