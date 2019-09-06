@@ -60,10 +60,10 @@ html {
 
 @media only screen and (max-width: 800px) {
     #text-logo {
-    border-top: 100px;
-    width: 300px;
-    height: auto;
-    position: center;
+      margin-top: 100px;
+      width: 300px;
+      height: auto;
+      position: center;
   }
 }
 
