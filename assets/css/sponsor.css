@@ -59,7 +59,7 @@
     max-width: 240px;
   }
 .BoozLogo {
-  max-width: 540px;
+  max-width: 500px;
 }
 .leidosLogo {
     left: 10px;
@@ -110,8 +110,8 @@
 @media only screen and (min-width: 800px) {
   .northropPos {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+    left: 250px;
     width: 50%;
   }
   .generalPos {
@@ -147,11 +147,11 @@
     left: 150px;
   }
   .boozallenPos {
-    left: 250px;
+    left: 220px;
     top: 10px;
   }
   .TRowePos {
-    left: 20px;
+    left: -50px;
   }
   .leidosPos {
     left: 20px;
@@ -185,5 +185,11 @@
   }
   .northropLogo{
     max-width: 250px !important;
+  }
+  .aplPos{
+    margin-top: 30px;
+  }
+  .gitPos{
+    margin-top: 30px;
   }
 }
