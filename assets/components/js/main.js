@@ -5,7 +5,7 @@ $(document).ready(function() {
   easterEgg.load("https://hackumbc.org/space-hackers");
 
 // Set the date we're counting down to
-var countDownDate = new Date("Aug 30, 2019 11:30:00").getTime();
+var countDownDate = new Date("Sept 29, 2019 11:30:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function() {
     // Get todays date and time
@@ -108,7 +108,7 @@ $("#faqTab").on("click", function() {
   $(window).scroll(function() {
     //ABOUT tab highlighting
     // 1200 500
-    if ($(this).scrollTop() < 1200 && $(this).scrollTop() > 500) {
+    if ($(this).scrollTop() < 2500 && $(this).scrollTop() > 500) {
       $("#aboutTab").focus();
       $("#aboutTab").addClass("active");
       $
@@ -119,7 +119,7 @@ $("#faqTab").on("click", function() {
     }
     //FAQ tab highlighting
     // 2750 1200
-    if ($(this).scrollTop() < 2500 && $(this).scrollTop() > 1200) {
+    if ($(this).scrollTop() < 3000 && $(this).scrollTop() > 2500) {
       $("#faqTab").focus();
       $("#faqTab").addClass("active");
       $("#liveButton").css("display", "none");
@@ -130,7 +130,7 @@ $("#faqTab").on("click", function() {
     }
     //SPONSORS tab highlighting
     // 4200 2750
-    if ($(this).scrollTop() < 4200 && $(this).scrollTop() > 2500) {
+    if ($(this).scrollTop() < 4200 && $(this).scrollTop() > 3000) {
       $("#sponsorsTab").focus();
       $("#sponsorsTab").addClass("active");
     }
