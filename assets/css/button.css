@@ -22,6 +22,15 @@ buttons
   margin-bottom: 50px;
 }
 
+#header-location {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
 #header-apply {
   z-index: 11;
   margin: 0 !important;
