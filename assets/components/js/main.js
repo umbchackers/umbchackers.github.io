@@ -4,6 +4,10 @@ $(document).ready(function() {
   var easterEgg = new Konami();
   easterEgg.load("https://hackumbc.org/space-hackers");
 
+  if (checkMobile() == false) {
+    $('#logo').attr('href', "https://hackumbc.org/space-hackers");
+  }
+
 // Set the date we're counting down to
 var countDownDate = new Date("Sept 29, 2019 11:30:00").getTime();
 // Update the count down every 1 second
