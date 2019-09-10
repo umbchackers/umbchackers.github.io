@@ -139,16 +139,28 @@
     width: 33%;
   }
   .nsaPos{
-    bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    bottom: 25px;
+    right: 60px;
   }
   .freedomPos{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 66%;
+    top: 15px;
+    right: 60px;
   }
   .ltsPos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
     bottom: 40px;
+    left: 60px;
   }
   .boozallenPos {
     left: 220px;
@@ -176,6 +188,11 @@
     left: 100px;
   }
   .twoRowWolfram {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    left: 60px;
   }
 
 }
