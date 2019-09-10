@@ -69,7 +69,7 @@
   max-width: 170px;
 }
 .nsaLogo {
-    max-width: 400px;
+    max-width: 250px;
   }
 .clearLogo {
   max-width: 270px;
@@ -96,13 +96,13 @@
   max-width: 150px;
 }
 .wolframLogo {
-  max-width: 240px;
+  max-width: 250px;
 }
 .alexBrownLogo {
   max-width: 120px;
 }
 .ltsLogo {
-  max-width: 180px;
+  max-width: 160px;
 }
 .intelliforceLogo {
   max-width: 250px;
@@ -114,11 +114,20 @@
     left: 250px;
     width: 50%;
   }
+  .coeitPos{
+    top: 20px;
+  }
+  .alexBrownPos{
+    top: 10px;
+  }
   .generalPos {
     bottom: 30px;
   }
   .stickermulePos{
     bottom: 30px;
+  }
+  .cipherPos{
+    top: 20px;
   }
   .jetbrainsPos{
     bottom: 20px;
@@ -130,7 +139,7 @@
     width: 33%;
   }
   .nsaPos{
-    bottom: 40px;
+    bottom: 30px;
   }
   .freedomPos{
     display: block;
