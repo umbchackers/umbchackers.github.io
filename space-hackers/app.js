@@ -220,7 +220,9 @@ function paintLevelTwo() {
         // Check if the laser has hit boss and he loses health otherwise he goes away
         if (detectOverlap(laser, boss)) {
             // enemy.parentNode.removeChild(enemy);
-            BOSS_HEALTH -= 25;
+            if (BOSS_HEALTH > 0) {
+                BOSS_HEALTH -= 25;
+            }
             laser.parentNode.removeChild(laser);
             //if Boss is put of health Boss dies and GameOver is called
             if (BOSS_HEALTH == 0) {
