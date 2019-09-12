@@ -88,6 +88,8 @@ buttons
   background-position: center;
   border: 2px white solid;
   padding: 20px 50px;
+  padding-left: 70px;
+  padding-right: 70px;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
@@ -168,12 +170,16 @@ buttons
 @media only screen and (max-width: 800px) {
   #header-volunteer {
     font-size: 13px;
-    padding: 20px 45px;
+    padding: 20px 40px;
+    padding-left: 76px;
+    padding-right: 76px;
   }
 
   #header-mentor {
     font-size: 12px;
-    padding: 20px 42px;
+    padding: 20px 36px;
+    padding-left: 59px;
+    padding-right: 59px;
   }
 
 }
