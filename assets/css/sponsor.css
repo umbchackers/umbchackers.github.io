@@ -96,7 +96,7 @@
   max-width: 150px;
 }
 .wolframLogo {
-  max-width: 250px;
+  max-width: 180px;
 }
 .alexBrownLogo {
   max-width: 120px;
@@ -151,7 +151,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 66%;
-    top: 15px;
+    top: 30px;
     right: 60px;
   }
   .ltsPos {
@@ -164,7 +164,7 @@
   }
   .boozallenPos {
     left: 220px;
-    top: 10px;
+    top: 15px;
   }
   .TRowePos {
     left: -50px;
@@ -193,6 +193,7 @@
     margin-right: auto;
     width: 33%;
     left: 60px;
+    bottom: 35px;
   }
 
 }
@@ -201,7 +202,7 @@
     max-width: 300px !important;
   }
   .BoozLogo {
-    max-width: 350px !important;
+    max-width: 330px !important;
   }
   .northropLogo{
     max-width: 250px !important;
