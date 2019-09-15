@@ -29,6 +29,14 @@ buttons
   letter-spacing: 5px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+}
+
+#header-location:hover {
+  color: #DBBA56;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
 }
 
 #header-apply {
