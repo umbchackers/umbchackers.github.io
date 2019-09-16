@@ -22,7 +22,25 @@ buttons
   margin-bottom: 50px;
 }
 
+#header-location {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+}
+
+#header-location:hover {
+  color: #DBBA56;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+}
+
 #header-apply {
+  z-index: 11;
   margin: 0 !important;
   display: block;
   background: transparent;
@@ -38,6 +56,8 @@ buttons
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
   outline-style:none;
+  transform: scale(1);
+  transition: .2s background-color ease-out, .2s color ease-out, .2s transform ease-out;
 
 }
 
@@ -50,6 +70,8 @@ buttons
   box-shadow:none;
   border-color:transparent;
   color: #343a40;
+  transform: scale(1.125);
+  transition: .2s background-color ease-out, .2s color ease-out, .2s transform ease-out;
 }
 #header-apply:active {
   background-color: #d6d6d6;
@@ -65,6 +87,7 @@ buttons
 }
 
 #header-volunteer {
+  z-index: 11;
   margin: 0 !important;
   margin-left: 20px !important;
   margin-bottom: 6px !important;
@@ -73,6 +96,8 @@ buttons
   background-position: center;
   border: 2px white solid;
   padding: 20px 50px;
+  padding-left: 70px;
+  padding-right: 70px;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
@@ -82,6 +107,8 @@ buttons
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
   outline-style:none;
+  transform: scale(1);
+  transition: .2s background-color ease-out, .2s color ease-out, .2s transform ease-out;
 }
 #header-volunteer:hover {
   background: white radial-gradient(circle, transparent 1%, #d6d6d6 1%) center/15000%;
@@ -92,6 +119,8 @@ buttons
   box-shadow:none;
   border-color:transparent;
   color: #343a40;
+  transform: scale(1.125);
+  transition: .2s background-color ease-out, .2s color ease-out, .2s transform ease-out;
 }
 #header-volunteer:active {
   background-color: #d6d6d6;
@@ -103,6 +132,7 @@ buttons
 }
 
 #header-mentor {
+  z-index: 11;
   margin: 0 !important;
   display: block;
   background: transparent;
@@ -118,6 +148,8 @@ buttons
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
   outline-style:none;
+  transform: scale(1);
+  transition: .2s background-color ease-out, .2s color ease-out, .2s transform ease-out;
 
 }
 
@@ -130,6 +162,8 @@ buttons
   box-shadow:none;
   border-color:transparent;
   color: #343a40;
+  transform: scale(1.125);
+  transition: .2s background-color ease-out, .2s color ease-out, .2s transform ease-out;
 }
 #header-mentor:active {
   background-color: #d6d6d6;
@@ -144,12 +178,16 @@ buttons
 @media only screen and (max-width: 800px) {
   #header-volunteer {
     font-size: 13px;
-    padding: 20px 45px;
+    padding: 20px 40px;
+    padding-left: 76px;
+    padding-right: 76px;
   }
 
   #header-mentor {
     font-size: 12px;
-    padding: 20px 42px;
+    padding: 20px 36px;
+    padding-left: 59px;
+    padding-right: 59px;
   }
 
 }

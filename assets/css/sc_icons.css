@@ -1,0 +1,68 @@
+icons for social media
+
+
+ /* Facebook */
+  .facebook {
+    z-index: 1 !important;
+    fill: #ECE5E5 !important;
+    position: relative;
+    transition: ease .2s;
+  }
+  .facebook:hover {
+    z-index: 1 !important;
+    fill: #696969 !important;
+    stroke: transparent;
+    stroke-width: 4px;
+    transition: ease .2s;
+  }
+
+  /* Twitter */
+  .twitter {
+    z-index: 1 !important;
+    position: relative;
+    fill: #ECE5E5 !important;
+    transition: ease .2s;
+  }
+  .twitter:hover {
+    z-index: 1 !important;
+    fill: #696969 !important;
+    stroke: transparent;
+    stroke-width: 10px;
+    transition: ease .2s;
+  }
+
+  /* Github */
+  .github {
+    z-index: 1 !important;
+    position: relative;
+    fill: #ECE5E5 !important;
+    transition: ease .2s;
+  }
+  .github:hover {
+    z-index: 1 !important;
+    fill: #696969 !important;
+    stroke: transparent;
+    stroke-width: 14px;
+    transition: ease .2s;
+  }
+  /* Instagram */
+  .instagram {
+    z-index: 1 !important;
+    position: relative;
+    fill: #ECE5E5 !important;
+    transition: ease .2s;
+  }
+  .instagram:hover {
+    z-index: 1 !important;
+    fill: #696969 !important;
+    stroke: transparent;
+    stroke-width: 20px;
+    transition: ease .2s;
+  }
+  .instagram1 {
+    z-index: 1 !important;
+    fill: #ECE5E5 !important;
+    position: relative;
+    pointer-events: none;
+    transition: ease .2s;
+  }

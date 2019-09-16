@@ -28,7 +28,7 @@ nav.navbar a.navbar-brand {
 
   #logo {
     position: relative;
-    left: 42%;
+    /*left: 5%;*/
     -webkit-transition: height 0.5s;
     -moz-transition: height 0.5s;
     transition: height 0.5s ease 0s;

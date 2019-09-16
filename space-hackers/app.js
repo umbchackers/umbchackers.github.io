@@ -10,7 +10,7 @@ var ENEMY_SPRITE_SRC = "img/enemy.png";
 var ENEMY_DIM = 30;
 var ENEMY_MOVE_INC = 55;
 
-var BOSS_SPRITE_SRC = "img/enemy-1.png";
+var BOSS_SPRITE_SRC = "img/bug.png";
 var BOSS_DIM = 100;
 var BOSS_MOVE_INC = 5;
 var BOSS_HEALTH = 500;
@@ -132,6 +132,7 @@ function createBoss(x,y) {
 
 //Called when Game is over
 function GameOver() {
+
     // Start at 20% width and height of screen
     var startX = WINDOW_WIDTH * .6;
     var startY = WINDOW_HEIGHT * .6;
@@ -219,12 +220,17 @@ function paintLevelTwo() {
         // Check if the laser has hit boss and he loses health otherwise he goes away
         if (detectOverlap(laser, boss)) {
             // enemy.parentNode.removeChild(enemy);
-            BOSS_HEALTH -= 25;
+            if (BOSS_HEALTH > 0) {
+                BOSS_HEALTH -= 25;
+            }
             laser.parentNode.removeChild(laser);
             //if Boss is put of health Boss dies and GameOver is called
             if (BOSS_HEALTH == 0) {
-                boss.parentNode.removeChild(boss);
-                GameOver();
+                // boss.parentNode.removeChild(boss);
+                boss.src = "img/debug.png";
+                setTimeout(function(){ boss.parentNode.removeChild(boss); }, 800);
+
+                GameOver();``
             }
             score += ENEMY_HIT_PTS;
             // UpdateLevel();

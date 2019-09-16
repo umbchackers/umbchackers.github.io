@@ -46,6 +46,12 @@
   text-align: center;
 }
 /*Sponsor Logo specifications*/
+.fdmLogo{
+  max-width: 200px;
+}
+.northropLogo{
+  max-width: 400px;
+}
 .TRoweLogo {
     max-width: 500px;
   }
@@ -53,7 +59,7 @@
     max-width: 240px;
   }
 .BoozLogo {
-  max-width: 330px;
+  max-width: 500px;
 }
 .leidosLogo {
     left: 10px;
@@ -63,12 +69,15 @@
   max-width: 170px;
 }
 .nsaLogo {
-    max-width: 400px;
+    max-width: 250px;
   }
 .clearLogo {
   max-width: 270px;
 }
 .aplLogo {
+  max-width: 270px;
+}
+.generalLogo {
   max-width: 270px;
 }
 .freedomLogo {
@@ -87,50 +96,155 @@
   max-width: 150px;
 }
 .wolframLogo {
-  max-width: 240px;
-}
-.alexBrownLogo {
-  max-width: 120px;
-}
-.ltsLogo {
   max-width: 180px;
 }
+.alexBrownLogo {
+  max-width: 130px;
+}
+.ltsLogo {
+  max-width: 160px;
+}
 .intelliforceLogo {
-  max-width: 250px; 
+  max-width: 250px;
+}
+.lyftLogo {
+  max-width: 170px;
 }
 @media only screen and (min-width: 800px) {
+  .northropPos {
+    display: block;
+
+    left: 250px;
+    width: 50%;
+  }
+  .lyftPos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    top: 20px;
+    right: 40px;
+  }
+  .cseePos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    left: 45px;
+  }
+  .coeitPos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    top: 20px;
+    right: 50px;
+  }
+  .alexBrownPos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    left: 40px;
+    top: 10px;
+  }
+  .generalPos {
+    bottom: 30px;
+  }
+  .stickermulePos{
+    bottom: 30px;
+  }
+  .cipherPos{
+    top: 20px;
+  }
+  .jetbrainsPos{
+    bottom: 20px;
+  }
+  .wellerPos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+  }
+  .nsaPos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    bottom: 25px;
+    right: 60px;
+  }
+  .freedomPos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    top: 30px;
+    right: 60px;
+  }
+  .ltsPos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    bottom: 40px;
+    left: 60px;
+  }
+  .boozallenPos {
+    left: 220px;
+    top: 15px;
+  }
   .TRowePos {
-    left: 240px;
+    left: -50px;
   }
   .leidosPos {
     left: 20px;
+    bottom: 30px;
   }
   .jpMorgonPos {
     top: 40px;
   }
-  .cseeLogo {
-    max-width: 200px;
-  }
-  .coeitPos {
-    top: 20px;
-  }
+
   .minerKaschLogo {
-    max-width: 300px;
+    max-width: 250px;
   }
   .intelliforcePos {
   bottom: 80px;
-  left: 20px;
+  left: 180px;
   }
   .twoRow {
     left: 100px;
   }
   .twoRowWolfram {
-    left: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    left: 60px;
+    bottom: 35px;
   }
 
 }
 @media only screen and (max-width: 800px) {
   .TRoweLogo {
     max-width: 300px !important;
+  }
+  .lyftLogo {
+    max-width: 140px !important;
+  }
+  .BoozLogo {
+    max-width: 330px !important;
+  }
+  .northropLogo{
+    max-width: 250px !important;
+  }
+  .lyftPos{
+    padding-top: 15px;
+  }
+  .aplPos{
+    margin-top: 30px;
+  }
+  .gitPos{
+    margin-top: 30px;
   }
 }
