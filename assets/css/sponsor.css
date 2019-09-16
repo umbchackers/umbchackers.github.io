@@ -99,13 +99,16 @@
   max-width: 180px;
 }
 .alexBrownLogo {
-  max-width: 120px;
+  max-width: 130px;
 }
 .ltsLogo {
   max-width: 160px;
 }
 .intelliforceLogo {
   max-width: 250px;
+}
+.lyftLogo {
+  max-width: 170px;
 }
 @media only screen and (min-width: 800px) {
   .northropPos {
@@ -114,10 +117,35 @@
     left: 250px;
     width: 50%;
   }
-  .coeitPos{
+  .lyftPos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
     top: 20px;
+    right: 40px;
+  }
+  .cseePos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    left: 45px;
+  }
+  .coeitPos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    top: 20px;
+    right: 50px;
   }
   .alexBrownPos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    left: 40px;
     top: 10px;
   }
   .generalPos {
@@ -178,7 +206,7 @@
   }
 
   .minerKaschLogo {
-    max-width: 300px;
+    max-width: 250px;
   }
   .intelliforcePos {
   bottom: 80px;
@@ -201,11 +229,17 @@
   .TRoweLogo {
     max-width: 300px !important;
   }
+  .lyftLogo {
+    max-width: 140px !important;
+  }
   .BoozLogo {
     max-width: 330px !important;
   }
   .northropLogo{
     max-width: 250px !important;
+  }
+  .lyftPos{
+    padding-top: 15px;
   }
   .aplPos{
     margin-top: 30px;
