@@ -112,7 +112,7 @@ $("#faqTab").on("click", function() {
   $(window).scroll(function() {
     //ABOUT tab highlighting
     // 1200 500
-    if ($(this).scrollTop() < 2500 && $(this).scrollTop() > 500) {
+    if ($(this).scrollTop() < 2200 && $(this).scrollTop() > 500) {
       $("#aboutTab").focus();
       $("#aboutTab").addClass("active");
       $
@@ -123,7 +123,7 @@ $("#faqTab").on("click", function() {
     }
     //FAQ tab highlighting
     // 2750 1200
-    if ($(this).scrollTop() < 3000 && $(this).scrollTop() > 2500) {
+    if ($(this).scrollTop() < 3000 && $(this).scrollTop() > 2200) {
       $("#faqTab").focus();
       $("#faqTab").addClass("active");
       $("#liveButton").css("display", "none");
