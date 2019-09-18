@@ -78,7 +78,9 @@
   max-width: 270px;
 }
 .generalLogo {
-  max-width: 270px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 400px;
 }
 .freedomLogo {
   max-width: 270px;
