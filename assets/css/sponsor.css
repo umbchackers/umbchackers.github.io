@@ -249,4 +249,7 @@
   .gitPos{
     margin-top: 30px;
   }
+  .generalLogo {
+    max-width: 330px;
+  }
 }
