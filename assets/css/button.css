@@ -138,7 +138,7 @@ buttons
   background: transparent;
   background-position: center;
   border: 2px white solid;
-  padding: 20px 40px; /*50px*/
+  padding: 20px 60px; /*50px*/
   color: white;
   text-transform: uppercase;
   font-weight: bold;
@@ -185,9 +185,9 @@ buttons
 
   #header-mentor {
     font-size: 12px;
-    padding: 20px 36px; 
-    padding-left: 47px; /*59px*/
-    padding-right: 47px;
+    padding: 20px 46px; 
+    padding-left: 69px; /*59px*/
+    padding-right: 69px;
   }
 
 }
