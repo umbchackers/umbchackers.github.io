@@ -4,38 +4,38 @@ $(document).ready(function() {
   var easterEgg = new Konami();
   easterEgg.load("https://hackumbc.org/space-hackers");
 
-  if (checkMobile() == false) {
-    $('#logo').attr('href', "https://hackumbc.org/space-hackers");
-  }
+  // if (checkMobile() == false) {
+  //   $('#logo').attr('href', "https://hackumbc.org/space-hackers");
+  // }
 
 // Set the date we're counting down to
-var countDownDate = new Date("Sept 29, 2019 13:00:00").getTime();
-// Update the count down every 1 second
-var x = setInterval(function() {
-    // Get todays date and time
-    var now = new Date().getTime(); 
-    // Find the distance between now and the count down date
-    var distance = countDownDate - now;
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    // Output the result in an element with id="demo"
-    if (days > 0){
-      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-      + minutes + "m " + seconds + "s ";
-    }
-    else if (days == 0) {
-      document.getElementById("demo").innerHTML = hours + "h "
-      + minutes + "m " + seconds + "s ";
-    }   
-    // If the count down is over, write some text 
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "Submit";
-    }
-}, 1000);
+// var countDownDate = new Date("Sept 29, 2019 13:00:00").getTime();
+// // Update the count down every 1 second
+// var x = setInterval(function() {
+//     // Get todays date and time
+//     var now = new Date().getTime(); 
+//     // Find the distance between now and the count down date
+//     var distance = countDownDate - now;
+//     // Time calculations for days, hours, minutes and seconds
+//     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+//     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+//     // Output the result in an element with id="demo"
+//     if (days > 0){
+//       document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+//       + minutes + "m " + seconds + "s ";
+//     }
+//     else if (days == 0) {
+//       document.getElementById("demo").innerHTML = hours + "h "
+//       + minutes + "m " + seconds + "s ";
+//     }   
+//     // If the count down is over, write some text 
+//     if (distance < 0) {
+//         clearInterval(x);
+//         document.getElementById("demo").innerHTML = "Submit";
+//     }
+// }, 1000);
 
 //Hide Live button on mobile when clicked
 $("#live").on("click", function() {
@@ -112,7 +112,7 @@ $("#faqTab").on("click", function() {
   $(window).scroll(function() {
     //ABOUT tab highlighting
     // 1200 500
-    if ($(this).scrollTop() < 2200 && $(this).scrollTop() > 500) {
+    if ($(this).scrollTop() < 1200 && $(this).scrollTop() > 500) {
       $("#aboutTab").focus();
       $("#aboutTab").addClass("active");
       $
@@ -123,7 +123,7 @@ $("#faqTab").on("click", function() {
     }
     //FAQ tab highlighting
     // 2750 1200
-    if ($(this).scrollTop() < 3000 && $(this).scrollTop() > 2200) {
+    if ($(this).scrollTop() < 2700 && $(this).scrollTop() > 1200) {
       $("#faqTab").focus();
       $("#faqTab").addClass("active");
       $("#liveButton").css("display", "none");
@@ -134,7 +134,7 @@ $("#faqTab").on("click", function() {
     }
     //SPONSORS tab highlighting
     // 4200 2750
-    if ($(this).scrollTop() < 4200 && $(this).scrollTop() > 3000) {
+    if ($(this).scrollTop() < 4000 && $(this).scrollTop() > 2700) {
       $("#sponsorsTab").focus();
       $("#sponsorsTab").addClass("active");
     }
@@ -144,7 +144,7 @@ $("#faqTab").on("click", function() {
     }
     //SOCIAL MEDIA tab highlighting
     // 4200
-    if ($(this).scrollTop() > 4200) {
+    if ($(this).scrollTop() > 4000) {
       $("#social-mediaTab").focus();
       $("#social-mediaTab").addClass("active");
     }
