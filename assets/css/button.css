@@ -19,7 +19,7 @@ buttons
   letter-spacing: 10px;
   text-transform: uppercase;
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #header-location {
@@ -43,11 +43,11 @@ buttons
   z-index: 11;
   margin: 0 !important;
   display: block;
-  background: transparent;
-  background-position: center;
+  background: white;
   border: 2px white solid;
   padding: 20px 54px;
-  color: white;
+  color: #2a2772;
+  border-radius: 4px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 3px;
@@ -58,7 +58,15 @@ buttons
   outline-style:none;
   transform: scale(1);
   transition: .2s background-color ease-out, .2s color ease-out, .2s transform ease-out;
+}
 
+#play {
+  background: white;
+  border: 2px white solid;
+  /* padding: 20px 54px; */
+  padding: .5em;
+  color: #2a2772;
+  border-radius: 4px;
 }
 
 #header-sign-in:hover {
