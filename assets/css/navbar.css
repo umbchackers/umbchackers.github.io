@@ -13,6 +13,22 @@ nav.navbar a.navbar-brand {
   text-transform: uppercase;
 }
 
+#text-logo {
+  padding-top: 60px;
+}
+/* fix padding under menu after resize */
+@media screen and (max-width: 767px) {
+  #text-logo { padding-top: calc(80px + 150px); }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #text-logo { padding-top: 110px; }
+}
+
+@media screen and (min-width: 992px) {
+  #text-logo { padding-top: 60px; }
+}
+
 @media only screen and (max-width: 700px) {
   .navbar {
     font-size: 30px;

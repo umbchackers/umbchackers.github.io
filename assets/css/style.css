@@ -61,10 +61,6 @@ html {
 
 
 @media only screen and (max-width: 800px) {
-  #text-logo {
-    margin-top: 30px;
-  }
-
   .parallax {
     /* Webkit (Safari/Chrome 10) */
     /*-webkit-gradient(linear, bottom, top, color-stop(45, #544178), color-stop(100, #d95115ce))*/
