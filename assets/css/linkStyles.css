@@ -64,8 +64,8 @@ body a.textLink:focus::after {
 
 .navbar .wrapper a:hover::before,
 .navbar .wrapper a:hover::after,
-.navbar .wrapper a:focus::before,
-.navbar .wrapper a:focus::after {
+.navbar .wrapper a.active::before,
+.navbar .wrapper a.active::after {
   opacity: 1;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);

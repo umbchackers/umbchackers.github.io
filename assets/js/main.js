@@ -1,83 +1,78 @@
-// //called when page DONE loading
-// $(document).ready(function () {
-//     // Set the date we're counting down to
-//     // var countDownDate = new Date("Sept 29, 2019 13:00:00").getTime();
-//     // // Update the count down every 1 second
-//     // var x = setInterval(function() {
-//     //     // Get todays date and time
-//     //     var now = new Date().getTime(); 
-//     //     // Find the distance between now and the count down date
-//     //     var distance = countDownDate - now;
-//     //     // Time calculations for days, hours, minutes and seconds
-//     //     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-//     //     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-//     //     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-//     //     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-//     //     // Output the result in an element with id="demo"
-//     //     if (days > 0){
-//     //       document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-//     //       + minutes + "m " + seconds + "s ";
-//     //     }
-//     //     else if (days == 0) {
-//     //       document.getElementById("demo").innerHTML = hours + "h "
-//     //       + minutes + "m " + seconds + "s ";
-//     //     }   
-//     //     // If the count down is over, write some text 
-//     //     if (distance < 0) {
-//     //         clearInterval(x);
-//     //         document.getElementById("demo").innerHTML = "Submit";
-//     //     }
-//     // }, 1000);
-
-//     //Hide Live button on mobile when clicked
-//     $("#live").on("click", function () {
-//         $("#mobileLiveButton").css("display", "none");
-//     });
-//     $("#faqTab").on("click", function () {
-//         $("#liveButton").css("display", "none");
-//     });
-//     // Smooth Scrolling
-//     $(document).on("click", 'a[href^="#"]', function (event) {
-//         // Prevent default link clicking behavior
-//         event.preventDefault();
-
-//         // Hide full screen overlay menu
-//         $("#fullscreen_menu").css("height", "0%");
-
-//         // Animate the scrolling
-//         $("html, body").animate(
-//             {
-//                 scrollTop: $($.attr(this, "href")).offset().top
-//             },
-//             500
-//         );
-//     });
-
-//     // Show menu on burger click
-//     $("#burger").on("click", function () {
-//         if ($("#fullscreen_menu").css("height") < "100") {
-//             $("#fullscreen_menu").css("height", "100%");
-//         } else {
-//             $("#fullscreen_menu").css("height", "0%");
-//         }
-//     });
-
-//     // Close menu on x click
-//     $("#closebtn").on("click", function () {
-//         $("#fullscreen_menu").css("height", "0%");
-//     });
-
-//     // Chevron Toggle on FAQ Section
-//     function toggleChevron(e) {
-//         $(e.target)
-//             .prev(".card-header")
-//             .find("i.fa")
-//             .toggleClass("rotate-down rotate-up");
+// const sections = {
+//     about: {
+//         el: document.getElementById("about"),
+//         rect: document.getElementById("about").getBoundingClientRect()
+//     },
+//     faq: {
+//         el: document.getElementById("faq"),
+//         rect: document.getElementById("faq").getBoundingClientRect()
+//     },
+//     sponsors: {
+//         el: document.getElementById("sponsors"),
+//         rect: document.getElementById("sponsors").getBoundingClientRect()
+//     },
+//     socialMedia: {
+//         el: document.getElementById("socialMedia"),
+//         rect: document.getElementById("socialMedia").getBoundingClientRect()
 //     }
+// };
 
-//     // Toggle Chevrons
-//     $("#accordion").on("hide.bs.collapse", toggleChevron);
-//     $("#accordion").on("show.bs.collapse", toggleChevron);
+// window.onscroll = e => {
+//     const elementInView = Object.values(sections)
+//         .find(section => 
+//             section.rect.y <= window.scrollY && section.rect.y + section.rect.height > window.scrollY
+//         );
+
+//     if (elementInView) 
+//     {
+//         const id = elementInView.el.id;
+
+//         document.querySelector(`nav a.active`)?.classList.remove("active");
+//         document.querySelector(`nav a[href="#${id}"]`).classList.add("active");
+//     }
+//     else
+//     {
+//         document.querySelector(`nav a.active`)?.classList.remove("active");
+//     }
+// }
+
+// window.onresize = () => {
+
+// }
+
+// bind click listeners to mobile menu open and close buttons
+const mobileMenu = document.getElementById("fullscreen_menu");
+document.getElementById("burger").onclick = () => mobileMenu.style.height = "100%";
+document.getElementById("closebtn").onclick = () => mobileMenu.style.height = "0%";
+
+// Smooth Scrolling
+$(document).on("click", 'a[href^="#"]', function (event) {
+    // Prevent default link clicking behavior
+    event.preventDefault();
+
+    // Hide full screen overlay menu
+    $("#fullscreen_menu").css("height", "0%");
+
+    // Animate the scrolling
+    $("html, body").animate(
+        {
+            scrollTop: $($.attr(this, "href")).offset().top
+        },
+        500
+    );
+});
+
+// Chevron Toggle on FAQ Section
+function toggleChevron(e) {
+    $(e.target)
+        .prev(".card-header")
+        .find("i.fa")
+        .toggleClass("rotate-down rotate-up");
+}
+
+// Toggle Chevrons
+$("#accordion").on("hide.bs.collapse", toggleChevron);
+$("#accordion").on("show.bs.collapse", toggleChevron);
 
 //     // Transparent Navbar
 //     $(window).scroll(function () {
@@ -195,13 +190,4 @@
 //         return true;
 //     else
 //         return false;
-// }
-
-// // Burger
-// function changeBurger(x) {
-//     var burger = document.getElementById("burger");
-//     if (x.classList.contains("change"))
-//         x.classList.remove("change");
-//     else
-//         x.classList.add("change");
 // }
