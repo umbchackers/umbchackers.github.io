@@ -52,13 +52,10 @@ html {
   font-size: 0.65em;
 }
 
-
-
 #text-logo {
   z-index: 11;
+  width: 60%;
 }
-
-
 
 @media only screen and (max-width: 800px) {
   .parallax {
