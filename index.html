@@ -244,7 +244,7 @@
                     <h2>Tracks</h2>
                     <div class="row mb-3">
                         <div class="col-sm-4 text-center">
-                            <img src="assets/img/wifi.png" width="100px">
+                            <img src="assets/img/wifi.png" width="150px">
                             <h4>Connection</h4>
 
                             <span>
@@ -253,7 +253,7 @@
                         </div>
 
                         <div class="col-sm-4 text-center">
-                            <img src="assets/img/healthcare.png" width="100px">
+                            <img src="assets/img/healthcare.png" width="150px">
                             <h4>Healthcare</h4>
 
                             <span>
@@ -262,7 +262,7 @@
                         </div>
 
                         <div class="col-sm-4 text-center">
-                            <img src="assets/img/education.png" width="100px">
+                            <img src="assets/img/education.png" width="150px">
                             <h4>Education</h4>
 
                             <span>
@@ -273,6 +273,7 @@
 
                     <div class="row mb-3">
                         <div class="col-sm-4 text-center">
+                            <img src="assets/img/Dog_General.png" width="150px">
                             <h4>General</h4>
 
                             <span>
@@ -281,6 +282,7 @@
                         </div>
 
                         <div class="col-sm-4 text-center">
+                            <img src="assets/img/Dog_Equity.png" width="150px">
                             <h4>Equity</h4>
 
                             <span>
@@ -289,6 +291,7 @@
                         </div>
 
                         <div class="col-sm-4 text-center">
+                            <img src="assets/img/Dog_Hobbies.png" width="150px">
                             <h4>Hobbies</h4>
 
                             <span>
@@ -802,6 +805,30 @@
             .row.sponsors {
                 text-align: center;
             }
+
+            .col.align-self-center {
+                margin-bottom: 10px;
+            }
+
+            .tier-header::before {
+                right: .5em;
+                margin-left: -50%;
+            }
+
+            .tier-header::after {
+                left: .5em;
+                margin-right: -50%;
+            }
+
+            .tier-header::before, .tier-header::after {
+                background-color: black;
+                content: "";
+                display: inline-block;
+                height: 3px;
+                position: relative;
+                vertical-align: middle;
+                width: 50%;
+            }
         </style>
 
         <!-- Sponsors Section -->
@@ -818,6 +845,7 @@
             <!-- <div class="row sponsors d-flex"></div> -->
 
             <!-- Tier 2 -->
+            <h3 class="tier-header text-center" style="font-family: Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;">32-bit</h3>
             <div class="row sponsors d-flex">
                 <div class="col align-self-center">
                     <a href="https://www.northropgrumman.com/" target="_blank">
@@ -830,10 +858,17 @@
                         <img class="img-fluid" src="assets/img/sponsors/general-dynamics.png">
                     </a>
                 </div>
+
+                <div class="col align-self-center">
+                    <a href="https://www.troweprice.com/corporate/en/home.html" target="_blank">
+                        <img class="img-fluid" src="assets/img/sponsors/TRowe.png">
+                    </a>
+                </div>
             </div>
 
             <!-- Tier 3 -->
-            <div class="row sponsors">
+            <h3 class="tier-header text-center" style="font-family: Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;">16-bit</h3>
+            <div class="row sponsors d-flex">
                 <div class="col align-self-center">
                     <a href="http://clearedgeit.com/" target="_blank">
                         <img class="img-fluid" src="assets/img/sponsors/clear-edge.png">
@@ -842,7 +877,7 @@
 
                 <div class="col align-self-center">
                     <a href="https://entrepreneurship.umbc.edu/" target="_blank">
-                        <img class="img-fluid" src="assets/img/sponsors/alex-brown.png">
+                        <img class="img-fluid" src="assets/img/sponsors/alex_brown_text.jpg">
                     </a>
                 </div>
 
@@ -860,6 +895,7 @@
             </div>
 
             <!-- Tier 4 -->
+            <h3 class="tier-header text-center" style="font-family: Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;">8-bit</h3>
             <div class="row sponsors d-flex">
                 <div class="col align-self-center">
                     <a href="https://mlh.io" target="_blank">
