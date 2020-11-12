@@ -13,6 +13,19 @@
         <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
             crossorigin="anonymous">-->
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.min.css">
+        <style>
+            #calendar  {
+                background: white;
+                border-radius: 4px;
+            }
+
+            .fc-col-header th, .fc-scroller, .fc-timegrid-slot {
+                background: white;
+                color: black;
+            }
+        </style>
+
         <!-- Add icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -300,9 +313,11 @@
                         </div>
                     </div>
 
-                    <!-- schedule for live site-->
-                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=aGFja3VtYmNAZ21haWwuY29t&amp;color=%23F6BF26&amp;showTitle=1&amp;showNav=1&amp;showDate=0&amp;showPrint=0&amp;mode=AGENDA&amp;showCalendars=0&amp;showTabs=1&amp;title=hackUMBC%202020" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                    <h3 class="mb-0">hackUMBC 2020 Event Calendar</h3>
+                    <span>Due to long event titles, please click on the event cell if you wish to view the full title.</span>
+                    <p class="mb-1" aria-hidden></p>
                     
+                    <div id="calendar"></div>
                 </div>
             </div>
         </section>
@@ -797,5 +812,53 @@
         <!--Bootstrap-->
         <script src="./assets/js/bootstrap.min.js"></script>
         <script src="./assets/js/main.js "></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.min.js"></script>
+        <script>
+            const calendarEl = document.getElementById("calendar");
+
+            let calendar = new FullCalendar.Calendar(calendarEl, {
+                // our API key and calendar ID
+                googleCalendarApiKey: "AIzaSyC4GyBG89JQOunfSszbnOIWJwlgIV42iH8",
+                events: {
+                    googleCalendarId: "hackumbc@gmail.com"            
+                },
+                eventColor: "#fdb515",
+                // start the calendar on the day of hackathon start
+                initialDate: new Date("11/13/2020"),
+                // create a custom view to only show hackathon days and use that view
+                views: {
+                    hackathon: {
+                      type: "timeGrid",
+                      duration: { days: 3 },
+                    }
+                },
+                initialView: "hackathon",
+                // get rid of the header toolbar stuff that would let the user navigate
+                headerToolbar: { 
+                    left:  "",
+                    center: "",
+                    right:  ""
+                },
+                allDaySlot: false,
+                eventDidMount: (info) => {
+                    // create tooltip with the full title of the event
+                    $(info.el).tooltip({ 
+                        title: info.event.title, 
+                        trigger: "click",
+                    });      
+                },
+                // stop clicking from going to google calendar event
+                eventClick: (info) => {
+                    // prevent full calendar from taking over
+                    info.jsEvent.preventDefault();
+
+                    // auto-close tooltip after one second
+                    setTimeout(() => $(info.el).tooltip("hide"), 1000);
+                }
+            });
+
+            calendar.render();
+        </script>
     </body>
 </html>
