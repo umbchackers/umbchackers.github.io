@@ -12,6 +12,17 @@ buttons
   margin-bottom: 0;
 }
 
+/*This is for the coming soon! in sponsor section*/
+#header-sponsor {
+  text-align: center;
+  color: #404040;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+
 #header-year {
   text-align: center;
   color: white;
