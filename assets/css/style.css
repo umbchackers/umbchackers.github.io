@@ -61,7 +61,7 @@ html {
   .parallax {
     /* Webkit (Safari/Chrome 10) */
     /*-webkit-gradient(linear, bottom, top, color-stop(45, #544178), color-stop(100, #d95115ce))*/
-    background-image: url("../img/8bit_bg.png");
+    background-image: url("../img/halloween-theme.png");
 
     /*linear-gradient(top, #544178 45%, #d95115ce 100%),*/
     background-repeat: no-repeat;
