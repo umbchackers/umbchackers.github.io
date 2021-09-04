@@ -145,7 +145,15 @@
                         <button id="header-sign-in" style="margin-bottom: 6px !important; margin-left: 20px !important; display: inline-block !important;">
                             Register Now!
                         </button>
+                      
                     </a>
+
+                    <!-- <a href="https://hackumbc.typeform.com/to/loWpGwXF" target="_blank">
+
+                        <button id="header-sign-in" style="margin-bottom: 6px !important; margin-left: 20px !important; display: inline-block !important;">
+                            Register Now!
+                        </button>
+                    </a> -->
 
                     <!-- <a href="https://register.hackumbc.com/" target="_blank">
                         <button id="header-sign-in" style="margin-bottom: 6px !important; margin-left: 20px !important; display: inline-block !important;">
@@ -166,7 +174,7 @@
                     <button id="header-mentor" style="margin-bottom: 6px !important; margin-left: 20px !important; display: inline-block !important;">
                         Slack</button>
                     </a> -->
-                    
+
                     <!-- style="padding-left: 67px; padding-right: 67px !important;" -->
                     <!--<a href="https://eng.hackumbc.org/" target="_blank">
                     <button id="header-apply" style= "margin-left: 70px !important;">Map</button>
@@ -190,7 +198,7 @@
                                         c-1.2,0-1.4,0.6-1.4,1.4v1.8h2.8l-0.4,2.8h-2.4V24h-2.9v-7.3h-2.5v-2.8h2.5v-2.1C14.3,9.3,15.8,8,18,8c1,0,1.9,0.1,2.2,0.1V10.7z"/>
                                         </svg>
                                     </a>
-                                    
+
                                     <!-- Twitter svg -->
                                     <a href="https://www.twitter.com/hackumbc" target= "_blank" >
                                         <svg version="1.1" x="0px" y="0px"
@@ -216,7 +224,7 @@
                                             h11.5c0.2,0,0.4-0.2,0.4-0.4v-7h-1.5C20.8,15.1,20.9,15.6,20.9,16z"/>
                                         </svg>
                                     </a>
-                                    
+
                                     <!-- Github svg -->
                                     <a href="https://github.com/umbchackers" target= "_blank">
                                         <svg version="1.1" id="Layer_1" x="0px" y="0px"
@@ -337,13 +345,13 @@
                         
                     <span>Due to long event titles, please click on the event cell if you wish to view the full title.</span>
                     <p class="mb-1" aria-hidden></p>
-                    
+
                     <div id="calendar"></div> -->
 
                     <!-- Commenting out Calander for now.
 
-                
-                    <iframe src="https://teamup.com/kszf8te1hgogtbaqy8?date=2020-11-13&view=md&showHeader=0&showProfileAndInfo=0&showSidepanel=1&disableSidepanel=0&showViewSelector=0&weekStartDay=fr&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1" 
+
+                    <iframe src="https://teamup.com/kszf8te1hgogtbaqy8?date=2020-11-13&view=md&showHeader=0&showProfileAndInfo=0&showSidepanel=1&disableSidepanel=0&showViewSelector=0&weekStartDay=fr&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1"
                         width="100%" height="800px" style="border: 1px solid #cccccc" frameborder="0"></iframe>
 
                             -->
@@ -355,7 +363,7 @@
                        <h1 id="header-date" class="mt-4">
 
                        Coming Soon!
-                   
+
                 </h1>
 
 
@@ -366,7 +374,7 @@
                      </div>
 
 
-                    
+
 
 
                 </div>
@@ -381,7 +389,7 @@
                     FAQ
                     <span class="bracket-color">}</span>
                 </h1>
-                
+
                 <div class="container">
                     <div id="accordion">
                         <div class="card">
@@ -852,7 +860,7 @@
                         <img class="img-fluid" src="assets/img/sponsors/wolfram-language.png">
                     </a>
                 </div>
-            
+
                 <div class="col align-self-center">
                     <a href="https://www.ciphertechsolutions.com/" target="_blank">
                         <img class="img-fluid" src="assets/img/sponsors/cipher-tech.png">
@@ -912,7 +920,7 @@
                 // our API key and calendar ID
                 googleCalendarApiKey: "AIzaSyC4GyBG89JQOunfSszbnOIWJwlgIV42iH8",
                 events: {
-                    googleCalendarId: "hackumbc@gmail.com"            
+                    googleCalendarId: "hackumbc@gmail.com"
                 },
                 eventColor: "#fdb515",
                 // start the calendar on the day of hackathon start
@@ -926,7 +934,7 @@
                 },
                 initialView: "hackathon",
                 // get rid of the header toolbar stuff that would let the user navigate
-                headerToolbar: { 
+                headerToolbar: {
                     left:  "",
                     center: "",
                     right:  ""
@@ -934,10 +942,10 @@
                 allDaySlot: false,
                 eventDidMount: (info) => {
                     // create tooltip with the full title of the event
-                    $(info.el).tooltip({ 
-                        title: info.event.title, 
+                    $(info.el).tooltip({
+                        title: info.event.title,
                         trigger: "click",
-                    });      
+                    });
                 },
                 // stop clicking from going to google calendar event
                 eventClick: (info) => {
