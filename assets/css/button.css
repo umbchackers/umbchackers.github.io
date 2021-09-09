@@ -141,6 +141,7 @@ buttons
 }
 
 #header-volunteer {
+  top: 20px;
   z-index: 11;
   margin: 0 !important;
   margin-left: 20px !important;
@@ -236,6 +237,7 @@ buttons
     padding: 20px 40px;
     padding-left: 59px;
     padding-right: 59px;
+    float: right
   }
 
   #header-volunteer {
@@ -243,6 +245,7 @@ buttons
     padding: 20px 40px;
     padding-left: 76px;
     padding-right: 76px;
+    float: left
   }
 
   #header-mentor {
