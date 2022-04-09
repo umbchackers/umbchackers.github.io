@@ -1,14 +1,14 @@
 <!doctype html>
-    <html lang="en">
+<html lang="en">
 
-    <head>
-        <title>hackUMBC 2021</title>
+<head>
+    <title>hackUMBC 2021</title>
 
 
-        <!-- Tag for Google Analytics-->
-       <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97432932-1"></script>
-        <script>
+    <!-- Tag for Google Analytics-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97432932-1"></script>
+    <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
@@ -19,18 +19,18 @@
 
 
 
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
             crossorigin="anonymous">-->
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.min.css">
-        <style>
-            #calendar  {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.min.css">
+    <style>
+        #calendar  {
                 background: white;
                 border-radius: 4px;
             }
@@ -41,73 +41,74 @@
             }
         </style>
 
-        <!-- Add icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-        <!-- Favicons -->
-        <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/favicons/">
-        <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/favicons/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/favicons/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicons/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/favicons/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicons/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/favicons/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/favicons/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicons/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="./assets/img/favicons/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/favicons/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicons/favicon-16x16.png">
-    </head>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/favicons/">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicons/favicon-16x16.png">
+</head>
 
-    <body>
-        <div class="container">
-            <nav class="navbar navbar-default"></nav>
-            <nav class="navbar fixed-top navbar-dark" id="myNav">
-                <div class="wrapper">
-                    <a id="aboutTab" class="navbar-brand" href="#about">about</a>
-                    <a id="faqTab" class="navbar-brand" href="#faq"><!-- <blink><img id="liveButton" src="./assets/img/live.png" style="width:15px;height:auto;"></blink> --> faq</a>
-                </div>
-
-                <!--  <a class="recordButton" href="#faq" id="live"><blink><img id="mobileLiveButton" src="./assets/img/live.png" style="width:15px;"></blink></a> -->
-
-                <a id="logo" class="navbar-brand" href="#top">
-                    <img src="./assets/img/halloween-dog-logo.png" style="width:60px; height:50px;"/>
-                </a>
-
-                <div class="wrapper">
-                    <a id="sponsorsTab" class="navbar-brand" href="#sponsors">sponsors</a>
-                    <a id="social-mediaTab" class="navbar-brand" href="#socialMedia">social media</a>
-                </div>
-
-                <a id="burger">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </nav>
-        </div>
-
-        <div id="fullscreen_menu" class="overlay" style="z-index: 100">
-            <a href="javascript:void(0)" id="closebtn" class="closebtn" style="color: #fddf87">&times;</a>
-
-            <div class="overlay-content">
-                <a href="#about" onclick="changeBurger(myBurg)">about</a>
-                <a href="#faq" onclick="changeBurger(myBurg)">faq</a>
-                <a href="#sponsors" onclick="changeBurger(myBurg)">sponsors</a>
-                <a href="#socialMedia" onclick="changeBurger(myBurg)">social media</a>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default"></nav>
+        <nav class="navbar fixed-top navbar-dark" id="myNav">
+            <div class="wrapper">
+                <a id="aboutTab" class="navbar-brand" href="#about">about</a>
+                <a id="faqTab" class="navbar-brand" href="#faq">
+                    <!-- <blink><img id="liveButton" src="./assets/img/live.png" style="width:15px;height:auto;"></blink> --> faq</a>
             </div>
+
+            <!--  <a class="recordButton" href="#faq" id="live"><blink><img id="mobileLiveButton" src="./assets/img/live.png" style="width:15px;"></blink></a> -->
+
+            <a id="logo" class="navbar-brand" href="#top">
+                <img src="./assets/img/halloween-dog-logo.png" style="width:60px; height:50px;" />
+            </a>
+
+            <div class="wrapper">
+                <a id="sponsorsTab" class="navbar-brand" href="#sponsors">sponsors</a>
+                <a id="social-mediaTab" class="navbar-brand" href="#socialMedia">social media</a>
+            </div>
+
+            <a id="burger">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </div>
+
+    <div id="fullscreen_menu" class="overlay" style="z-index: 100">
+        <a href="javascript:void(0)" id="closebtn" class="closebtn" style="color: #fddf87">&times;</a>
+
+        <div class="overlay-content">
+            <a href="#about" onclick="changeBurger(myBurg)">about</a>
+            <a href="#faq" onclick="changeBurger(myBurg)">faq</a>
+            <a href="#sponsors" onclick="changeBurger(myBurg)">sponsors</a>
+            <a href="#socialMedia" onclick="changeBurger(myBurg)">social media</a>
         </div>
+    </div>
 
-        <!-- MLH Trust Badge 2022 -->
+    <!-- MLH Trust Badge 2022 -->
 
-        <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=black" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-black.svg" alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a>
+    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=black" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-black.svg" alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a>
 
-        <!-- Home Splash -->
-        <section class="parallax" id="top" style="position: relative; z-index: 2 !important;">
-            <!--wrapper-->
-            <!-- <div id="#clouds">
+    <!-- Home Splash -->
+    <section class="parallax" id="top" style="position: relative; z-index: 2 !important;">
+        <!--wrapper-->
+        <!-- <div id="#clouds">
                 <img src="./assets/img/clouds/SVG\Asset1.svg" id="cloud1"></img>
                 <img src="./assets/img/clouds/SVG\Asset2.svg" id="cloud2"></img>
                 <img src="./assets/img/clouds/SVG\Asset3.svg" id="cloud3"></img>
@@ -119,33 +120,31 @@
                 <img src="./assets/img/clouds/SVG\Asset9.svg" id="cloud9"></img>
             </div> -->
 
-            <div class="wrapper valign d-flex flex-column">
-                <!-- <img src="./assets/img/textLogo-white.svg" id="text-logo"> -->
-                <img src="./assets/img/hackUMBC-halloween-logo.png" id="text-logo" class="mr-auto ml-auto">
+        <div class="wrapper valign d-flex flex-column">
+            <!-- <img src="./assets/img/textLogo-white.svg" id="text-logo"> -->
+            <img src="./assets/img/hackUMBC-halloween-logo.png" id="text-logo" class="mr-auto ml-auto">
 
-                <h1 id="header-date" class="mt-4">
-                    October 29<sup>th</sup>-31<sup>st</sup>
-                </h1>
+            <h1 id="header-date" class="mt-4">
+                October 29<sup>th</sup>-31<sup>st</sup>
+            </h1>
 
-                <h5 id="header-year">
-                    2021
-                </h5>
+            <h5 id="header-year">
+                2021
+            </h5>
 
-                <!-- <a id="header-location" href="https://map.hackumbc.org/"> -->
-                <a id="header-location" href="javascript:void(0)">
-                    <h8 id="header-location" style="color: #dfbd3f">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        Worldwide, Online
-                    </h8>
-                </a>
-
-
+            <!-- <a id="header-location" href="https://map.hackumbc.org/"> -->
+            <a id="header-location" href="javascript:void(0)">
+                <h8 id="header-location" style="color: #dfbd3f">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    Worldwide, Online
+                </h8>
+            </a>
 
 
 
-  
 
-              
+
+
 
                 <div class="buttonBox">
                     <a href="https://forms.gle/ZFNd25dDpLu4ELFW8" target="_blank">
@@ -153,7 +152,14 @@
                             New Student Day Interest
                         </button>
 
-                    </a>
+
+            <div class="buttonBox">
+                <a href="https://forms.gle/vKYMaZKSw3ngeb4y6" target="_blank">
+                    <button id="header-sign-in" style="margin-bottom: 6px !important; margin-left: 20px !important; display: inline-block !important;">
+                        HackUMBC Priority Interest Fall 2022!
+                    </button>
+
+                </a>
 
 
                 <!--  
@@ -167,7 +173,7 @@
                     -->
 
 
-                    <!-- <a href="https://hackumbc.typeform.com/to/loWpGwXF" target="_blank">
+                <!-- <a href="https://hackumbc.typeform.com/to/loWpGwXF" target="_blank">
 
                         <button id="header-sign-in" style="margin-bottom: 6px !important; margin-left: 20px !important; display: inline-block !important;">
                             Register Now!
@@ -177,200 +183,196 @@
 
 
 
-                    <!-- style="display: flex;" -->
+                <!-- style="display: flex;" -->
 
-                   <!--  <a href="https://hackumbcfall2019.devpost.com/submissions" target="_blank">
+                <!--  <a href="https://hackumbcfall2019.devpost.com/submissions" target="_blank">
                     <button id="header-apply" style="margin-bottom: 6px !important; margin-left: 20px !important; display: inline-block !important;">
                         Winners</button>
                     </a> -->
 
 
-                   <!--   <a href="https://map.hackumbc.org/">
+                <!--   <a href="https://map.hackumbc.org/">
                     <button id="header-volunteer">
                         Map</button>
                     </a> -->
 
-                    <!--  <a href="https://join.slack.com/t/hackumbcfall2019/shared_invite/enQtNzU5MTA1MjM5NjE5LTNlZjc2YWJkYzZiMTJmN2E1ZjcwODBhYWM1OWI0ODkzNjliN2E2M2Q4OGJkZWUwNjBlNjg0ZWFmNWU2ZjljZDQ">
+                <!--  <a href="https://join.slack.com/t/hackumbcfall2019/shared_invite/enQtNzU5MTA1MjM5NjE5LTNlZjc2YWJkYzZiMTJmN2E1ZjcwODBhYWM1OWI0ODkzNjliN2E2M2Q4OGJkZWUwNjBlNjg0ZWFmNWU2ZjljZDQ">
                     <button id="header-volunteer" style="margin-bottom: 6px !important; margin-left: 20px !important; display: inline-block !important;">
                         Involvement Fest Sign Up </button>
                     </a> -->
 
-                    <!-- style="padding-left: 67px; padding-right: 67px !important;" -->
-                    <!--<a href="https://eng.hackumbc.org/" target="_blank">
+                <!-- style="padding-left: 67px; padding-right: 67px !important;" -->
+                <!--<a href="https://eng.hackumbc.org/" target="_blank">
                     <button id="header-apply" style= "margin-left: 70px !important;">Map</button>
                     </a>-->
 
 
-                    <!-- <a href="https://hackumbc.typeform.com/to/L73Khc" target="_blank">
+                <!-- <a href="https://hackumbc.typeform.com/to/L73Khc" target="_blank">
                     <button id="header-apply" style="padding-left: 24px; padding-right: 20px;margin-top: 6px !important;text-align: center !important; font-size: 12px;">Organizer <br> Sign Up</button>
                     </a> -->
-                </div>
+            </div>
 
-                <!-- Social icons -->
-                <div id="social">
-                    <div class="wrapper">
-                        <h1 class="section-social">
-                            <div style="text-align: center;">
-                                <div style="margin-top: 2vh;">
-                                    <!-- Facebook svg -->
-                                    <a href="https://www.facebook.com/hackumbc" target= "_blank">
-                                        <svg version="1.1" x="0px" y="0px"
-                                        width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" class="facebook">
+            <!-- Social icons -->
+            <div id="social">
+                <div class="wrapper">
+                    <h1 class="section-social">
+                        <div style="text-align: center;">
+                            <div style="margin-top: 2vh;">
+                                <!-- Facebook svg -->
+                                <a href="https://www.facebook.com/hackumbc" target="_blank">
+                                    <svg version="1.1" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" class="facebook">
                                         <path fill="#ECE5E5" class="facebook" d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M20.2,10.7l-1.5,0
-                                        c-1.2,0-1.4,0.6-1.4,1.4v1.8h2.8l-0.4,2.8h-2.4V24h-2.9v-7.3h-2.5v-2.8h2.5v-2.1C14.3,9.3,15.8,8,18,8c1,0,1.9,0.1,2.2,0.1V10.7z"/>
-                                        </svg>
-                                    </a>
+                                        c-1.2,0-1.4,0.6-1.4,1.4v1.8h2.8l-0.4,2.8h-2.4V24h-2.9v-7.3h-2.5v-2.8h2.5v-2.1C14.3,9.3,15.8,8,18,8c1,0,1.9,0.1,2.2,0.1V10.7z" />
+                                    </svg>
+                                </a>
 
-                                    <!-- Twitter svg -->
-                                    <a href="https://www.twitter.com/hackumbc" target= "_blank" >
-                                        <svg version="1.1" x="0px" y="0px"
-                                        width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" class="twitter">
-                                            <path class="twitter" d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M22.4,12.7c0,0.1,0,0.3,0,0.4
+                                <!-- Twitter svg -->
+                                <a href="https://www.twitter.com/hackumbc" target="_blank">
+                                    <svg version="1.1" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" class="twitter">
+                                        <path class="twitter" d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M22.4,12.7c0,0.1,0,0.3,0,0.4
                                             c0,4.3-3.3,9.3-9.3,9.3c-1.9,0-3.6-0.5-5-1.5c0.3,0,0.5,0,0.8,0c1.5,0,3-0.5,4.1-1.4c-1.4,0-2.6-1-3.1-2.3c0.2,0,0.4,0.1,0.6,0.1
                                             c0.3,0,0.6,0,0.9-0.1c-1.5-0.3-2.6-1.6-2.6-3.2c0,0,0,0,0,0c0.4,0.2,0.9,0.4,1.5,0.4c-0.9-0.6-1.5-1.6-1.5-2.7
                                             c0-0.6,0.2-1.2,0.4-1.7c1.6,2,4,3.3,6.8,3.4c-0.1-0.2-0.1-0.5-0.1-0.7c0-1.8,1.5-3.3,3.3-3.3c0.9,0,1.8,0.4,2.4,1
-                                            c0.7-0.1,1.5-0.4,2.1-0.8c-0.2,0.8-0.8,1.4-1.4,1.8c0.7-0.1,1.3-0.3,1.9-0.5C23.6,11.7,23,12.3,22.4,12.7z"/>
-                                        </svg>
-                                    </a>
+                                            c0.7-0.1,1.5-0.4,2.1-0.8c-0.2,0.8-0.8,1.4-1.4,1.8c0.7-0.1,1.3-0.3,1.9-0.5C23.6,11.7,23,12.3,22.4,12.7z" />
+                                    </svg>
+                                </a>
 
-                                    <!-- Instagram svg -->
-                                    <a href="https://www.instagram.com/hackumbc" target= "_blank">
-                                        <svg version="1.1" id="Layer_1" x="0px" y="0px"
-                                            width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" class="instagramLayer">
+                                <!-- Instagram svg -->
+                                <a href="https://www.instagram.com/hackumbc" target="_blank">
+                                    <svg version="1.1" id="Layer_1" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" class="instagramLayer">
                                         <path class="instagram" d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M24,22.1c0,1-0.9,1.9-1.9,1.9
-                                                H9.9C8.9,24,8,23.2,8,22.1V9.9C8,8.8,8.9,8,9.9,8h12.2C23.1,8,24,8.8,24,9.9V22.1z"/>
-                                        <ellipse class="instagram1" cx="16" cy="16" rx="3.1" ry="3.1"/>
+                                                H9.9C8.9,24,8,23.2,8,22.1V9.9C8,8.8,8.9,8,9.9,8h12.2C23.1,8,24,8.8,24,9.9V22.1z" />
+                                        <ellipse class="instagram1" cx="16" cy="16" rx="3.1" ry="3.1" />
                                         <path class="instagram1" d="M19.6,12.9h2.2c0.2,0,0.4-0.2,0.4-0.4v-2.2c0-0.2-0.2-0.4-0.4-0.4h-2.2c-0.2,0-0.4,0.2-0.4,0.4v2.2
-                                            C19.1,12.7,19.3,12.9,19.6,12.9z"/>
+                                            C19.1,12.7,19.3,12.9,19.6,12.9z" />
                                         <path class="instagram1" d="M20.9,16c0,2.7-2.2,4.9-4.9,4.9c-2.7,0-4.9-2.2-4.9-4.9c0-0.4,0.1-0.9,0.2-1.3H9.8v7c0,0.2,0.2,0.4,0.4,0.4
-                                            h11.5c0.2,0,0.4-0.2,0.4-0.4v-7h-1.5C20.8,15.1,20.9,15.6,20.9,16z"/>
-                                        </svg>
-                                    </a>
+                                            h11.5c0.2,0,0.4-0.2,0.4-0.4v-7h-1.5C20.8,15.1,20.9,15.6,20.9,16z" />
+                                    </svg>
+                                </a>
 
-                                    <!-- Github svg -->
-                                    <a href="https://github.com/umbchackers" target= "_blank">
-                                        <svg version="1.1" id="Layer_1" x="0px" y="0px"
-                                            width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" class="github"  >
+                                <!-- Github svg -->
+                                <a href="https://github.com/umbchackers" target="_blank">
+                                    <svg version="1.1" id="Layer_1" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" class="github">
                                         <path class="github" d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M18.3,22.4
                                             c0,0-1.1,0.1-2.3,0.1s-2.3-0.1-2.3-0.1C10.9,22.1,8,21,8,16.2c0-1.4,0.5-2.5,1.3-3.4c-0.1-0.3-0.6-1.6,0.1-3.3c0,0,1.1-0.3,3.4,1.3
                                             c1-0.3,2.1-0.4,3.1-0.4c1.1,0,2.1,0.1,3.1,0.4c2.4-1.6,3.4-1.3,3.4-1.3c0.7,1.7,0.3,3,0.1,3.3c0.8,0.9,1.3,2,1.3,3.4
-                                            C24,21,21.1,22.1,18.3,22.4z"/>
-                                        </svg>
-                                    </a>
-                                </div>
+                                            C24,21,21.1,22.1,18.3,22.4z" />
+                                    </svg>
+                                </a>
                             </div>
-                        </h1>
-                    </div>
+                        </div>
+                    </h1>
                 </div>
+            </div>
 
-                <p class="content text-white text-center" style="font-size: 20px;">
-                    Interested in sponsoring us? Email us at
-                    <a class="textLink text-white" href="mailto:sponsor@hackumbc.org">sponsor@hackumbc.org</a>.
-                </p>
+            <p class="content text-white text-center" style="font-size: 20px;">
+                Interested in sponsoring us? Email us at
+                <a class="textLink text-white" href="mailto:sponsor@hackumbc.org">sponsor@hackumbc.org</a>.
+            </p>
 
-                <!-- <div class="text-center d-none d-lg-block">
+            <!-- <div class="text-center d-none d-lg-block">
                     <button id="play">Press Space to Play a Game</button>
                 </div> -->
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- About Section -->
-        <section class="about-background" id="about" style="z-index: 12 !important">
-            <div class="wrapper">
-                <h1 class="section-header">
-                    <span class="bracket-color">{</span>
-                    About
-                    <span class="bracket-color">}</span>
-                </h1>
+    <!-- About Section -->
+    <section class="about-background" id="about" style="z-index: 12 !important">
+        <div class="wrapper">
+            <h1 class="section-header">
+                <span class="bracket-color">{</span>
+                About
+                <span class="bracket-color">}</span>
+            </h1>
 
-                <div class="content">
-                    <!-- <p>
+            <div class="content">
+                <!-- <p>
                         The University of Maryland, Baltimore County's 24-hour tech innovation marathon where students across the East
                         Coast collaborate on new ideas to build mobile, web, and hardware projects. HackUMBC invites diverse groups of
                         students to enjoy a weekend of hacking, workshops, tech talks, networking, and other fun activities. At the end
                         of 24 hours, participants' projects are presented and judged for different prize categories from sponsors and other
                         organizations.
                     </p> -->
-                    <p>
-                       Join us for UMBC’s virtual 36-hour hackathon, where you can challenge yourself by making your ideas come to life,
-                        collaborate with other students and even learn something new in our workshops!* With lots of fun activities, over $5,000 in prizes,
-                         and free swag for all participants, you’ll sure be in for a (trick or) TREAT!
-                    </p>
+                <p>
+                    Join us for UMBC’s virtual 36-hour hackathon, where you can challenge yourself by making your ideas come to life,
+                    collaborate with other students and even learn something new in our workshops!* With lots of fun activities, over $5,000 in prizes,
+                    and free swag for all participants, you’ll sure be in for a (trick or) TREAT!
+                </p>
 
-                    <p>
+                <p>
                     *UMBC students will have the opportunity to take part in a select number of in-person games workshops and giveaways.
-                    </p>
+                </p>
 
 
 
-                    <h2>Tracks</h2>
-                    <div class="row mb-3">
-                        <div class="col-sm-4 text-center">
-                            <img src="assets/img/wifi.png" width="150px">
-                            <h4>Connection</h4>
+                <h2>Tracks</h2>
+                <div class="row mb-3">
+                    <div class="col-sm-4 text-center">
+                        <img src="assets/img/wifi.png" width="150px">
+                        <h4>Connection</h4>
 
-                            <span>
-                                Hacks focused around creating tools for building community and cultivating relationships in a virtual setting.
-                            </span>
-                        </div>
-
-                        <div class="col-sm-4 text-center">
-                            <img src="assets/img/healthcare.png" width="150px">
-                            <h4>Healthcare</h4>
-
-                            <span>
-                                Hacks focused around increasing accessibility in healthcare, especially in response to the COVID-19 pandemic.
-                            </span>
-                        </div>
-
-                        <div class="col-sm-4 text-center">
-                            <img src="assets/img/education.png" width="150px">
-                            <h4>Education</h4>
-
-                            <span>
-                                Hacks focused around creating solutions for accessibility in education, especially in distance learning.
-                            </span>
-                        </div>
+                        <span>
+                            Hacks focused around creating tools for building community and cultivating relationships in a virtual setting.
+                        </span>
                     </div>
 
-                    <div class="row mb-3">
-                        <div class="col-sm-4 text-center">
-                            <img src="assets/img/Dog_General.png" width="150px">
-                            <h4>General</h4>
+                    <div class="col-sm-4 text-center">
+                        <img src="assets/img/healthcare.png" width="150px">
+                        <h4>Healthcare</h4>
 
-                            <span>
-                                Whatever you want! These are hacks that don’t fall under any specific category.
-                            </span>
-                        </div>
-
-                        <div class="col-sm-4 text-center">
-                            <img src="assets/img/Dog_Equity.png" width="150px">
-                            <h4>Equity</h4>
-
-                            <span>
-                                Hacks focused around building solutions for inequities faced by historically marginalized communities.
-                            </span>
-                        </div>
-
-                        <div class="col-sm-4 text-center">
-                            <img src="assets/img/Dog_Hobbies.png" width="150px">
-                            <h4>Hobbies</h4>
-
-                            <span>
-                                Hacks focused around creating new ways to experience activities and pass times.
-                            </span>
-                        </div>
+                        <span>
+                            Hacks focused around increasing accessibility in healthcare, especially in response to the COVID-19 pandemic.
+                        </span>
                     </div>
 
-                    <h3 class="mt-4 mb-0">hackUMBC 2021 Event Calendar</h3>
-                    <!--
+                    <div class="col-sm-4 text-center">
+                        <img src="assets/img/education.png" width="150px">
+                        <h4>Education</h4>
+
+                        <span>
+                            Hacks focused around creating solutions for accessibility in education, especially in distance learning.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-sm-4 text-center">
+                        <img src="assets/img/Dog_General.png" width="150px">
+                        <h4>General</h4>
+
+                        <span>
+                            Whatever you want! These are hacks that don’t fall under any specific category.
+                        </span>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <img src="assets/img/Dog_Equity.png" width="150px">
+                        <h4>Equity</h4>
+
+                        <span>
+                            Hacks focused around building solutions for inequities faced by historically marginalized communities.
+                        </span>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <img src="assets/img/Dog_Hobbies.png" width="150px">
+                        <h4>Hobbies</h4>
+
+                        <span>
+                            Hacks focused around creating new ways to experience activities and pass times.
+                        </span>
+                    </div>
+                </div>
+
+                <h3 class="mt-4 mb-0">hackUMBC 2021 Event Calendar</h3>
+                <!--
 
                     <span>Due to long event titles, please click on the event cell if you wish to view the full title.</span>
                     <p class="mb-1" aria-hidden></p>
 
                     <div id="calendar"></div> -->
 
-                    <!-- Commenting out Calander for now.
+                <!-- Commenting out Calander for now.
 
 
                     <iframe src="https://teamup.com/kszf8te1hgogtbaqy8?date=2020-11-13&view=md&showHeader=0&showProfileAndInfo=0&showSidepanel=1&disableSidepanel=0&showViewSelector=0&weekStartDay=fr&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1"
@@ -379,22 +381,22 @@
                             -->
 
 
-                     <div class="wrapper valign d-flex flex-column">
-
-
-
-
-
-
-                <iframe src="https://teamup.com/ksswavrhix48jk1eiq?showSearch=0&showProfileAndInfo=0&showSidepanel=0&disableSidepanel=1&showTitle=1&showViewSelector=0&showMenu=0&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1" width="100%" height="800px" style="border: 1px solid #cccccc" frameborder="0"></iframe>
-
-
-
                 <div class="wrapper valign d-flex flex-column">
-                </div>
 
 
-<!-- 
+
+
+
+
+                    <iframe src="https://teamup.com/ksswavrhix48jk1eiq?showSearch=0&showProfileAndInfo=0&showSidepanel=0&disableSidepanel=1&showTitle=1&showViewSelector=0&showMenu=0&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1" width="100%" height="800px" style="border: 1px solid #cccccc" frameborder="0"></iframe>
+
+
+
+                    <div class="wrapper valign d-flex flex-column">
+                    </div>
+
+
+                    <!-- 
                        <h1 id="header-date" class="mt-4">
 
                        Coming Soon!
@@ -402,198 +404,198 @@
                 </h1>
 
                 -->
-             
 
 
-
-
-
-
-                     </div>
 
 
 
 
 
                 </div>
+
+
+
+
+
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- FAQ Section -->
-        <section class="faq-background" id="faq">
-            <div class="wrapper">
-                <h1 class="section-header-gray">
-                    <span class="bracket-color">{</span>
-                    FAQ
-                    <span class="bracket-color">}</span>
-                </h1>
+    <!-- FAQ Section -->
+    <section class="faq-background" id="faq">
+        <div class="wrapper">
+            <h1 class="section-header-gray">
+                <span class="bracket-color">{</span>
+                FAQ
+                <span class="bracket-color">}</span>
+            </h1>
 
-                <div class="container">
-                    <div id="accordion">
-                        <div class="card">
-                            <div class="card-header" id="panDiffHead" data-toggle="collapse" data-target="#panDiffCollapse" aria-expanded="false" aria-controls="panDiffCollapse">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link">
-                                        Will this year's hackathon be different due to the COVID-19 pandemic?
-                                        <i class="fa fa-chevron-down"></i>
-                                    </button>
-                                </h5>
-                            </div>
+            <div class="container">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="panDiffHead" data-toggle="collapse" data-target="#panDiffCollapse" aria-expanded="false" aria-controls="panDiffCollapse">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link">
+                                    Will this year's hackathon be different due to the COVID-19 pandemic?
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </h5>
+                        </div>
 
-                            <div id="panDiffCollapse" class="collapse" aria-labelledby="panDiffHead" data-parent="#accordion">
-                                <div class="card-body">
+                        <div id="panDiffCollapse" class="collapse" aria-labelledby="panDiffHead" data-parent="#accordion">
+                            <div class="card-body">
                                 This year, we are still planning on offering all the same perks and excitement as previous years. However, we are going primarily virtual in order to follow coronavirus safety guidelines. All communication throughout the event will be done virtually via Discord workspace, and workshops will be accessible virtually via Zoom video conferencing and Twitch Streaming. We will be sending out specifics of the platform closer to the event. UMBC students are allowed to participate in a select number of games, giveaways, and activities in ITE.
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="card">
-                            <div class="card-header" id="swagHead" data-toggle="collapse" data-target="#swagHeadCollapse" aria-expanded="false" aria-controls="swagHeadCollapse">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link">
-                                        Will there still be free swag? How do I get it?
-                                        <i class="fa fa-chevron-down"></i>
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="swagHeadCollapse" class="collapse" aria-labelledby="swagHead" data-parent="#accordion">
-                                <div class="card-body">
-                                    To get swag, submit a hack during hackUMBC or attend at least 10 events, meetups, and/or workshops during hackUMBC!
-                                     Everyone who does so is eligible for a free t-shirt and some other wonderful items (saving the surprise for later...)
-                                </div>
-                            </div>
+                    <div class="card">
+                        <div class="card-header" id="swagHead" data-toggle="collapse" data-target="#swagHeadCollapse" aria-expanded="false" aria-controls="swagHeadCollapse">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link">
+                                    Will there still be free swag? How do I get it?
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </h5>
                         </div>
 
-                        <hr>
-
-                        <div class="card">
-                            <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link">
-                                        What is a hackathon?
-                                        <i class="fa fa-chevron-down"></i>
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
-                                    A hackathon is a place where you come together to solve problems. Students are encouraged to come up with an idea, form teams, and then build out that idea (typically through programming!) into a product in 36 hours.
-                                    We want you to take something you love (sports, art, camping, anything!) and combine it with technology to make something awesome.
-                                    It's a great time to push the envelope and learn some new skills. This is where your dreams run wild.
-                                    Solve a real-world problem with technology or build the next Iron Man suit.
-                                </div>
+                        <div id="swagHeadCollapse" class="collapse" aria-labelledby="swagHead" data-parent="#accordion">
+                            <div class="card-body">
+                                To get swag, submit a hack during hackUMBC or attend at least 10 events, meetups, and/or workshops during hackUMBC!
+                                Everyone who does so is eligible for a free t-shirt and some other wonderful items (saving the surprise for later...)
                             </div>
                         </div>
+                    </div>
 
-                        <div class="card">
-                            <div class="card-header" id="reqMatHead" data-toggle="collapse" data-target="#reqMatHeadCollapse" aria-expanded="false" aria-controls="reqMatHeadCollapse">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link">
-                                        What do I need to register/attend?
-                                        <i class="fa fa-chevron-down"></i>
-                                    </button>
-                                </h5>
-                            </div>
+                    <hr>
 
-                            <div id="reqMatHeadCollapse" class="collapse" aria-labelledby="reqMatHead" data-parent="#accordion">
-                                <div class="card-body">
-                                    To complete the pre-registration process you will need a valid student or government-issued ID card and your resume. Since this year hackUMBC will be hosted virtually, all you will need is your hacking device (laptop, desktop, tablet, etc.) and Wi-Fi!
-                                </div>
-                            </div>
+                    <div class="card">
+                        <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link">
+                                    What is a hackathon?
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </h5>
                         </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed">
-                                        Who can attend?
-                                        <i class="fa fa-chevron-down"></i>
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                                <div class="card-body">
-                                    Any high school or undergraduate students or recent graduates are eligible to participate in our event. Additionally, all participants must follow the MLH code of conduct and hackUMBC code of conduct.
-                                </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                A hackathon is a place where you come together to solve problems. Students are encouraged to come up with an idea, form teams, and then build out that idea (typically through programming!) into a product in 36 hours.
+                                We want you to take something you love (sports, art, camping, anything!) and combine it with technology to make something awesome.
+                                It's a great time to push the envelope and learn some new skills. This is where your dreams run wild.
+                                Solve a real-world problem with technology or build the next Iron Man suit.
                             </div>
                         </div>
+                    </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed">
-                                        What if I don't code?
-                                        <i class="fa fa-chevron-down"></i>
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                                <div class="card-body">
-                                    This is the perfect opportunity to learn something new! There will be workshops geared towards beginners and mentors to help
-                                    you throughout the event. We also have plenty of swag and prizes for teams that bring out the best idea and make the community a better place.
-                                </div>
-                            </div>
+                    <div class="card">
+                        <div class="card-header" id="reqMatHead" data-toggle="collapse" data-target="#reqMatHeadCollapse" aria-expanded="false" aria-controls="reqMatHeadCollapse">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link">
+                                    What do I need to register/attend?
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </h5>
                         </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link">
-                                        What if I don't have a team or an idea?
-                                        <i class="fa fa-chevron-down"></i>
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                <div class="card-body">
-                                    Don’t worry, you may form or join a team by messaging the participant groups/chats that we’ll put you in during the weeks leading up to the weekend, as well as through team formation activities during the event.
-                                </div>
+                        <div id="reqMatHeadCollapse" class="collapse" aria-labelledby="reqMatHead" data-parent="#accordion">
+                            <div class="card-body">
+                                To complete the pre-registration process you will need a valid student or government-issued ID card and your resume. Since this year hackUMBC will be hosted virtually, all you will need is your hacking device (laptop, desktop, tablet, etc.) and Wi-Fi!
                             </div>
                         </div>
+                    </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed">
-                                        What can I build?
-                                        <i class="fa fa-chevron-down"></i>
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                                <div class="card-body">
-                                    Anything! Web, mobile, desktop, and hardware projects are all welcome. Projects will be judged based on creativity, technical
-                                    difficulty, polish, and usefulness. Vist our <a href="https://hackumbcfall2019.devpost.com/">DevPost</a> from last year for more ideas.
-                                </div>
-                            </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed">
+                                    Who can attend?
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </h5>
                         </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed">
-                                        Will there be hardware?
-                                        <i class="fa fa-chevron-down"></i>
-                                    </button>
-                                </h5>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">
+                                Any high school or undergraduate students or recent graduates are eligible to participate in our event. Additionally, all participants must follow the MLH code of conduct and hackUMBC code of conduct.
                             </div>
+                        </div>
+                    </div>
 
-                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-                                <div class="card-body">
-                                    Stay tuned...
-                                    <!-- We have partnered with MLH to provide hardware hacking resources to all hackers. Check out the full
+                    <div class="card">
+                        <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed">
+                                    What if I don't code?
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                This is the perfect opportunity to learn something new! There will be workshops geared towards beginners and mentors to help
+                                you throughout the event. We also have plenty of swag and prizes for teams that bring out the best idea and make the community a better place.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link">
+                                    What if I don't have a team or an idea?
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Don’t worry, you may form or join a team by messaging the participant groups/chats that we’ll put you in during the weeks leading up to the weekend, as well as through team formation activities during the event.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed">
+                                    What can I build?
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">
+                                Anything! Web, mobile, desktop, and hardware projects are all welcome. Projects will be judged based on creativity, technical
+                                difficulty, polish, and usefulness. Vist our <a href="https://hackumbcfall2019.devpost.com/">DevPost</a> from last year for more ideas.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed">
+                                    Will there be hardware?
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                            <div class="card-body">
+                                Stay tuned...
+                                <!-- We have partnered with MLH to provide hardware hacking resources to all hackers. Check out the full
                                     <a class="textLink" href="https://sponsor.mlh.io/directory/#hardware-lab"> list of hardware.</a> -->
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <!-- <div class="card">
+                    <!-- <div class="card">
                             <div class="card-header" id="headingSeven" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed">
@@ -611,7 +613,7 @@
                             </div>
                         </div> -->
 
-                        <!-- <div class="card">
+                    <!-- <div class="card">
                             <div class="card-header" id="headingEight" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed">
@@ -628,42 +630,42 @@
                             </div>
                         </div> -->
 
-                        <div class="card">
-                            <div class="card-header" id="headingNine" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed">
-                                        How big should teams be? Can I hack alone?
-                                        <i class="fa fa-chevron-down"></i>
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
-                                <div class="card-body">
-                                    Teams should be at most FOUR people. We highly recommend that you form a team, but solo hackers are allowed.
-                                </div>
-                            </div>
+                    <div class="card">
+                        <div class="card-header" id="headingNine" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed">
+                                    How big should teams be? Can I hack alone?
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </h5>
                         </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingTen" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed">
-                                        Can I build on past projects?
-                                        <i class="fa fa-chevron-down"></i>
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
-                                <div class="card-body">
-                                    We strongly discourage building off of existing projects you've worked on. However, using third–party APIs and libraries
-                                    are encouraged, as long as they're accessible by everyone.
-                                </div>
+                        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                            <div class="card-body">
+                                Teams should be at most FOUR people. We highly recommend that you form a team, but solo hackers are allowed.
                             </div>
                         </div>
+                    </div>
 
-                        <!-- <div class="card">
+                    <div class="card">
+                        <div class="card-header" id="headingTen" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed">
+                                    Can I build on past projects?
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                            <div class="card-body">
+                                We strongly discourage building off of existing projects you've worked on. However, using third–party APIs and libraries
+                                are encouraged, as long as they're accessible by everyone.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="card">
                             <div class="card-header" id="headingEleven" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed">
@@ -681,7 +683,7 @@
                             </div>
                         </div> -->
 
-                        <!-- <div class="card">
+                    <!-- <div class="card">
                             <div class="card-header" id="headingTwelve" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed">
@@ -699,97 +701,97 @@
                             </div>
                         </div> -->
 
-                        <div class="card">
-                            <div class="card-header" id="headingThirteen" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false"
-                            aria-controls="collapseThirteen">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed">
-                                        Is there a code of conduct?
-                                        <i class="fa fa-chevron-down"></i>
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
-                                <div class="card-body">
-                                    Yes it can be found
-                                    <a class="textLink" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">here</a>.
-                                </div>
-                            </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThirteen" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed">
+                                    Is there a code of conduct?
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </h5>
                         </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingFourteen" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false"
-                            aria-controls="collapseFourteen">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed">
-                                    I have more questions!
-                                    <i class="fa fa-chevron-down"></i>
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion">
-                                <div class="card-body">
-                                    You can get in touch with us via
-                                    <a class="textLink" href="mailto:team@hackumbc.org">team@hackumbc.org</a>,
-                                    <a class="textLink" href="https://twitter.com/hackumbc" target="_blank">Twitter</a>, or
-                                    <a class="textLink" href="https://www.facebook.com/hackumbc" target="_blank">Facebook</a>.
-                                </div>
+                        <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
+                            <div class="card-body">
+                                Yes it can be found
+                                <a class="textLink" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">here</a>.
                             </div>
                         </div>
                     </div>
 
-                    <!-- Twitter for live site -->
-                    <!-- <center>
+                    <div class="card">
+                        <div class="card-header" id="headingFourteen" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed">
+                                    I have more questions!
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion">
+                            <div class="card-body">
+                                You can get in touch with us via
+                                <a class="textLink" href="mailto:team@hackumbc.org">team@hackumbc.org</a>,
+                                <a class="textLink" href="https://twitter.com/hackumbc" target="_blank">Twitter</a>, or
+                                <a class="textLink" href="https://www.facebook.com/hackumbc" target="_blank">Facebook</a>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Twitter for live site -->
+                <!-- <center>
                     <a class="twitter-timeline" href="https://twitter.com/hackumbc?ref_src=twsrc%5Etfw" data-theme="light" data-height="500" data-width ="800" data-chrome="nofooter noborders transparent noscrollbar noheader">Tweets by HackUMBC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </center> -->
-                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <style>
-            .row.sponsors img {
-                max-width: 300px;
-                max-height: 100px;
-            }
+    <style>
+        .row.sponsors img {
+            max-width: 300px;
+            max-height: 100px;
+        }
 
-            .row.sponsors {
-                text-align: center;
-            }
+        .row.sponsors {
+            text-align: center;
+        }
 
-            .col.align-self-center {
-                margin-bottom: 10px;
-            }
+        .col.align-self-center {
+            margin-bottom: 10px;
+        }
 
-            .tier-header::before {
-                right: .5em;
-                margin-left: -50%;
-            }
+        .tier-header::before {
+            right: .5em;
+            margin-left: -50%;
+        }
 
-            .tier-header::after {
-                left: .5em;
-                margin-right: -50%;
-            }
+        .tier-header::after {
+            left: .5em;
+            margin-right: -50%;
+        }
 
-            .tier-header::before, .tier-header::after {
-                background-color: black;
-                content: "";
-                display: inline-block;
-                height: 3px;
-                position: relative;
-                vertical-align: middle;
-                width: 50%;
-            }
-        </style>
+        .tier-header::before,
+        .tier-header::after {
+            background-color: black;
+            content: "";
+            display: inline-block;
+            height: 3px;
+            position: relative;
+            vertical-align: middle;
+            width: 50%;
+        }
 
-        <!-- Sponsors Section -->
+    </style>
+
+    <!-- Sponsors Section -->
 
 
 
-        <section class="sponsors-background" id="sponsors">
-            <!--wrapper-->
-            <div class="wrapper">
+    <section class="sponsors-background" id="sponsors">
+        <!--wrapper-->
+        <div class="wrapper">
             <h1 class="section-header-gray">
                 <span class="bracket-color">{</span> Sponsors
                 <span class="bracket-color">}</span>
@@ -832,7 +834,7 @@
             <h3 class="tier-header text-center" style="font-family: Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;">Gold</h3>
 
 
-            
+
 
 
             <div class="row sponsors d-flex">
@@ -843,7 +845,7 @@
                 </div>
 
 
-                     
+
 
                 <div class="col align-self-center">
                     <a href="https://www.boozallen.com/" target="_blank">
@@ -851,7 +853,7 @@
                     </a>
                 </div>
 
-                
+
                 <div class="col align-self-center">
                     <a href="https://emocha.com/" target="_blank">
                         <img class="img-fluid" src="assets/img/sponsors/emochaLogo.png">
@@ -860,13 +862,13 @@
 
 
 
-              
+
             </div>
 
 
 
 
-            
+
 
             <!-- Tier 3 -->
             <h3 class="tier-header text-center" style="font-family: Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;">Silver</h3>
@@ -889,9 +891,9 @@
 
 
 
-               <div class="col align-self-center" >
+                <div class="col align-self-center">
                     <a href="http://www.clearedgeit.com/" target="_blank">
-                        <img class="img-fluid"  src="assets/img/sponsors/clearedge-logo.png">
+                        <img class="img-fluid" src="assets/img/sponsors/clearedge-logo.png">
                     </a>
                 </div>
 
@@ -903,7 +905,7 @@
                 </div>
             </div>
 
-        
+
 
             <!--   
                <div class="wrapper valign d-flex flex-column">
@@ -920,7 +922,7 @@
 
 
             <!-- Tier 4 -->
-          
+
 
 
 
@@ -948,7 +950,7 @@
                     </a>
                 </div>
 
-                  <div class="col align-self-center">
+                <div class="col align-self-center">
                     <a href="https://www.assemblyai.com/" target="_blank">
                         <img class="img-fluid" src="assets/img/sponsors/assemblyAI.png">
                     </a>
@@ -957,72 +959,71 @@
 
 
 
-                
 
-                  <div class="col align-self-center">
+
+                <div class="col align-self-center">
                     <a href="https://smartlogic.io/" target="_blank">
-                        <img class="img-fluid" src="assets/img/sponsors/smartlogic-logo-teal-1000.png" > 
-                    </a>
-                </div>
-
-
-                   <div class="col align-self-center">
-                    <a href="https://cloud.google.com/" target="_blank">
-                        <img class="img-fluid" src="assets/img/sponsors/google-cloud-logo.png" >
+                        <img class="img-fluid" src="assets/img/sponsors/smartlogic-logo-teal-1000.png">
                     </a>
                 </div>
 
 
                 <div class="col align-self-center">
-                    <a href="http://hackp.ac/mlh-stickermule-hackathons"
-                        target="_blank">
+                    <a href="https://cloud.google.com/" target="_blank">
+                        <img class="img-fluid" src="assets/img/sponsors/google-cloud-logo.png">
+                    </a>
+                </div>
+
+
+                <div class="col align-self-center">
+                    <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank">
                         <img class="img-fluid" src="assets/img/sponsors/sticker-mule.png">
                     </a>
                 </div>
             </div>
 
 
-            
 
 
 
 
-        </section>
+
+    </section>
 
 
 
-        <!-- Footer -->
-        <section class="footer-background" id="socialMedia">
-            <div class="wrapper">
-                <h1 class="section-footer">
-                    <div style="text-align: center;">
-                        <div class="mt-3">
-                            <a href="https://www.facebook.com/hackumbc" class="fa fa-facebook" target="_blank"></a>
-                            <a href="https://twitter.com/hackumbc" class="fa fa-twitter" target="_blank"></a>
-                            <a href="https://www.instagram.com/hackumbc/" class="fa fa-instagram" target="_blank"></a>
-                            <a href="https://github.com/umbchackers" class="fa fa-github" target="_blank"></a>
-                        </div>
-
-                        <p class="mt-3 mb-0" style="font-size: 1rem; font-weight: 400; line-height: 1.5;">
-                            © 2021 hackUMBC
-                        </p>
+    <!-- Footer -->
+    <section class="footer-background" id="socialMedia">
+        <div class="wrapper">
+            <h1 class="section-footer">
+                <div style="text-align: center;">
+                    <div class="mt-3">
+                        <a href="https://www.facebook.com/hackumbc" class="fa fa-facebook" target="_blank"></a>
+                        <a href="https://twitter.com/hackumbc" class="fa fa-twitter" target="_blank"></a>
+                        <a href="https://www.instagram.com/hackumbc/" class="fa fa-instagram" target="_blank"></a>
+                        <a href="https://github.com/umbchackers" class="fa fa-github" target="_blank"></a>
                     </div>
-                </h1>
-            </div>
-        </section>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="./assets/js/jquery.min.js "></script>
+                    <p class="mt-3 mb-0" style="font-size: 1rem; font-weight: 400; line-height: 1.5;">
+                        © 2021 hackUMBC
+                    </p>
+                </div>
+            </h1>
+        </div>
+    </section>
 
-        <!--Popper.js-->
-        <script src="./assets/js/popper.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./assets/js/jquery.min.js "></script>
 
-        <!--Bootstrap-->
-        <script src="./assets/js/bootstrap.min.js"></script>
-        <script src="./assets/js/main.js "></script>
+    <!--Popper.js-->
+    <script src="./assets/js/popper.min.js"></script>
 
-        <!-- <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.min.js"></script>
+    <!--Bootstrap-->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js "></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.min.js"></script>
         <script>
             const calendarEl = document.getElementById("calendar");
 
@@ -1069,5 +1070,6 @@
 
             calendar.render();
         </script> -->
-    </body>
+</body>
+
 </html>
