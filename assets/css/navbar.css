@@ -207,7 +207,7 @@ new Burger
   height: auto;
   -webkit-transition: height 0.5s;
   -moz-transition: height 0.5s;
-  background: #494849;
+  background: #161616; /* thought this color looked better */
   border: none;
   color: white;
   z-index: 100;
