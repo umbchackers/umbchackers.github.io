@@ -3,7 +3,7 @@ footer
 */
 
 .footer-background {
-  background-color: #494849;
+  background-color: #161616;
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -25,41 +25,41 @@ a.fa:hover {
 }
 
 /* Facebook */
-.fa-facebook {
+.facebook-footer {
   background: #3b5998;
   color: white;
   transition: ease .2s;
 }
-.fa-facebook:hover {
+.facebook-footer:hover {
   background: #4672ce;
   transition: ease .2s;
 }
 
 /* Twitter */
-.fa-twitter {
+.twitter-footer {
   background: #55acee;
   color: white;
   transition: ease .2s;
 }
-.fa-twitter:hover {
+.twitter-footer:hover {
   background: #76bcf2;
   transition: ease .2s;
 }
 
 /* Github */
-.fa-github {
+.github-footer {
   background: white;
   color: black;
   transition: ease .2s;
 }
-a.fa-github:hover {
+a.github-footer:hover {
   background: #e0dede;
   color: black;
   transition: ease .2s;
 }
 
 /* Instagram */
-.fa-instagram {
+.instagram-footer {
   background: #e5497b;
   /*#d6249f*/
   /*background: radial-gradient(
@@ -74,7 +74,7 @@ a.fa-github:hover {
   color: white;
   transition: background ease .2s;
 }
-.fa-instagram:hover {
+.instagram-footer:hover {
   background: #ed6893;
   /*background: radial-gradient(
     circle at 30% 107%,

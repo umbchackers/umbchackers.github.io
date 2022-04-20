@@ -12,6 +12,9 @@
 body,
 html {
   height: 100%;
+  width: 100vw;
+  background-color: white;
+  overflow-x: hidden;
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -54,7 +57,8 @@ html {
 
 #text-logo {
   z-index: 11;
-  width: 60%;
+  width: 30vw;
+  margin-bottom: -20px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -71,6 +75,10 @@ html {
     background-size: cover;
     -o-background-size: cover;
     text-align: center;
+  }
+
+  #text-logo {
+    width: 80vw;
   }
 }
 
@@ -102,6 +110,18 @@ html {
     margin: 0 auto !important;
 }
 
+.header-intrest{
+    font-size: 1vw;
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .header-intrest{
+        font-size: 2vw;
+    }
+}
 
 .content {
   margin-top: 50px;

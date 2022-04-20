@@ -1,4 +1,23 @@
-icons for social media
+/* icons for social media */
+
+#social i{
+    margin: 0 8px;
+    transition: 0.2s;
+    opacity: 80%;
+
+    color: #3d1c51;
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 15px;
+}
+
+#social i:hover{
+    opacity: 100%;
+    transform: scale(1.1);
+}
+
+
 
 
  /* Facebook */
