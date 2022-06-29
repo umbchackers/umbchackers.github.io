@@ -251,6 +251,8 @@ new Burger
   box-shadow:none;
   border-color:transparent;
   color: #fddf87 !important;
+
+  text-shadow: 0 0 10px rgb(255, 167, 208), 10px 0 30px #ff2491;
 }
 
 
