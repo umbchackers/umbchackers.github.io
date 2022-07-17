@@ -1,2 +1,3 @@
 # umbchackers.github.io
-hackUMBC main website
+# www.hackumbc.org
+## The Official HackUMBC Main Website
