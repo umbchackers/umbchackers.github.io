@@ -1,2 +1,2 @@
 # www.hackumbc.org
-## The Official HackUMBC Main Website
+### The Official HackUMBC Main Website
