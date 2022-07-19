@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f51eccf3.css",
-    "main.js": "/static/js/main.aa9f04ea.js",
-    "static/media/halloween-theme.png": "/static/media/halloween-theme.e371f509ad1db6a27d7c.png",
-    "static/media/hackUMBC-halloween-logo.png": "/static/media/hackUMBC-halloween-logo.4aadad84fa9d4d380e8f.png",
+    "main.css": "/static/css/main.125efb07.css",
+    "main.js": "/static/js/main.37b5700b.js",
+    "static/media/hackUMBC-retro-logo.png": "/static/media/hackUMBC-retro-logo.f6721c7bd140b41a33d5.png",
+    "static/media/retro-dawg.png": "/static/media/retro-dawg.d431411fd9c1559e7477.png",
+    "static/media/retro-theme-bg.png": "/static/media/retro-theme-bg.3722067df8f19937330d.png",
     "static/media/alex_brown_text.jpg": "/static/media/alex_brown_text.4cc1d9fe737f9520649f.jpg",
     "static/media/google-cloud-logo.png": "/static/media/google-cloud-logo.abb67d90cebbdaa138d3.png",
     "static/media/TRowe.png": "/static/media/TRowe.646c52cac6708ed681a2.png",
     "static/media/general-dynamics.png": "/static/media/general-dynamics.8c03516514aa3ff03695.png",
     "static/media/sticker-mule.png": "/static/media/sticker-mule.11795af1c841b4e42b1c.png",
-    "static/media/hackUMBC-ClassicLogo.png": "/static/media/hackUMBC-ClassicLogo.d920cf6348bf4b4e2bb4.png",
     "static/media/clearedge-logo.png": "/static/media/clearedge-logo.3b16278f2ad8d080a063.png",
     "static/media/wolfram-language.png": "/static/media/wolfram-language.f77be6853a50ae3cbcd6.png",
     "static/media/GEICO-Logo.png": "/static/media/GEICO-Logo.f1f5bc53510eefff1215.png",
@@ -24,11 +24,11 @@
     "static/media/Capital-One-Logo.png": "/static/media/Capital-One-Logo.9f957785110bec1b35f8.png",
     "static/media/reverie-labs-logo-gray-p-500.png": "/static/media/reverie-labs-logo-gray-p-500.b441ae6c9f9a5d392d22.png",
     "index.html": "/index.html",
-    "main.f51eccf3.css.map": "/static/css/main.f51eccf3.css.map",
-    "main.aa9f04ea.js.map": "/static/js/main.aa9f04ea.js.map"
+    "main.125efb07.css.map": "/static/css/main.125efb07.css.map",
+    "main.37b5700b.js.map": "/static/js/main.37b5700b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f51eccf3.css",
-    "static/js/main.aa9f04ea.js"
+    "static/css/main.125efb07.css",
+    "static/js/main.37b5700b.js"
   ]
 }
