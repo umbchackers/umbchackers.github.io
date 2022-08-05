@@ -1,0 +1,78 @@
+.mobile-nav{
+    /* background-color: red; */
+    width: 100vw;
+    margin-top: 20px;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.mobile-nav-logo{
+    width: 55px;
+    height: auto;
+}
+
+.nav-hamburger{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    color: var(--dog-gray);
+}
+
+.mobile-overlay{
+    z-index: 101;
+    position: fixed;
+    /* background-color: rgba(0, 0, 0, 0.737); */
+    background-color: rgba(0, 0, 0, 0.619);
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-overlay-content{
+    text-align: center;
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.mobile-overlay-text{
+    margin: 10px 0;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.mobile-overlay-close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+    color: white;
+}
+
+#fromTop{
+    animation-name: slideInFromTop;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }    
+}

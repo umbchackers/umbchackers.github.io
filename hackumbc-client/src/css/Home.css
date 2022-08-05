@@ -1,0 +1,275 @@
+html{
+    overflow-x: hidden;
+    background-color: #a59bea;
+    background-image: url("../assets/retro-tile-1.png");
+    background-position: center;
+    background-repeat: repeat;
+    /* background-size: cover; */
+    transition: 0.4s;
+}
+
+html.faq-bg{
+    background-image: url("../assets/retro-tile-2.png");
+    background-position: center;
+    background-repeat: repeat;
+    /* background-size: cover; */
+    background-color: #ebe7e4;
+    transition: 0.4s;
+}
+
+html.sponsors-bg{
+    background-image: none;
+    background-color: #f7f5f3;
+    transition: 0.4s;
+}
+
+.landing{
+    /* background-color: red; */
+    background-image: url("../assets/retro-theme-bg.png");
+    /* Center and scale the image nicely */
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    /* background-color: red; */
+    /* margin-top: -50px; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.header-logo{
+    margin-top: -45px;
+    width: 33vw;
+    height: auto;
+    padding: 0;
+    margin-bottom: -15px;
+}
+
+.header-date{
+    font-size: 1.8vw;
+    font-weight: 900;
+    letter-spacing: 6px;
+    text-align: center;
+    padding-bottom: 2px;
+
+    /* background-color: red; */
+}
+
+.header-year{
+    font-size: 1.2vw;
+    letter-spacing: 3px;
+    text-align: center;
+    
+}
+
+.header-location{
+    display: flex;
+    align-items: center;
+    color: rgb(161, 238, 248);
+    margin: 1vw 0;
+}
+
+.header-location-icon{
+    margin-right: 10px;
+}
+
+.header-location-text{
+    letter-spacing: 5px;
+    font-size: 1.2vw;
+}
+
+.header-button{
+    font-weight: 900;
+    font-size: 1vw;
+    letter-spacing: 0.3vw;
+    background-color: white;
+    color: #381e55;
+    border-radius: 8px;
+    padding: 1.5vw 3vw;
+    transition: 0.3s;
+}
+
+.header-button:hover{
+    transform: scale(1.1);
+    -webkit-filter:  drop-shadow(0px 0px 8px rgb(187, 253, 255));
+    filter: drop-shadow(0px 0px 8px rgb(187, 253, 255));
+}
+
+.header-social{
+    padding-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    width: 200px;
+    color: black;
+}
+
+.header-social-icon{
+    width: 30px;
+    height: auto;
+    margin: 0 5px;
+    transition: 0.2s;
+    background-color: white;
+    color: #381e55;
+    opacity: 70%;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.header-social-icon:hover{
+    /* transform: scale(1.1); */
+    opacity: 100%;
+}
+
+.header-foot{
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.page-divider-purple{
+    margin-top: 90px;
+    width: 100%;
+    height: 3px;
+    color: var(--lilac-purple);
+    background-color: var(--lilac-purple);
+    border: 0;
+}
+
+.page-divider-dark{
+    margin-top: 90px;
+    width: 100%;
+    height: 3px;
+    color: var(--sunset-yellow);
+    background-color: var(--sunset-yellow);
+    border: 0;
+}
+
+
+/* section title css */
+.title-container{
+    align-self: flex-start;
+    display: flex;
+}
+
+.section-title{
+    font-weight: 1000;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+
+.section-title::before{
+    content: "{";
+    color: var(--sunset-yellow);
+}
+
+.section-title::after{
+    content: "}";
+    color: var(--sunset-yellow);
+}
+
+.section-title::before, .section-title::after{
+    margin: 0 14px;
+}
+
+.footer{
+    width: 100vw;
+    height: 200px;
+    background-color: var(--dog-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-icons{
+    margin-bottom: 10px;
+}
+
+.footer-social-icon{
+    /* background-color: red; */
+    width: 70px;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.footer-social-icon:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+
+.footer-text{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+#foot-fb{
+    background-color: #3b5999;
+}
+
+#foot-twitter{
+    background-color: #55acef;
+}
+
+#foot-ig{
+    background-color: #e5487b;
+}
+
+#foot-github{
+    color: black;
+    background-color: white;
+}
+
+@media screen and (max-width: 900px){
+
+    .header-logo{
+        width: 90vw;
+        margin-top: -80px;
+    }
+    
+    .header-date{
+        font-size: 4vw;
+        margin: 5px 0;
+    }
+
+    .header-year{
+        font-size: 3vw;
+        margin: 5px 0;
+    }
+
+    .header-location-text{
+        font-size: 4vw;
+        margin: 5px 0;
+    }
+
+    .header-button{
+        font-size: 3vw;
+        padding: 5.3vw 6.3vw;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        /* border-radius: 100px; */
+    }
+
+    .header-foot{
+        font-size: 2vw;
+        margin-top: 20px;
+    }
+
+}

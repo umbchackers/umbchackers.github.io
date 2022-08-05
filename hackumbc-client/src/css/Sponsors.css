@@ -1,0 +1,83 @@
+.sponsors{
+    /* background-color: red; */
+    width: 100vw;
+    display: flex;
+    height: fit-content;
+    padding-top: 50px;
+    justify-content: center;
+    color: var(--dog-gray);
+    margin-bottom: 100px;
+}
+
+.sponsors-content{
+    /* background-color: blue; */
+    width: 90vw;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsor-section-title{
+    margin-bottom: 50px;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.sponsor-rank{
+    width: 100%;
+    height: fit-content;
+    /* background-color: red; */
+}
+
+.rank{
+    display: flex;
+    /* background-color: red; */
+    width: 100%;
+    align-items: center;
+}
+
+.rank-title{
+    font-size: 27px;
+}
+
+.rank-divider{
+    height: 2px;
+    width: 100%;
+    background-color: var(--dog-gray);
+    color: var(--dog-gray);
+    border: 0;
+    margin: 0 20px;
+}
+
+.sponsor-logos{
+    /* background-color: green; */
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-for-sponsor{
+    margin: 18px;
+    height: fit-content;
+    width: fit-content;
+    max-width: 220px;
+    max-height: 100px;
+    /* height: auto */
+}
+
+.sponsor-us{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 900px){
+    .logo-for-sponsor{
+        max-width: 200px;
+        height: auto;
+    }
+}

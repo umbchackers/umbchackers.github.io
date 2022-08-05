@@ -1,0 +1,91 @@
+.faq{
+    /* padding-top: 100px; */
+    color: var(--dog-gray);
+    height: fit-content;
+    /* max-height: 1100px; */
+    margin-bottom: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.faq-content{
+    /* background: red; */
+    width: 90vw;
+    max-width: 940px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* background-color: yellow; */
+}
+
+.questions{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.questions div{
+    margin-bottom: 44px;
+}
+
+/* Question.js css */
+
+/* general answer styling */
+.question-details{
+    font-size: 21px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    max-height: 50px;
+    overflow: hidden;
+    display: inline;
+}
+
+/* answer styling when open */
+.question-details[open]{
+    max-height: 300px;
+}
+
+.question-details[open] p{
+    margin-left: 20px;
+    line-height: 1.7;
+}
+
+/* actual question title */
+.question-details summary{
+    font-size: 30px;
+    font-weight: 1000;
+    cursor: pointer;
+    /* background-color: red; */
+    /* display: flex; */
+}
+
+/* question title styling when open */
+.question-details[open] summary{
+    padding-bottom: 10px;
+}
+
+.question-details:hover{
+    color: var(--sunset-yellow);
+}
+
+.question-details[open]:hover{
+    color: var(--dog-gray);
+}
+
+
+@media screen and (max-width: 900px){
+    .question-details summary{
+        font-size: 26px;
+    }
+    
+    .question-details{
+        max-height: 100px;
+        font-size: 13px;
+    }
+
+    .question-details[open]{
+        max-height: 300px;
+    }
+}
