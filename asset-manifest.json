@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba33767e.css",
-    "main.js": "/static/js/main.a5c2d712.js",
+    "main.css": "/static/css/main.ebf4c9ff.css",
+    "main.js": "/static/js/main.c96c2bf1.js",
     "static/media/hackUMBC-retro-logo.png": "/static/media/hackUMBC-retro-logo.f6721c7bd140b41a33d5.png",
-    "static/media/new-mountains.jpg": "/static/media/new-mountains.a52b3e0633745b659eb3.jpg",
-    "static/media/retro-dawg.png": "/static/media/retro-dawg.d431411fd9c1559e7477.png",
+    "static/media/new-mountains.jpg": "/static/media/new-mountains.a52b3e0633745b659eb3.a52b3e0633745b659eb3.jpg",
+    "static/media/retro-dawg.png": "/static/media/retro-dawg.ebd74f574f475197f793.png",
     "static/media/retro-tile-1.png": "/static/media/retro-tile-1.d6959c158810200214d2.png",
+    "static/media/standout-stickers-logo.png": "/static/media/standout-stickers-logo.ac975fc0ec07d73a97f5.png",
     "static/media/retro-tile-2.png": "/static/media/retro-tile-2.b664050e0e6d3b28ba64.png",
     "index.html": "/index.html",
-    "main.ba33767e.css.map": "/static/css/main.ba33767e.css.map",
-    "main.a5c2d712.js.map": "/static/js/main.a5c2d712.js.map"
+    "main.ebf4c9ff.css.map": "/static/css/main.ebf4c9ff.css.map",
+    "main.c96c2bf1.js.map": "/static/js/main.c96c2bf1.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba33767e.css",
-    "static/js/main.a5c2d712.js"
+    "static/css/main.ebf4c9ff.css",
+    "static/js/main.c96c2bf1.js"
   ]
 }

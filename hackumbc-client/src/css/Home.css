@@ -25,7 +25,7 @@ html.sponsors-bg{
 
 .landing{
     /* background-color: red; */
-    background-image: url("../assets/retro-theme-bg.png");
+    background-image: url("../assets/new-mountains.a52b3e0633745b659eb3.jpg");
     /* Center and scale the image nicely */
     overflow: hidden;
     background-position: center;
@@ -54,6 +54,12 @@ html.sponsors-bg{
     height: auto;
     padding: 0;
     margin-bottom: -15px;
+    transition: -webkit-filter 3s, filter 3s;
+}
+
+.header-logo:hover{
+    -webkit-filter:  drop-shadow(0px 0px 3px rgb(187, 253, 255));
+    filter: drop-shadow(0px 0px 3px rgb(187, 253, 255));
 }
 
 .header-date{
@@ -193,6 +199,15 @@ html.sponsors-bg{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.sticker-logo {
+    width: 20vw;
+    height: 20vh;
+    background-image: url("../assets/standout-stickers-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .footer-icons{
