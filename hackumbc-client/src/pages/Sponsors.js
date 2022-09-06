@@ -23,6 +23,9 @@ const Sponsors = () => {
                     <p className='sponsor-us'>If you have any questions, please email us at sponsor@hackUMBC.org</p>
                 </div>
                 
+                <a href='https://www.standoutstickers.com/' target="_blank">
+                        <div className='sticker-logo' />
+                </a>
                 {/* <Rank title='DIAMOND'>
                     <img src={require('../assets/sponsors/northrop.png')} alt='sponsor' className='logo-for-sponsor'/>
                     <img src={require('../assets/sponsors/general-dynamics.png')} alt='sponsor' className='logo-for-sponsor'/>
