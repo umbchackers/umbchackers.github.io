@@ -54,6 +54,14 @@ html.sponsors-bg{
     height: auto;
     padding: 0;
     margin-bottom: -15px;
+<<<<<<< HEAD
+    transition: -webkit-filter 3s, filter 3s;
+}
+
+.header-logo:hover{
+    -webkit-filter:  drop-shadow(0px 0px 3px rgb(187, 253, 255));
+    filter: drop-shadow(0px 0px 3px rgb(187, 253, 255));
+=======
     animation: fade-glow 7s infinite
 }
 
@@ -72,6 +80,7 @@ html.sponsors-bg{
         -webkit-filter:  drop-shadow(0px 0px 5px rgb(187, 253, 255));
         filter: drop-shadow(0px 0px 5px rgb(187, 253, 255));
     }
+>>>>>>> d848357c30c48142c1ca0600f73c68286da35cec
 }
 
 .header-date{

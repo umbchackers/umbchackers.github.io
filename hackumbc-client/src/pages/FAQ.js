@@ -63,6 +63,12 @@ const FAQ = () => {
                     question= "Is there a code of conduct?"
                     answer= "Yes, it can be found here."
                 />
+                <div data-aos='fade-up' className='question-container'>
+                    <details className='question-details'>
+                        <summary>Is there a code of conduct?</summary>
+                        <p>Yes, it can be found <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>here.</a></p>
+                    </details>
+                </div>
                 <Question
                     question= "I have more questions!"
                     answer= "Get in touch with us at hackumbc@gmail.com"

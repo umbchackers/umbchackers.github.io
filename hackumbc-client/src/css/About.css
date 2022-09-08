@@ -64,7 +64,7 @@
     /* background-color: blue; */
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     margin-bottom: 60px;
 }
 
