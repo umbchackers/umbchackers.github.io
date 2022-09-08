@@ -42,22 +42,15 @@ const About = () => {
                     
                     <div className='tracks-content' data-aos='fade-up'>
                         <Track
-                            title='Connection'
-                            desc='Hacks focused around creating tools for building community and cultivating relationships in a virtual setting.'
+                            title='Data'
+                            desc='Hacks focused around data analysis and visualization to solve large scale problems.'
                         >
                             <img src={require('../assets/wifi.png')} alt='track-image' className='track-image'/>
                         </Track>
                         
                         <Track
-                            title='Healthcare'
-                            desc='Hacks focused around increasing accessibility in healthcare, especially in response to the COVID-19 pandemic.'
-                        >
-                            <img src={require('../assets/healthcare.png')} alt='track-image' className='track-image'/>
-                        </Track>
-                        
-                        <Track
-                            title='Education'
-                            desc='Hacks focused around solutions for accessibility in education, especially in distance learning.'
+                            title='Hardware'
+                            desc='Hacks focused around physical components as well as programming to construct innovative designs.'
                         >
                             <img src={require('../assets/education.png')} alt='track-image' className='track-image'/>
                         </Track>
@@ -70,17 +63,10 @@ const About = () => {
                         </Track>
                         
                         <Track
-                            title='Equity'
-                            desc='Hacks focused around building solutions for inequities faced by historically marginalized communities.'
+                            title='AI/ML'
+                            desc='Hacks focused around Artifical Intelligence programs to train algorithms on complex situations.'
                         >
                             <img src={require('../assets/Dog_Equity.png')} alt='track-image' className='track-image'/>
-                        </Track>
-                        
-                        <Track
-                            title='Hobbies'
-                            desc='Hacks focused around creating new ways to experience activies and pass times.'
-                        >
-                            <img src={require('../assets/Dog_Hobbies.png')} alt='track-image' className='track-image'/>
                         </Track>
                     </div>
                 </div>
