@@ -59,10 +59,6 @@ const FAQ = () => {
                     question= "Can I build on past projects?"
                     answer= "We strongly discourage building off of existing projects you've worked on. However, using third–party APIs and libraries are encouraged, as long as they're accessible by everyone."
                 />
-                <Question
-                    question= "Is there a code of conduct?"
-                    answer= "Yes, it can be found here."
-                />
                 <div data-aos='fade-up' className='question-container'>
                     <details className='question-details'>
                         <summary>Is there a code of conduct?</summary>

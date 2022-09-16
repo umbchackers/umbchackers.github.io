@@ -54,12 +54,29 @@ html.sponsors-bg{
     height: auto;
     padding: 0;
     margin-bottom: -15px;
-    transition: -webkit-filter 3s, filter 3s;
 }
 
 .header-logo:hover{
     -webkit-filter:  drop-shadow(0px 0px 3px rgb(187, 253, 255));
     filter: drop-shadow(0px 0px 3px rgb(187, 253, 255));
+    animation: fade-glow 7s infinite
+}
+
+@keyframes fade-glow {
+    0% {
+        -webkit-filter:  drop-shadow(0px 0px 5px rgb(187, 253, 255));
+        filter: drop-shadow(0px 0px 5px rgb(187, 253, 255));
+    }
+
+    50% {
+        -webkit-filter:  drop-shadow(0px 0px 2px rgb(187, 253, 255));
+        filter: drop-shadow(0px 0px 2px rgb(187, 253, 255));
+    }
+
+    100% {
+        -webkit-filter:  drop-shadow(0px 0px 5px rgb(187, 253, 255));
+        filter: drop-shadow(0px 0px 5px rgb(187, 253, 255));
+    }
 }
 
 .header-date{
