@@ -13,7 +13,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.7",
-    "smooth-scrollbar": "^8.7.4",
+    "smooth-scrollbar": "^8.7.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
