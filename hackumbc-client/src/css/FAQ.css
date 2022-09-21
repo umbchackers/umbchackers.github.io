@@ -74,6 +74,10 @@
     color: var(--dog-gray);
 }
 
+#coc-link{
+    color: rgb(255, 187, 219);
+}
+
 
 @media screen and (max-width: 900px){
     .question-details summary{

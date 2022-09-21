@@ -56,23 +56,23 @@ export const Home = () => {
         // const trigger3 = document.querySelector(".footer");
         if (elementInViewport2(trigger)) {
             document.getElementById('home-html').className = "faq-bg"; // changing background color
-            document.getElementById('signup-button').className = "nav-sign-up-dark";
-            document.getElementById('vsignup-button').className = "nav-sign-up-dark"; // changing sign up button color
+            // document.getElementById('signup-button').className = "nav-sign-up-dark";
+            // document.getElementById('vsignup-button').className = "nav-sign-up-dark"; changing sign up and volunteer button colors
             document.getElementById('about-faq').className = "page-divider-dark"; // changing page divider color
-            document.querySelectorAll('[id=left-nav-button]').forEach(element=>{ // changing all nav link colors
-                element.className = "nav-link-dark";
-            })
+            // document.querySelectorAll('[id=left-nav-button]').forEach(element=>{ // changing all nav link colors
+            //     element.className = "nav-link-dark";
+            // })
         } else if (elementInViewport2(trigger2)) {
             document.getElementById('home-html').className = "sponsors-bg";
         } else {
             // changing all back to normal colors
             document.getElementById('home-html').className = ""
-            document.getElementById('signup-button').className = "nav-sign-up";
-            document.getElementById('vsignup-button').className = "nav-sign-up";
+            // document.getElementById('signup-button').className = "nav-sign-up";
+            // document.getElementById('vsignup-button').className = "nav-sign-up";
             document.getElementById('about-faq').className = "page-divider-purple";
-            document.querySelectorAll('[id=left-nav-button]').forEach(element=>{
-                element.className = "nav-link";
-            })
+            // document.querySelectorAll('[id=left-nav-button]').forEach(element=>{
+            //     element.className = "nav-link";
+            // })
         }
     }
 

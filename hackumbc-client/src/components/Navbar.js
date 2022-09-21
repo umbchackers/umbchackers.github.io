@@ -5,7 +5,7 @@ import '../css/Navbar.css'
 
 const Navbar = () => {
   return (
-    <div className='nav-bar-container'>
+    <div id='nav-bar-container'>
         <a href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=black" target="_blank">
             <img className="mlh-trust-badge" src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-black.svg" alt="Major League Hacking 2022 Hackathon Season"/>
         </a>

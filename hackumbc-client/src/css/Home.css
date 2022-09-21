@@ -34,6 +34,7 @@ html.sponsors-bg{
     width: 100vw;
     height: 100vh;
     display: flex;
+    padding-bottom: 5vh;
     align-items: center;
     justify-content: center;
 }
@@ -54,29 +55,12 @@ html.sponsors-bg{
     height: auto;
     padding: 0;
     margin-bottom: -15px;
+    transition: -webkit-filter 3s, filter 3s;
 }
 
 .header-logo:hover{
     -webkit-filter:  drop-shadow(0px 0px 3px rgb(187, 253, 255));
     filter: drop-shadow(0px 0px 3px rgb(187, 253, 255));
-    animation: fade-glow 7s infinite
-}
-
-@keyframes fade-glow {
-    0% {
-        -webkit-filter:  drop-shadow(0px 0px 5px rgb(187, 253, 255));
-        filter: drop-shadow(0px 0px 5px rgb(187, 253, 255));
-    }
-
-    50% {
-        -webkit-filter:  drop-shadow(0px 0px 2px rgb(187, 253, 255));
-        filter: drop-shadow(0px 0px 2px rgb(187, 253, 255));
-    }
-
-    100% {
-        -webkit-filter:  drop-shadow(0px 0px 5px rgb(187, 253, 255));
-        filter: drop-shadow(0px 0px 5px rgb(187, 253, 255));
-    }
 }
 
 .header-date{
@@ -100,7 +84,7 @@ html.sponsors-bg{
     display: flex;
     align-items: center;
     color: rgb(161, 238, 248);
-    margin: 1vw 0;
+    margin: .5vw 0;
 }
 
 .header-location-icon{
@@ -158,7 +142,7 @@ html.sponsors-bg{
 
 .header-foot{
     text-align: center;
-    margin-top: 1vw;
+    margin-top: .5vw;
     font-size: 1vw;
     font-weight: 500;
 }
