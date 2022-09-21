@@ -19,8 +19,13 @@ const Sponsors = () => {
         <div className='sponsors' id='sponsors-page'>
             <div className='sponsors-content'>
                 <div aos-data='fade-up' className='sponsor-section-title'>
+                    <div data-aos='fade-up' className='tracks-title'>
+                        <hr/>
+                        <h2>SPONSORS</h2>
+                        <hr/>
+                    </div>
                     <SectionTitle title='SUPPORT US FOR THE 2022 HACKATHON'/>
-                    <p className='sponsor-us'>If you have any questions, please email us at sponsor@hackUMBC.org</p>
+                    <p className='sponsor-us'>If you are interested in sponsoring us, please feel free to email us at sponsor@hackUMBC.org</p>
                 </div>
                 
                 <a href='https://www.standoutstickers.com/' target="_blank">

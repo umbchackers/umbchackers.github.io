@@ -16,7 +16,7 @@ const FAQ = () => {
 
             <div className='questions'>
                 <Question
-                    question= "What does this  year's transition look like with COVID-19?"
+                    question= "What does this year's transition look like with COVID-19?"
                     answer= "After two years of offering a digital event due to the ongoing pandemic we are excited to announce that this year’s event will be fully in person! We will continue to follow UMBC’s COVID-19 protocols and there will be a virtual platform for communications. However we hope that you are as excited as we are to return to the hype of an in person event!"
                 />
                 <Question
@@ -29,7 +29,7 @@ const FAQ = () => {
                 />
                 <Question
                     question= "What do I need to register/attend?"
-                    answer= "To complete the pre-registration process you will need a valid student or government-issued ID card and your resume. Since this year hackUMBC will be hosted virtually, all you will need is your hacking device (laptop, desktop, tablet, etc.) and Wi-Fi!"
+                    answer= "To complete the pre-registration process you will need a valid student or government-issued ID card and your resume."
                 />
                 <Question
                     question= "Who can attend?"
@@ -48,21 +48,17 @@ const FAQ = () => {
                     answer= "Anything! Web, mobile, desktop, and hardware projects are all welcome. Projects will be judged based on creativity, technical difficulty, polish, and usefulness."
                 />
                 <Question
-                    question= "Will there be hardware?"
-                    answer= "Stay tuned..."
-                />
-                <Question
                     question= "How big should teams be? Can I hack alone?"
                     answer= "Teams should be at most FOUR people. We highly recommend that you form a team, but solo hackers are allowed."
                 />
                 <Question
                     question= "Can I build on past projects?"
-                    answer= "We strongly discourage building off of existing projects you've worked on. However, using third–party APIs and libraries are encouraged, as long as they're accessible by everyone."
+                    answer= "We strongly discourage building off of existing projects you've worked on, and unfortunately they will not be eligible for prizes. However, using third–party APIs and libraries are encouraged, as long as they're accessible by everyone."
                 />
                 <div data-aos='fade-up' className='question-container'>
                     <details className='question-details'>
                         <summary>Is there a code of conduct?</summary>
-                        <p>Yes, it can be found <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>here.</a></p>
+                        <p>Yes, it can be found <a id='coc-link' href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>here.</a></p>
                     </details>
                 </div>
                 <Question
