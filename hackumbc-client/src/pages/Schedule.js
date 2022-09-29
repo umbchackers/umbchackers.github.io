@@ -23,9 +23,15 @@ const About = () => {
                 <SectionTitle data-aos="fade-up" title="SCHEDULE" />
 
                 <ScheduleBlock
+                    time="9:00AM"
+                    title="CHECK IN"
+                    details="Doors open promptly at 9:00AM at the Interdisciplinary Life Sciences Building!"
+                />
+                
+                <ScheduleBlock
                     time="10:00AM"
                     title="OPENING CEREMONY"
-                    details="Welcome all hackers into hackUMBC 2022!"
+                    details="Join us as we welcome all hackers into hackUMBC 2022!"
                 />
 
                 <ScheduleBlock
@@ -37,13 +43,19 @@ const About = () => {
                 <ScheduleBlock
                     time="12:00PM"
                     title="HACKATHON KICKOFF"
-                    details="Time to get this party started! The competition begins promptly at noon!"
+                    details="Time to get this party started! The competition begins at noon!"
                 />
 
                 <ScheduleBlock
                     time="1:00PM"
                     title="LUNCH"
                     details="Enjoy your Saturday lunch on us!"
+                />
+
+                <ScheduleBlock
+                    time="2:00PM"
+                    title="WORKSHOPS"
+                    details="Learn a little (or a lot) more about Computer Science with our workshops! Ongoing until 6PM."
                 />
 
                 <ScheduleBlock
@@ -79,7 +91,7 @@ const About = () => {
                 <ScheduleBlock
                     time="4:00PM"
                     title="CLOSING CEREMONY"
-                    details="hackUMBC ends at 4PM with our closing ceremony, where we will be announcing our winners!!"
+                    details="hackUMBC wll be wrapping up at 4PM with our closing ceremony, where we will be announcing our winners!!"
                 />
 
             </div>

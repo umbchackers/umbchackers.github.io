@@ -107,7 +107,7 @@ export const Home = () => {
                     </h3>
 
                     <a className='header-button' href='https://hackumbc.typeform.com/to/nWcCFMXi' target="_blank">
-                        HACKUMBC 2022 REGISTRATION NOW OPEN!
+                        REGISTRATION CLOSING SOON!
                     </a>
 
                     {/* social media icons */}

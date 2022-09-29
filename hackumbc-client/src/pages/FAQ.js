@@ -25,7 +25,7 @@ const FAQ = () => {
                 />
                 <Question
                     question= "What is a hackathon?"
-                    answer= "A hackathon is a place where you come together to solve problems. Students are encouraged to come up with an idea, form teams, and then build out that idea (typically through programming!) into a product in 36 hours. We want you to take something you love (sports, art, camping, anything!) and combine it with technology to make something awesome. It's a great time to push the envelope and learn some new skills. This is where your dreams run wild. Solve a real-world problem with technology or build the next Iron Man suit."
+                    answer= "A hackathon is a place where you come together to solve problems. Students are encouraged to come up with an idea, form teams, and then build out that idea (typically through programming!) into a product in 24 hours. We want you to take something you love (sports, art, camping, anything!) and combine it with technology to make something awesome. It's a great time to push the envelope and learn some new skills. This is where your dreams run wild. Solve a real-world problem with technology or build the next Iron Man suit."
                 />
                 <Question
                     question= "What do I need to register/attend?"

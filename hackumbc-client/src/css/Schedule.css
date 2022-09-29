@@ -18,7 +18,7 @@
 }
 
 .schedule-container{
-    width: 50vw;
+    width: 60vw;
 }
 
 .schedule-title{
@@ -29,7 +29,7 @@
 }
 
 .schedule-title hr{
-    width: 40vw;
+    width: 35vw;
     height: 3px;
     background-color: var(--lilac-purple);
     border: 0;
