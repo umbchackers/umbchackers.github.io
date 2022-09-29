@@ -7,6 +7,7 @@ import '../css/Home.css'
 
 import Navbar from '../components/Navbar'
 import MobileNavbar from '../components/MobileNavbar'
+import Schedule from './Schedule';
 import About from './About';
 import FAQ from './FAQ';
 import Sponsors from './Sponsors';
@@ -106,7 +107,7 @@ export const Home = () => {
                     </h3>
 
                     <a className='header-button' href='https://hackumbc.typeform.com/to/nWcCFMXi' target="_blank">
-                        HACKUMBC 2022 REGISTRATION NOW OPEN!
+                        REGISTRATION CLOSING SOON!
                     </a>
 
                     {/* social media icons */}
@@ -130,6 +131,8 @@ export const Home = () => {
                     </h4>
                 </div>
             </div>
+
+            <Schedule/>
 
             <About/>
 

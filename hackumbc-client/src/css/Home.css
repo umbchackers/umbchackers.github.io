@@ -203,12 +203,13 @@ html.sponsors-bg{
 }
 
 .sticker-logo {
-    width: 20vw;
-    height: 20vh;
+    width: 10vw;
+    height: 10vh;
     background-image: url("../assets/standout-stickers-logo.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 50px;
 }
 
 .footer-icons{

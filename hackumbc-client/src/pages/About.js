@@ -42,6 +42,13 @@ const About = () => {
                     
                     <div className='tracks-content' data-aos='fade-up'>
                         <Track
+                            title='General'
+                            desc="Whatever you want! These are hacks that don't fit under any specific category."
+                        >
+                            <img src={require('../assets/Dog_General.png')} alt='track-image' className='track-image'/>
+                        </Track>
+
+                        <Track
                             title='Data'
                             desc='Hacks focused around data analysis and visualization to solve large scale problems.'
                         >
@@ -53,13 +60,6 @@ const About = () => {
                             desc='Hacks focused around physical components as well as programming to construct innovative designs.'
                         >
                             <img src={require('../assets/education.png')} alt='track-image' className='track-image'/>
-                        </Track>
-                        
-                        <Track
-                            title='General'
-                            desc="Whatever you want! These are hacks that don't fit under any specific category."
-                        >
-                            <img src={require('../assets/Dog_General.png')} alt='track-image' className='track-image'/>
                         </Track>
                         
                         <Track
