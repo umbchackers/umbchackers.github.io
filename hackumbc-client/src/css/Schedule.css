@@ -1,0 +1,52 @@
+.schedule{
+    padding-top: 100px;
+    color: var(--lilac-purple);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.schedule-content{
+    /* background: red; */
+    width: 90vw;
+    max-width: 940px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.schedule-container{
+    width: 50vw;
+}
+
+.schedule-title{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.schedule-title hr{
+    width: 40vw;
+    height: 3px;
+    background-color: var(--lilac-purple);
+    border: 0;
+}
+
+.schedule-title h2{
+    width: 10vw;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.schedule-details{
+    width: 25vw;
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    margin-bottom: 60px;
+}

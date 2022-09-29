@@ -7,6 +7,7 @@ import '../css/Home.css'
 
 import Navbar from '../components/Navbar'
 import MobileNavbar from '../components/MobileNavbar'
+import Schedule from './Schedule';
 import About from './About';
 import FAQ from './FAQ';
 import Sponsors from './Sponsors';
@@ -130,6 +131,8 @@ export const Home = () => {
                     </h4>
                 </div>
             </div>
+
+            <Schedule/>
 
             <About/>
 
