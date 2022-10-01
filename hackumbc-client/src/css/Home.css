@@ -48,9 +48,11 @@ html.sponsors-bg{
     align-items: center;
     color: white;
 }
-
+.headerlogo-div{
+    margin-top: px;
+}
 .header-logo{
-    margin-top: -45px;
+    margin-top: 100px;
     width: 33vw;
     height: auto;
     padding: 0;
@@ -198,6 +200,7 @@ html.sponsors-bg{
     margin-top: .5vw;
     font-size: 1vw;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .page-divider-purple{

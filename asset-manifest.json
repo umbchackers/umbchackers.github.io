@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.473d13ab.css",
-    "main.js": "/static/js/main.df70c54a.js",
+    "main.css": "/static/css/main.0a867b10.css",
+    "main.js": "/static/js/main.c448ed09.js",
     "static/media/hackUMBC-retro-logo.png": "/static/media/hackUMBC-retro-logo.f6721c7bd140b41a33d5.png",
     "static/media/new-mountains.jpg": "/static/media/new-mountains.a52b3e0633745b659eb3.a52b3e0633745b659eb3.jpg",
     "static/media/retro-dawg.png": "/static/media/retro-dawg.ebd74f574f475197f793.png",
@@ -16,11 +16,11 @@
     "static/media/northrop.png": "/static/media/northrop.e3e3ed5b0b9777db762e.png",
     "static/media/apl_small_horizontal_black_1.png": "/static/media/apl_small_horizontal_black_1.7d17374366c04984c662.png",
     "index.html": "/index.html",
-    "main.473d13ab.css.map": "/static/css/main.473d13ab.css.map",
-    "main.df70c54a.js.map": "/static/js/main.df70c54a.js.map"
+    "main.0a867b10.css.map": "/static/css/main.0a867b10.css.map",
+    "main.c448ed09.js.map": "/static/js/main.c448ed09.js.map"
   },
   "entrypoints": [
-    "static/css/main.473d13ab.css",
-    "static/js/main.df70c54a.js"
+    "static/css/main.0a867b10.css",
+    "static/js/main.c448ed09.js"
   ]
 }
