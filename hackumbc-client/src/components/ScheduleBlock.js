@@ -1,5 +1,5 @@
 import React from 'react'
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import '../css/Home.css'
 import '../css/Schedule.css'
 
@@ -8,7 +8,15 @@ import "aos/dist/aos.css";
 
 // realizing after the fact that this does not need its own component but we can keep it for now its not too bad
 const ScheduleBlock = ({time, title, details}) => {
+    const [isHovering, setIsHovering] = useState(false);
 
+    const handleMouseOver = () => {
+      setIsHovering(true);
+    };
+  
+    const handleMouseOut = () => {
+      setIsHovering(false);
+    };
     useEffect(()=>{
         Aos.init({
             once: 'true',
@@ -17,13 +25,17 @@ const ScheduleBlock = ({time, title, details}) => {
     }, [])
 
   return (
-    <div className="schedule-container">
+    <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} className="schedule-container">
         <div data-aos='fade-up' className='schedule-title'>
             <h2>{time}</h2>
             <hr/>
             <h2>{title}</h2>
         </div>
-        <h2 className='schedule-details'>{details}</h2>
+        {isHovering && (
+        <div className='schedule-details'>
+            <h3> {details}</h3>
+        </div>
+        )}
     </div>
   )
 }

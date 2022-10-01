@@ -18,6 +18,8 @@ export const Home = () => {
     const [width, setWidth]   = useState(window.innerWidth);
     const [height, setHeight] = useState(window.innerHeight);
 
+    var headerbutton = document.getElementById("header-button")
+
     const updateDimensions = () => {
         setWidth(window.innerWidth);
         setHeight(window.innerHeight);
@@ -106,8 +108,8 @@ export const Home = () => {
                         <span className='header-location-text'>ILSB, UMBC</span>
                     </h3>
 
-                    <a className='header-button' href='https://hackumbc.typeform.com/to/nWcCFMXi' target="_blank">
-                        REGISTRATION CLOSING SOON!
+                    <a className='header-button' target="_blank">
+                        REGISTRATION CLOSED!
                     </a>
 
                     {/* social media icons */}
