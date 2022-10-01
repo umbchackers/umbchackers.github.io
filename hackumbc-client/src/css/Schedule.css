@@ -25,6 +25,7 @@
     /* max-width: 940px; */
     align-items: center;
     /* background-color: yellow; */
+    padding-top: 2px;
 }
 
 .rightPane{
@@ -55,6 +56,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    size: 1vw;
 }
 
 .schedule-title hr{

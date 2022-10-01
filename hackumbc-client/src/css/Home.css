@@ -96,6 +96,22 @@ html.sponsors-bg{
     font-size: 1.2vw;
 }
 
+.headerbutton-div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mapbutton-div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.devpostbutton-div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .header-button{
     font-weight: 900;
     font-size: 1vw;
@@ -107,8 +123,45 @@ html.sponsors-bg{
     transition: 0.3s;
 }
 
-.header-button:hover{
+.devpost-button{
+    font-weight: 900;
+    font-size: 1vw;
+    letter-spacing: 0.3vw;
+    background-color: white;
+    color: #381e55;
+    border-radius: 8px;
+    padding: 1.5vw 3vw;
+    transition: 0.3s;
+}
+
+.map-button{
+    font-weight: 900;
+    font-size: 1vw;
+    letter-spacing: 0.3vw;
+    background-color: #ffffff;
+    color: #381e55;
+    border-radius: 8px;
+    padding: 1.5vw 3vw;
+    transition: 0.3s;
+}
+
+.headerbutton-div:hover{
     transform: scale(1.1);
+    transition: 0.3s;
+    -webkit-filter:  drop-shadow(0px 0px 8px rgb(187, 253, 255));
+    filter: drop-shadow(0px 0px 8px rgb(187, 253, 255));
+}
+
+.mapbutton-div:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    -webkit-filter:  drop-shadow(0px 0px 8px rgb(187, 253, 255));
+    filter: drop-shadow(0px 0px 8px rgb(187, 253, 255));
+}
+
+.devpostbutton-div:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
     -webkit-filter:  drop-shadow(0px 0px 8px rgb(187, 253, 255));
     filter: drop-shadow(0px 0px 8px rgb(187, 253, 255));
 }
@@ -282,6 +335,24 @@ html.sponsors-bg{
         padding: 5.3vw 6.3vw;
         margin-top: 50px;
         margin-bottom: 30px;
+        /* border-radius: 100px; */
+    }
+
+    .map-button{
+        font-size: 3vw;
+        padding: 5.3vw 6.3vw;
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+        /* border-radius: 100px; */
+    }
+
+    .devpost-button{
+        font-size: 3vw;
+        padding: 5.3vw 6.3vw;
+        margin-top: 50px;
+        margin-bottom: 30px;
+
         /* border-radius: 100px; */
     }
 

@@ -18,8 +18,6 @@ export const Home = () => {
     const [width, setWidth]   = useState(window.innerWidth);
     const [height, setHeight] = useState(window.innerHeight);
 
-    var headerbutton = document.getElementById("header-button")
-
     const updateDimensions = () => {
         setWidth(window.innerWidth);
         setHeight(window.innerHeight);
@@ -108,9 +106,25 @@ export const Home = () => {
                         <span className='header-location-text'>ILSB, UMBC</span>
                     </h3>
 
+                    <div className='headerbutton-div'>
                     <a className='header-button' target="_blank">
                         REGISTRATION CLOSED!
                     </a>
+                    </div>
+
+                    <div className='mapbutton-div'>
+                    <a href='https://oldlemonpepper.github.io/ILSBMap/' className='map-button' target="_blank">
+                        INTERACTIVE EVENT MAP
+                    </a>
+                    </div>
+                    {false &&
+                    <div className='devpostbutton-div'>
+                    <a href='https://oldlemonpepper.github.io/ILSBMap/' className='map-button' target="_blank">
+                        DEVPOST
+                    </a>
+                    </div>
+                    }
+
 
                     {/* social media icons */}
                     <div className='header-social'>
@@ -129,12 +143,13 @@ export const Home = () => {
                     </div>
 
                     <h4 className='header-foot'>
-                        Interested in sponsoring us? Email us at SPONSOR@HACKUMBC.ORG.
+                        Interested in sponsoring us? Email us at SPONSOR@HACKUMBC.ORG. <br />
+                        Can't find the schedule? if on mobile go to landscape, or resize browser.
                     </h4>
                 </div>
             </div>
 
-            <Schedule/>
+            {width > 770 && (<Schedule/>)}
 
             <About/>
 
