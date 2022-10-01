@@ -184,7 +184,7 @@ const About = () => {
 
                 <ScheduleBlock
                     time="12:00PM"
-                    title="-----HACKING ENDS-----"
+                    title="HACKING ENDS"
                     details="Keyboards down! Have your projected finalized and submitted by Sunday at noon. We will also be serving a second lunch at this time!"
                 />
 
