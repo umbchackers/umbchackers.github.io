@@ -178,6 +178,7 @@ html.sponsors-bg{
     letter-spacing: 10px;
 }
 
+
 .section-title::before{
     content: "{";
     color: var(--sunset-yellow);

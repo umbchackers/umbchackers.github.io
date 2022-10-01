@@ -1,7 +1,11 @@
+.hide {
+    display: none;
+  }
+
 .schedule{
     padding-top: 100px;
     color: var(--lilac-purple);
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
@@ -9,27 +13,52 @@
 
 .schedule-content{
     /* background: red; */
-    width: 90vw;
-    max-width: 940px;
+    /* max-width: 940px; */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    /* background-color: yellow; */
+}
+
+.leftPane{
+    /* background: red; */
+    width: 50%;
+    /* max-width: 940px; */
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.rightPane{
+    /* background: red; */
+    padding-top: 45px;
+    width: 50%;
+    /* max-width: 940px; */
     align-items: center;
     /* background-color: yellow; */
 }
 
 .schedule-container{
-    width: 60vw;
+    width: 47vw;
+    padding-top: 60px;
+}
+
+
+.date{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
 }
 
 .schedule-title{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .schedule-title hr{
-    width: 35vw;
+    width: 13vw;
     height: 3px;
     background-color: var(--lilac-purple);
     border: 0;
@@ -44,9 +73,10 @@
 }
 
 .schedule-details{
+    /* display: none; */
     width: 25vw;
     text-align: center;
     font-size: 15px;
     margin: auto;
-    margin-bottom: 60px;
+    margin-bottom: -15px;
 }
