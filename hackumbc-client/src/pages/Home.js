@@ -117,13 +117,13 @@ export const Home = () => {
                         INTERACTIVE EVENT MAP
                     </a>
                     </div>
-                    {false &&
+
                     <div className='devpostbutton-div'>
-                    <a href='https://oldlemonpepper.github.io/ILSBMap/' className='map-button' target="_blank">
+                    <a href='https://hackumbc-fall-2022.devpost.com/' className='devpost-button' target="_blank">
                         DEVPOST
                     </a>
                     </div>
-                    }
+                    
 
 
                     {/* social media icons */}
