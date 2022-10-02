@@ -97,7 +97,9 @@ export const Home = () => {
                 {/* landing background is located in src/css/Home.css */}
                 <div className='header' id='header'>
 
+                    <div className='headerlogo-div'>
                     <img className='header-logo' src={require('../assets/hackUMBC-retro-logo.png')} alt='header-logo'/>
+                    </div>
                     <h1 className='header-date'>OCTOBER 1 - 2</h1>
                     <h2 className='header-year'>2022</h2>
 
