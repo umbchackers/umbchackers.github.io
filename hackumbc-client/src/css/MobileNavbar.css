@@ -21,7 +21,7 @@
     width: 30px;
     height: auto;
     cursor: pointer;
-    color: var(--dog-gray);
+    color: rgb(116, 68, 134);
 }
 
 .mobile-overlay{

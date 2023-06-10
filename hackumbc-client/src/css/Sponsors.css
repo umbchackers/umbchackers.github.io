@@ -20,6 +20,8 @@
 
 .sponsor-section-title{
     margin-bottom: 50px;
+    margin-top: 10px;
+
     text-align: center;
     /* background-color: blue; */
 }
@@ -71,7 +73,8 @@
 
 .sponsor-us{
     margin-top: 20px;
-    font-size: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
     font-weight: 500;
 }
 

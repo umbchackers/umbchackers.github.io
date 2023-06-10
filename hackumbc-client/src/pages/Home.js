@@ -100,22 +100,22 @@ export const Home = () => {
                     <div className='headerlogo-div'>
                     <img className='header-logo' src={require('../assets/hackUMBC-retro-logo.png')} alt='header-logo'/>
                     </div>
-                    <h1 className='header-date'>OCTOBER 1 - 2</h1>
-                    <h2 className='header-year'>2022</h2>
+                    <h1 className='header-date'>SEPTEMBER, TBD</h1>
+                    <h2 className='header-year'>2023</h2>
 
                     <h3 className='header-location'>
                         <MdLocationPin className='header-location-icon'/>
                         <span className='header-location-text'>ILSB, UMBC</span>
                     </h3>
 
-                    <div className='headerbutton-div'>
+                    {/* <div className='headerbutton-div'>
                     <a className='header-button' target="_blank">
-                        REGISTRATION CLOSED!
+                        REGISTRATION OPEN SOON!
                     </a>
                     </div>
 
                     <div className='mapbutton-div'>
-                    <a href='https://oldlemonpepper.github.io/ILSBMap/' className='map-button' target="_blank">
+                    <a className='map-button' target="_blank">
                         INTERACTIVE EVENT MAP
                     </a>
                     </div>
@@ -124,7 +124,7 @@ export const Home = () => {
                     <a href='https://hackumbc-fall-2022.devpost.com/' className='devpost-button' target="_blank">
                         DEVPOST
                     </a>
-                    </div>
+                    </div> */}
                     
 
 
@@ -145,13 +145,12 @@ export const Home = () => {
                     </div>
 
                     <h4 className='header-foot'>
-                        Interested in sponsoring us? Email us at SPONSOR@HACKUMBC.ORG. <br />
-                        Can't find the schedule? if on mobile go to landscape, or resize browser.
+                        Interested in sponsoring us? Email us at SPONSOR@HACKUMBC.ORG.
                     </h4>
                 </div>
             </div>
 
-            {width > 770 && (<Schedule/>)}
+            {/* width > 770 && (<Schedule/>) */}
 
             <About/>
 

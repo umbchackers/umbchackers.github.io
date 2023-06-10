@@ -19,13 +19,8 @@ const Sponsors = () => {
         <div className='sponsors' id='sponsors-page'>
             <div className='sponsors-content'>
                 <div aos-data='fade-up' className='sponsor-section-title'>
-                    <div data-aos='fade-up' className='tracks-title'>
-                        <hr/>
-                        <h2>SPONSORS</h2>
-                        <hr/>
-                    </div>
-                    <SectionTitle title='SUPPORT US FOR THE 2022 HACKATHON'/>
-                    <p className='sponsor-us'>If you are interested in sponsoring us, please feel free to email us at sponsor@hackUMBC.org</p>
+                <SectionTitle title='OUR PREVIOUS SPONSORS IN 2022' />
+                
                 </div>
                 
                 <Rank title='DIAMOND'>
@@ -44,6 +39,12 @@ const Sponsors = () => {
                 <a href='https://www.standoutstickers.com/' target="_blank">
                         <div className='sticker-logo' />
                 </a>
+
+                <div aos-data='fade-up' className='sponsor-section-title'>
+                <SectionTitle title="SUPPORT US FOR THE 2023 HACKATHON"/>
+                <p className='sponsor-us'>If you are interested in sponsoring us, please feel free to email us at sponsor@hackUMBC.tech</p>
+
+                </div>
             </div>
         </div>
     )
