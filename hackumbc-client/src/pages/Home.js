@@ -145,7 +145,7 @@ export const Home = () => {
                     </div>
 
                     <h4 className='header-foot'>
-                        Interested in sponsoring us? Email us at SPONSOR@HACKUMBC.ORG.
+                        Interested in sponsoring us? Email us at SPONSOR@HACKUMBC.TECH.
                     </h4>
                 </div>
             </div>
@@ -174,7 +174,7 @@ export const Home = () => {
                     </a>
                 </div>
                 <p className='footer-text'>
-                    © 2022 hackUMBC
+                    © 2023 hackUMBC
                 </p>
             </div>
         
