@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce1fe147.css",
+    "main.js": "/static/js/main.d1a6f818.js",
+    "static/media/hackUMBC-retro-logo.png": "/static/media/hackUMBC-retro-logo.f6721c7bd140b41a33d5.png",
+    "static/media/new-mountains.jpg": "/static/media/new-mountains.a52b3e0633745b659eb3.a52b3e0633745b659eb3.jpg",
+    "static/media/retro-dawg.png": "/static/media/retro-dawg.ebd74f574f475197f793.png",
+    "static/media/alex_brown_text.jpg": "/static/media/alex_brown_text.4cc1d9fe737f9520649f.jpg",
+    "static/media/TRowe.png": "/static/media/TRowe.646c52cac6708ed681a2.png",
+    "static/media/textron_systems.png": "/static/media/textron_systems.d2d59af6972938132366.png",
+    "static/media/cipher-tech.png": "/static/media/cipher-tech.28512a1d11ce63239960.png",
+    "static/media/retro-tile-1.png": "/static/media/retro-tile-1.d6959c158810200214d2.png",
+    "static/media/standout-stickers-logo.png": "/static/media/standout-stickers-logo.ac975fc0ec07d73a97f5.png",
+    "static/media/Booz-Allen-Hamiliton-logo.png": "/static/media/Booz-Allen-Hamiliton-logo.c728e2f660681dfd9547.png",
+    "static/media/retro-tile-2.png": "/static/media/retro-tile-2.b664050e0e6d3b28ba64.png",
+    "static/media/northrop.png": "/static/media/northrop.e3e3ed5b0b9777db762e.png",
+    "static/media/apl_small_horizontal_black_1.png": "/static/media/apl_small_horizontal_black_1.7d17374366c04984c662.png",
+    "index.html": "/index.html",
+    "main.ce1fe147.css.map": "/static/css/main.ce1fe147.css.map",
+    "main.d1a6f818.js.map": "/static/js/main.d1a6f818.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce1fe147.css",
+    "static/js/main.d1a6f818.js"
+  ]
+}
