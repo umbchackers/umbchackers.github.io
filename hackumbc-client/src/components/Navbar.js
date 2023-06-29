@@ -18,7 +18,7 @@ const Navbar = () => {
                 <Link id='left-nav-button' to='faq' offset={-100} smooth={true} duration={500} className='nav-link'>FAQ</Link>
                 <Link id='left-nav-button' to='sponsors' offset={-50} smooth={true} duration={500} className='nav-link'>Sponsors</Link>
                 {/*<a id='left-nav-button' className='nav-link' href="https://oldlemonpepper.github.io/ILSBMap/" target='_blank'>Map</a>*/}
-                {/* <Link id='left-nav-button' to='' smooth={true} duration={500} className='nav-link'>Social</Link> */}
+                <Link id='left-nav-button' to='' smooth={true} duration={500} className='nav-link'>Social</Link>
             </div>
 
             <div className="nav-right">
