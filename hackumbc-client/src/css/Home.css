@@ -177,7 +177,9 @@ html.sponsors-bg{
     width: 200px;
     color: black;
     /* uncomment when adding back boxes*/
-    margin-top: 150px;
+    position: absolute;
+    bottom: 1.5vh;
+    
 }
 
 .header-social-icon{
@@ -200,7 +202,7 @@ html.sponsors-bg{
 .header-foot{
     text-align: center;
     margin-top: .5vw;
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-weight: 500;
     margin-bottom: 5px;
 }
@@ -362,7 +364,7 @@ html.sponsors-bg{
     }
 
     .header-foot{
-        font-size: 2vw;
+        font-size: 3vw;
         margin-top: 5px;
     }
 
@@ -380,6 +382,11 @@ html.sponsors-bg{
     .devpostbutton-div{
         margin-top: 50px;
         margin-bottom: 40px;
+    }
+    .section-title{
+        font-weight: 1000;
+        font-size: 25px;
+        letter-spacing: 10px;
     }
 
 }

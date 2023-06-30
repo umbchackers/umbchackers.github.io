@@ -72,9 +72,17 @@
 }
 
 .sponsor-us{
+    
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.sponsor-us-link{
+    color:rgb(33, 33, 137);
+    margin-top: 24px;
+    margin-bottom: 10px;
+    font-size: 22x;
     font-weight: 500;
 }
 
