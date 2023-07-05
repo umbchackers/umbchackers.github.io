@@ -109,12 +109,16 @@ export const Home = () => {
             <span className="header-location-text">ILSB, UMBC</span>
           </h3>
 
-          {/* <div className='headerbutton-div'>
-                    <a className='header-button' target="_blank">
-                        REGISTRATION OPEN SOON!
-                    </a>
-                    </div>
-
+          <div className="headerbutton-div">
+            <a
+              href="https://hackumbc.typeform.com/to/KLS8nWNW"
+              className="header-button"
+              target="_blank"
+            >
+              REGISTRATION
+            </a>
+          </div>
+          {/*
                     <div className='mapbutton-div'>
                     <a className='map-button' target="_blank">
                         INTERACTIVE EVENT MAP
