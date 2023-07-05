@@ -101,7 +101,7 @@ export const Home = () => {
               alt="header-logo"
             />
           </div>
-          <h1 className="header-date">SEPTEMBER, TBD</h1>
+          <h1 className="header-date">SEPTEMBER, 22-23</h1>
           <h2 className="header-year">2023</h2>
 
           <h3 className="header-location">
@@ -109,12 +109,16 @@ export const Home = () => {
             <span className="header-location-text">ILSB, UMBC</span>
           </h3>
 
-          {/* <div className='headerbutton-div'>
-                    <a className='header-button' target="_blank">
-                        REGISTRATION OPEN SOON!
-                    </a>
-                    </div>
-
+          <div className="headerbutton-div">
+            <a
+              href="https://hackumbc.typeform.com/to/KLS8nWNW"
+              className="header-button"
+              target="_blank"
+            >
+              REGISTRATION
+            </a>
+          </div>
+          {/* 
                     <div className='mapbutton-div'>
                     <a className='map-button' target="_blank">
                         INTERACTIVE EVENT MAP
