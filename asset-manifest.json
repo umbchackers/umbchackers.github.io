@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9322805e.css",
-    "main.js": "/static/js/main.20fb1bf8.js",
+    "main.js": "/static/js/main.10037192.js",
     "static/media/hackUMBC-retro-logo.png": "/static/media/hackUMBC-retro-logo.f6721c7bd140b41a33d5.png",
     "static/media/new-mountains.jpg": "/static/media/new-mountains.a52b3e0633745b659eb3.a52b3e0633745b659eb3.jpg",
     "static/media/retro-dawg.png": "/static/media/retro-dawg.ebd74f574f475197f793.png",
@@ -17,10 +17,10 @@
     "static/media/apl_small_horizontal_black_1.png": "/static/media/apl_small_horizontal_black_1.7d17374366c04984c662.png",
     "index.html": "/index.html",
     "main.9322805e.css.map": "/static/css/main.9322805e.css.map",
-    "main.20fb1bf8.js.map": "/static/js/main.20fb1bf8.js.map"
+    "main.10037192.js.map": "/static/js/main.10037192.js.map"
   },
   "entrypoints": [
     "static/css/main.9322805e.css",
-    "static/js/main.20fb1bf8.js"
+    "static/js/main.10037192.js"
   ]
 }
