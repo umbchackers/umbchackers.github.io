@@ -1,29 +1,42 @@
 .faq{
-    /* padding-top: 100px; */
-    color: var(--dog-gray);
-    height: fit-content;
-    /* max-height: 1100px; */
-    margin-bottom: 50px;
+    /* background-color: red; */
+    background-image: url("../assets/med_blue.jpg");
+
+    /* Center and scale the image nicely */
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
+    height: 280%;
     display: flex;
+    padding-bottom: 5vh;
+    align-items: center;
     justify-content: center;
 }
-
 .faq-content{
     /* background: red; */
+    margin-top: 5.5%;
     width: 90vw;
     max-width: 940px;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     /* background-color: yellow; */
+    background: rgba( 12, 10, 10, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .questions{
-    margin-top: 45px;
+    margin-top: 35px;
     display: flex;
     flex-direction: column;
     width: 100%;
+    position: relative;
 }
 
 .questions div{
@@ -44,11 +57,11 @@
 
 /* answer styling when open */
 .question-details[open]{
-    max-height: 300px;
+    max-height: 290px;
 }
 
 .question-details[open] p{
-    margin-left: 20px;
+    margin-left: 30px;
     line-height: 1.7;
 }
 
@@ -71,7 +84,7 @@
 }
 
 .question-details[open]:hover{
-    color: var(--dog-gray);
+    color: var(--lilac-purple);
 }
 
 #coc-link{
@@ -80,6 +93,9 @@
 
 
 @media screen and (max-width: 900px){
+    .faq-content{
+        margin-top: 20%;
+    }
     .question-details summary{
         font-size: 26px;
     }

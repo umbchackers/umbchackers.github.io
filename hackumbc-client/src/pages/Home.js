@@ -34,7 +34,7 @@ export const Home = () => {
   }, []);
 
   // function to find if any part of an element is in the viewport, returns boolean
-  function elementInViewport2(el) {
+  const elementInViewport2 = (el) => {
     var top = el.offsetTop;
     var left = el.offsetLeft;
     var width = el.offsetWidth;
@@ -52,38 +52,11 @@ export const Home = () => {
       top + height > window.pageYOffset &&
       left + width > window.pageXOffset
     );
-  }
-
-  // changing background and other colors based on user's scroll position
-  function changeColorOnScroll() {
-    const trigger = document.querySelector(".faq");
-    const trigger2 = document.querySelector(".sponsors");
-    // const trigger3 = document.querySelector(".footer");
-    if (elementInViewport2(trigger)) {
-      document.getElementById("home-html").className = "faq-bg"; // changing background color
-      // document.getElementById('signup-button').className = "nav-sign-up-dark";
-      // document.getElementById('vsignup-button').className = "nav-sign-up-dark"; changing sign up and volunteer button colors
-      document.getElementById("about-faq").className = "page-divider-dark"; // changing page divider color
-      // document.querySelectorAll('[id=left-nav-button]').forEach(element=>{ // changing all nav link colors
-      //     element.className = "nav-link-dark";
-      // })
-    } else if (elementInViewport2(trigger2)) {
-      document.getElementById("home-html").className = "sponsors-bg";
-    } else {
-      // changing all back to normal colors
-      document.getElementById("home-html").className = "";
-      // document.getElementById('signup-button').className = "nav-sign-up";
-      // document.getElementById('vsignup-button').className = "nav-sign-up";
-      document.getElementById("about-faq").className = "page-divider-purple";
-      // document.querySelectorAll('[id=left-nav-button]').forEach(element=>{
-      //     element.className = "nav-link";
-      // })
-    }
-  }
+  };
 
   // running the function everytime the user scrolls to keep the page in sync
-  window.onscroll = function () {
-    changeColorOnScroll();
+  window.onscroll = () => {
+    //changeColorOnScroll();
   };
 
   return (
@@ -92,33 +65,34 @@ export const Home = () => {
       {(width > 1000 && <Navbar />) || <MobileNavbar />}
 
       <div className="landing">
-        {/* landing background is located in src/css/Home.css */}
-        <div className="header" id="header">
-          <div className="headerlogo-div">
-            <img
-              className="header-logo"
-              src={require("../assets/hackUMBC-retro-logo.png")}
-              alt="header-logo"
-            />
-          </div>
-          <h1 className="header-date">SEPTEMBER, 22-23</h1>
-          <h2 className="header-year">2023</h2>
+        <div className="middle-screen">
+          {/* landing background is located in src/css/Home.css */}
+          <div className="header" id="header">
+            <div className="headerlogo-div">
+              <img
+                className="header-logo"
+                src={require("../assets/hackUMBC-retro-logo.png")}
+                alt="header-logo"
+              />
+            </div>
+            <h1 className="header-date">SEPTEMBER, 22-23</h1>
+            <h2 className="header-year">2023</h2>
 
-          <h3 className="header-location">
-            <MdLocationPin className="header-location-icon" />
-            <span className="header-location-text">ILSB, UMBC</span>
-          </h3>
+            <h3 className="header-location">
+              <MdLocationPin className="header-location-icon" />
+              <span className="header-location-text">ILSB, UMBC</span>
+            </h3>
 
-          <div className="headerbutton-div">
-            <a
-              href="https://hackumbc.typeform.com/to/KLS8nWNW"
-              className="header-button"
-              target="_blank"
-            >
-              REGISTRATION
-            </a>
-          </div>
-          {/* 
+            <div className="headerbutton-div">
+              <a
+                href="https://hackumbc.typeform.com/to/KLS8nWNW"
+                className="header-button"
+                target="_blank"
+              >
+                REGISTRATION
+              </a>
+            </div>
+            {/* 
                     <div className='mapbutton-div'>
                     <a className='map-button' target="_blank">
                         INTERACTIVE EVENT MAP
@@ -131,25 +105,26 @@ export const Home = () => {
                     </a>
                     </div> */}
 
-          <h4 className="header-foot">
-            Interested in sponsoring us? <br /> <br />
-            <a href="mailto: sponsor@hackumbc.tech"> SPONSOR@HACKUMBC.TECH</a>
-          </h4>
-          {/* social media icons */}
-          <div className="header-social">
-            <a href="https://www.facebook.com/hackumbc" target="_blank">
-              <FaFacebookF className="header-social-icon" />
-            </a>
-            <a href="https://www.instagram.com/hackumbc/?hl=en" target="_blank">
-              <FaInstagram className="header-social-icon" />
-            </a>
-            <a href="https://twitter.com/hackumbc" target="_blank">
-              <FaTwitter className="header-social-icon" />
-            </a>
-            <a href="https://github.com/umbchackers" target="_blank">
-              <FaGithubAlt className="header-social-icon" />
-            </a>
+            <h4 className="header-foot">
+              Interested in sponsoring us? <br /> <br />
+              <a href="mailto: sponsor@hackumbc.tech"> SPONSOR@HACKUMBC.TECH</a>
+            </h4>
           </div>
+        </div>
+        {/* social media icons */}
+        <div className="header-social">
+          <a href="https://www.facebook.com/hackumbc" target="_blank">
+            <FaFacebookF className="header-social-icon" />
+          </a>
+          <a href="https://www.instagram.com/hackumbc/?hl=en" target="_blank">
+            <FaInstagram className="header-social-icon" />
+          </a>
+          <a href="https://twitter.com/hackumbc" target="_blank">
+            <FaTwitter className="header-social-icon" />
+          </a>
+          <a href="https://github.com/umbchackers" target="_blank">
+            <FaGithubAlt className="header-social-icon" />
+          </a>
         </div>
       </div>
 
