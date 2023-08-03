@@ -1,14 +1,27 @@
 .sponsors{
     /* background-color: red; */
+    background-image: url("../assets/dark_blue.jpg");
+    /* Center and scale the image nicely */
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
+    height: 140vh;
     display: flex;
-    height: fit-content;
-    padding-top: 50px;
+    padding-bottom: 5vh;
+    align-items: center;
     justify-content: center;
-    color: var(--dog-gray);
-    margin-bottom: 10px;
 }
 
+.sponsor-page-blur{
+    background: rgba(250, 250, 250, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
 .sponsors-content{
     /* background-color: blue; */
     width: 90vw;
@@ -16,6 +29,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%
 }
 
 .sponsor-section-title{
@@ -87,6 +102,16 @@
 }
 
 @media screen and (max-width: 900px){
+    .sponsors{
+        height: 170vh;
+    }
+    .sponsors-content{
+        margin-top: 5%;
+    }
+    .sponsor-page-blur {
+        margin-top: 20%
+    }
+
     .logo-for-sponsor{
         max-width: 200px;
         height: auto;

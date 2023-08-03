@@ -1,17 +1,16 @@
 html{
     overflow-x: hidden;
-    background-color: #a59bea;
-    background-image: url("../assets/retro-tile-1.png");
+    background-image: url("../assets/med_blue.jpg");
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     /* background-size: cover; */
     transition: 0.4s;
 }
 
 html.faq-bg{
-    background-image: url("../assets/retro-tile-2.png");
+    background-image: url("../assets/dark_green.jpg");
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     /* background-size: cover; */
     background-color: #ebe7e4;
     transition: 0.4s;
@@ -25,7 +24,7 @@ html.sponsors-bg{
 
 .landing{
     /* background-color: red; */
-    background-image: url("../assets/new-mountains.a52b3e0633745b659eb3.jpg");
+    background-image: url("../assets/light_green.jpg");
     /* Center and scale the image nicely */
     overflow: hidden;
     background-position: center;
@@ -37,12 +36,26 @@ html.sponsors-bg{
     padding-bottom: 5vh;
     align-items: center;
     justify-content: center;
+    
+}
+
+.middle-screen{
+    background: rgba( 12, 10, 10, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 100vh;
+    height: 80%;
+    position: center;
 }
 
 .header{
     /* background-color: red; */
     /* margin-top: -50px; */
-    width: 100vw;
+    width: 50vw;
+    position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,6 +65,7 @@ html.sponsors-bg{
     margin-top: px;
 }
 .header-logo{
+    position: center;
     margin-top: 0px;
     width: 33vw;
     height: auto;
@@ -220,8 +234,8 @@ html.sponsors-bg{
     margin-top: 90px;
     width: 100%;
     height: 3px;
-    color: var(--sunset-yellow);
-    background-color: var(--sunset-yellow);
+    /* color: var(--sunset-yellow);
+    background-color: var(--sunset-yellow); */
     border: 0;
 }
 
@@ -316,10 +330,30 @@ html.sponsors-bg{
 }
 
 @media screen and (max-width: 900px){
-
+/* 
+    .middle-screen{
+        background: rgba( 12, 10, 10, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        max-width: 10vw;
+        position: center;
+    } */
+    .header{
+        /* background-color: red; */
+        /* margin-top: -50px; */
+        width: 80vw;
+        position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
     .header-logo{
-        width: 90vw;
-        margin-top: -80px;
+        width: 70vw;
+        margin-top: -10px;
     }
     
     .header-date{
@@ -338,10 +372,10 @@ html.sponsors-bg{
     }
 
     .header-button{
-        font-size: 3vw;
-        padding: 5.3vw 6.3vw;
+        font-size: 4vw;
+        padding: 6.3vw 7.3vw;
         margin-top: 50px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         /* border-radius: 100px; */
     }
 
@@ -364,13 +398,13 @@ html.sponsors-bg{
     }
 
     .header-foot{
-        font-size: 3vw;
+        font-size: 3.5vw;
         margin-top: 5px;
     }
 
     .headerbutton-div{
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: px;
     }
     
     .mapbutton-div{

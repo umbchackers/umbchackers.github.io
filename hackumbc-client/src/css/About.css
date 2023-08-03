@@ -3,43 +3,54 @@
     color: var(--lilac-purple);
     width: 100vw;
     display: flex;
+    background-image: url("../assets/dark_green.jpg");
+    /* Center and scale the image nicely */
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 5vh;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 140px;
+    
 }
 
+.glass-container {
+    background: rgba( 12, 10, 10, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 .about-content{
     /* background: red; */
-    width: 90vw;
-    max-width: 940px;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* background-color: yellow; */
 }
 
-.about-title{
-    font-weight: 1000;
-    font-size: 35px;
-    letter-spacing: 10px;
-    /* background-color: blue; */
-    width: 100%;
-}
-
 .about-text{
     /* background-color: red; */
     font-size: 23px;
     font-weight: 500;
-    margin: 40px 0;
-    width: 100%;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-bottom: 10vh;
+    width: 100vh;
 }
 
 .about-text p{
-    margin-bottom: 20px;
-    line-height: 35px;
+    margin-bottom: 15px;
+    line-height: 30px;
 }
 
 .tracks-title{
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -103,6 +114,25 @@
 }
 
 @media screen and (max-width: 900px){
+    .about{
+        height: 210vh;
+    }
+    .about-content{
+        /* background: red; */
+        margin-top: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: yellow; */
+    }
+    
+    .about-text{
+        /* background-color: red; */
+        font-size: 23px;
+        font-weight: 500;
+        margin: 5vh;
+        width: 50vh;
+    }
     .tracks-content{
         grid-template-columns: repeat(1, 1fr);
     }
