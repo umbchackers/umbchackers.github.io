@@ -8,7 +8,7 @@ html{
 }
 
 html.faq-bg{
-    background-image: url("../assets/dark_green.jpg");
+    background-image: url("../assets/light_green.jpg");
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: cover; */
@@ -24,7 +24,7 @@ html.sponsors-bg{
 
 .landing{
     /* background-color: red; */
-    background-image: url("../assets/light_green.jpg");
+    background-image: url("../assets/new_background.jpg");
     /* Center and scale the image nicely */
     overflow: hidden;
     background-position: center;

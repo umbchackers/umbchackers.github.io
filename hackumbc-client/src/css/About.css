@@ -3,7 +3,7 @@
     color: var(--lilac-purple);
     width: 100vw;
     display: flex;
-    background-image: url("../assets/dark_green.jpg") ;
+    background-image: url("../assets/green-clear.jpg");
     /* Center and scale the image nicely */
     overflow: hidden;
     background-position: center;
@@ -17,12 +17,12 @@
 }
 
 .glass-container {
-    background: rgba(0, 0, 0, 0.25);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(250, 250, 250, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 15px;
     margin-bottom: 1.25vh;
 }
@@ -91,9 +91,10 @@
     width: 300px;
     border-radius: 10px;
     
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.233);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(250, 250, 250, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
     backdrop-filter: blur(2px);
-    background-color: #13191f41;
     cursor:default;
 }
 
