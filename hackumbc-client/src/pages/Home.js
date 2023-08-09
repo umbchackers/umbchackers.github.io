@@ -75,7 +75,7 @@ export const Home = () => {
                 alt="header-logo"
               />
             </div>
-            <h1 className="header-date">SEPTEMBER, 22-23</h1>
+            <h1 className="header-date">SEPTEMBER, 23-24</h1>
             <h2 className="header-year">2023</h2>
 
             <h3 className="header-location">
