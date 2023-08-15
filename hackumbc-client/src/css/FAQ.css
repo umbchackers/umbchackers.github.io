@@ -1,6 +1,6 @@
 .faq{
     /* background-color: red; */
-    background-image: url("../assets/med_blue.jpg");
+    background-image: url("../assets/light_blue_new.jpg");
 
     /* Center and scale the image nicely */
     overflow: hidden;
@@ -18,17 +18,19 @@
     /* background: red; */
     margin-top: 5.5%;
     width: 90vw;
+    padding-left: 30px;
+    padding-top: 15px;
     max-width: 940px;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     /* background-color: yellow; */
-    background: rgba( 12, 10, 10, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: rgba(250, 250, 250, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .questions{
@@ -80,7 +82,7 @@
 }
 
 .question-details:hover{
-    color: var(--sunset-yellow);
+    color:#669BBC;
 }
 
 .question-details[open]:hover{

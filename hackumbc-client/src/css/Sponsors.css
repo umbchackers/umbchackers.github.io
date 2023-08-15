@@ -1,6 +1,6 @@
 .sponsors{
     /* background-color: red; */
-    background-image: url("../assets/dark_blue.jpg");
+    background-image: url("../assets/green-clear.jpg");
     /* Center and scale the image nicely */
     overflow: hidden;
     background-position: center;
@@ -94,7 +94,7 @@
     font-weight: 500;
 }
 .sponsor-us-link{
-    color:rgb(33, 33, 137);
+    color:#89c2e6;
     margin-top: 24px;
     margin-bottom: 10px;
     font-size: 22x;

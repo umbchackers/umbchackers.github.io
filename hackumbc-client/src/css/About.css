@@ -3,7 +3,7 @@
     color: var(--lilac-purple);
     width: 100vw;
     display: flex;
-    background-image: url("../assets/dark_green.jpg");
+    background-image: url("../assets/green-clear.jpg");
     /* Center and scale the image nicely */
     overflow: hidden;
     background-position: center;
@@ -13,16 +13,18 @@
     padding-bottom: 5vh;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .glass-container {
-    background: rgba( 12, 10, 10, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(250, 250, 250, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 15px;
+    margin-bottom: 1.25vh;
 }
 .about-content{
     /* background: red; */
@@ -50,7 +52,7 @@
 }
 
 .tracks-title{
-    margin-bottom: 10px;
+    margin-bottom: .2vh;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -89,9 +91,10 @@
     width: 300px;
     border-radius: 10px;
     
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.233);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(250, 250, 250, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
     backdrop-filter: blur(2px);
-    background-color: #13191f41;
     cursor:default;
 }
 
@@ -115,11 +118,11 @@
 
 @media screen and (max-width: 900px){
     .about{
-        height: 210vh;
+        height: 2000px;
     }
     .about-content{
         /* background: red; */
-        margin-top: 25%;
+        margin-top: 10vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -131,7 +134,8 @@
         font-size: 23px;
         font-weight: 500;
         margin: 5vh;
-        width: 50vh;
+        width: 28vh;
+        padding-left: 0px;
     }
     .tracks-content{
         grid-template-columns: repeat(1, 1fr);

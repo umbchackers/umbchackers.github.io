@@ -8,7 +8,7 @@ html{
 }
 
 html.faq-bg{
-    background-image: url("../assets/dark_green.jpg");
+    background-image: url("../assets/light_green.jpg");
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: cover; */
@@ -24,7 +24,7 @@ html.sponsors-bg{
 
 .landing{
     /* background-color: red; */
-    background-image: url("../assets/light_green.jpg");
+    background-image: url("../assets/new_background.jpg");
     /* Center and scale the image nicely */
     overflow: hidden;
     background-position: center;
@@ -40,21 +40,20 @@ html.sponsors-bg{
 }
 
 .middle-screen{
-    background: rgba( 12, 10, 10, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    max-width: 100vh;
-    height: 80%;
+    max-width: 100vw;
+    height: 70vh;
     position: center;
 }
 
 .header{
     /* background-color: red; */
     /* margin-top: -50px; */
-    width: 50vw;
+    width: 45vw;
     position: center;
     display: flex;
     flex-direction: column;
@@ -62,12 +61,12 @@ html.sponsors-bg{
     color: white;
 }
 .headerlogo-div{
-    margin-top: px;
+    margin-top: 3.5vh;
 }
 .header-logo{
     position: center;
-    margin-top: 0px;
-    width: 33vw;
+    margin-top: 5vh;
+    width: 25vw;
     height: auto;
     padding: 0;
     margin-bottom: -15px;
@@ -100,7 +99,7 @@ html.sponsors-bg{
     display: flex;
     align-items: center;
     color: rgb(161, 238, 248);
-    margin: .5vw 0;
+    margin: .4vw 0;
 }
 
 .header-location-icon{
@@ -255,12 +254,12 @@ html.sponsors-bg{
 
 .section-title::before{
     content: "{";
-    color: var(--sunset-yellow);
+    color: #669BBC;
 }
 
 .section-title::after{
     content: "}";
-    color: var(--sunset-yellow);
+    color: #669BBC;
 }
 
 .section-title::before, .section-title::after{
@@ -328,28 +327,87 @@ html.sponsors-bg{
     color: black;
     background-color: white;
 }
-
-@media screen and (max-width: 900px){
-/* 
-    .middle-screen{
-        background: rgba( 12, 10, 10, 0.25 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 4px );
-        -webkit-backdrop-filter: blur( 4px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-        max-width: 10vw;
-        position: center;
-    } */
+@media screen and (max-width: 868px){
+   .middle-screen{
+       max-height: 60vh;
+    }
     .header{
         /* background-color: red; */
         /* margin-top: -50px; */
         width: 80vw;
-        position: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: white;
+    }
+    .headerlogo-div{
+        margin-top: 10%;
+    }
+    .header-logo{
+        width: 40vw;
+        margin-top: -10px;
+    }
+    
+    .header-date{
+        font-size: 3vw;
+        margin: 5px 0;
+    }
+
+    .header-year{
+        font-size: 2vw;
+        margin: 5px 0;
+    }
+
+    .header-location-text{
+        font-size: 3vw;
+        margin: 5px 0;
+    }
+
+    .header-button{
+        font-size: 2vw;
+        padding: 4.3vw 6.3vw;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        /* border-radius: 100px; */
+    }
+
+    .map-button{
+        font-size: 3vw;
+        padding: 5.3vw 6.3vw;
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+        /* border-radius: 100px; */
+    }
+
+    .devpost-button{
+        font-size: 3vw;
+        padding: 5.3vw 6.3vw;
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+        /* border-radius: 100px; */
+    }
+
+    .header-foot{
+        font-size: 2.5vw;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        
+    }
+
+
+}
+
+
+@media screen and (max-width: 562px){
+
+    .middle-screen{
+       max-height: 60vh;
+    }
+    .header{
+        /* background-color: red; */
+        /* margin-top: -50px; */
+        width: 80vw;
+    }
+    .headerlogo-div{
+        margin-top: 10%;
     }
     .header-logo{
         width: 70vw;
@@ -400,7 +458,9 @@ html.sponsors-bg{
     .header-foot{
         font-size: 3.5vw;
         margin-top: 5px;
+        
     }
+
 
     .headerbutton-div{
         margin-top: 50px;

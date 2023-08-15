@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { React, useState, useEffect, useRef } from "react";
 
 import { MdLocationPin } from "react-icons/md";
 import {
@@ -33,31 +33,36 @@ export const Home = () => {
     return () => window.removeEventListener("resize", updateDimensions);
   }, []);
 
-  // function to find if any part of an element is in the viewport, returns boolean
-  const elementInViewport2 = (el) => {
-    var top = el.offsetTop;
-    var left = el.offsetLeft;
-    var width = el.offsetWidth;
-    var height = el.offsetHeight;
-
-    while (el.offsetParent) {
-      el = el.offsetParent;
-      top += el.offsetTop;
-      left += el.offsetLeft;
+  // force scroll to next element (have to add ref={screenElements[i]} to each component)
+  const screenElements = [
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+  ];
+  const nextScroll = (i) => {
+    if (i < screenElements.length - 1) {
+      screenElements[i + 1].current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
     }
+  };
 
-    return (
-      top < window.pageYOffset + window.innerHeight &&
-      left < window.pageXOffset + window.innerWidth &&
-      top + height > window.pageYOffset &&
-      left + width > window.pageXOffset
-    );
+  const forceScroll = () => {
+    for (let i = 0; i < screenElements.length; i++) {
+      const screenElement = screenElements[i];
+      if (screenElement) {
+        const rect = screenElement.getBoundingClientRect();
+        if (rect.top >= 0 && rect.top <= window.innerHeight) {
+          nextScroll(i);
+        }
+      }
+    }
   };
 
   // running the function everytime the user scrolls to keep the page in sync
-  window.onscroll = () => {
-    //changeColorOnScroll();
-  };
+  window.onscroll = forceScroll;
 
   return (
     <html id="home-html">
@@ -71,7 +76,7 @@ export const Home = () => {
             <div className="headerlogo-div">
               <img
                 className="header-logo"
-                src={require("../assets/hackUMBC-retro-logo.png")}
+                src={require("../assets/hack_logo.png")}
                 alt="header-logo"
               />
             </div>

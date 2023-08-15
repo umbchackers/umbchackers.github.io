@@ -21,7 +21,7 @@ const Navbar = () => {
           <Link to="header" smooth={true} offset={-300} duration={700}>
             <img
               className="nav-logo"
-              src={require("../assets/retro-dawg.png")}
+              src={require("../assets/dog_logo.png")}
               alt="logo"
             />
           </Link>

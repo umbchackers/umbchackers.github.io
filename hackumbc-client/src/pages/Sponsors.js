@@ -28,7 +28,7 @@ const Sponsors = () => {
                   className="sponsor-us-link"
                   href="mailto: sponsor@hackumbc.tech"
                 >
-                  SPONSOR@HACKUMBC.TECH{" "}
+                  SPONSOR@HACKUMBC.TECH
                 </a>
               </b>
             </p>
