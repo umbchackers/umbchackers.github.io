@@ -18,7 +18,7 @@ const Sponsors = () => {
     <div className="sponsors" id="sponsors-page">
       <div className="sponsor-page-blur">
         <div className="sponsors-content">
-          <div aos-data="fade-up" className="sponsor-section-title">
+          {/* <div aos-data="fade-up" className="sponsor-section-title">
             <SectionTitle title="SUPPORT 2023 HACKUMBC" />
             <p data-aos="fade-up" className="sponsor-us">
               Interesting in sponsoring us? <br /> <br />
@@ -32,32 +32,35 @@ const Sponsors = () => {
                 </a>
               </b>
             </p>
-          </div>
+          </div> */}
 
           <div aos-data="fade-up" className="sponsor-section-title">
-            <SectionTitle title="2022 SPONSORS" />
+            <SectionTitle title="2023 SPONSORS" />
+            <br />
+            <p>HACKUMBC 2023 Sponsors & Partners</p>
           </div>
 
-          <Rank title="DIAMOND">
+          <Rank title="PLATINUM">
             <img
-              src={require("../assets/sponsors/northrop.png")}
+              src={require("../assets/new_sponsors/Logo_TRP_TwoComponentTwoColor_Digital_R.png")}
               alt="sponsor"
               className="logo-for-sponsor"
             />
             <img
-              src={require("../assets/sponsors/TRowe.png")}
+              src={require("../assets/new_sponsors/northrop.png")}
+              alt="sponsor"
+              className="logo-for-sponsor"
+            />
+
+            <img
+              src={require("../assets/new_sponsors/UMBC-COEIT.png")}
               alt="sponsor"
               className="logo-for-sponsor"
             />
           </Rank>
           <Rank title="GOLD">
             <img
-              src={require("../assets/sponsors/Booz-Allen-Hamiliton-logo.png")}
-              alt="sponsor"
-              className="logo-for-sponsor"
-            />
-            <img
-              src={require("../assets/sponsors/apl_small_horizontal_black_1.png")}
+              src={require("../assets/new_sponsors/BAH.png")}
               alt="sponsor"
               className="logo-for-sponsor"
             />
@@ -69,19 +72,56 @@ const Sponsors = () => {
               className="logo-for-sponsor"
             />
             <img
-              src={require("../assets/sponsors/alex_brown_text.jpg")}
+              src={require("../assets/new_sponsors/intelligenisis.png")}
               alt="sponsor"
               className="logo-for-sponsor"
             />
             <img
-              src={require("../assets/sponsors/textron_systems.png")}
+              src={require("../assets/new_sponsors/jphapl.png")}
+              alt="sponsor"
+              className="logo-for-sponsor"
+            />
+
+            <img
+              src={require("../assets/new_sponsors/alexbrown.png")}
               alt="sponsor"
               className="logo-for-sponsor"
             />
           </Rank>
-          <a href="https://www.standoutstickers.com/" target="_blank">
-            <div className="sticker-logo" />
-          </a>
+          <Rank title="BRONZE">
+            <img
+              src={require("../assets/new_sponsors/CWIT.png")}
+              alt="sponsor"
+              className="logo-for-sponsor"
+            />
+            <img
+              src={require("../assets/new_sponsors/makpar.png")}
+              alt="sponsor"
+              className="logo-for-sponsor"
+            />
+            <img
+              src={require("../assets/new_sponsors/UMBC-CSEE.png")}
+              alt="sponsor"
+              className="logo-for-sponsor"
+            />
+          </Rank>
+          <Rank title="PARTNERS">
+            <img
+              src={require("../assets/new_sponsors/cah.png")}
+              alt="sponsor"
+              className="logo-for-sponsor"
+            />
+            <img
+              src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-white.png"
+              alt="sponsor"
+              className="logo-for-sponsor"
+            />
+            <img
+              src={require("../assets/new_sponsors/standout.png")}
+              alt="sponsor"
+              className="logo-for-sponsor"
+            />
+          </Rank>
         </div>
       </div>
     </div>
