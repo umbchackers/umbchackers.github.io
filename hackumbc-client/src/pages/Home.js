@@ -97,14 +97,18 @@ export const Home = () => {
                 REGISTRATION
               </a>
             </div>
-            {/* 
-                    <div className='mapbutton-div'>
-                    <a className='map-button' target="_blank">
-                        INTERACTIVE EVENT MAP
-                    </a>
-                    </div>
 
-                    <div className='devpostbutton-div'>
+            <div className="headerbutton-div">
+              <a
+                href="https://hackumbc.typeform.com/to/IA4oDgSF"
+                className="header-button"
+                target="_blank"
+              >
+                VOLUNTEER REGISTRATION
+              </a>
+            </div>
+
+            {/* <div className='devpostbutton-div'>
                     <a href='https://hackumbc-fall-2022.devpost.com/' className='devpost-button' target="_blank">
                         DEVPOST
                     </a>
