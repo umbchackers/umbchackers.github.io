@@ -116,11 +116,12 @@ const Sponsors = () => {
               alt="sponsor"
               className="logo-for-sponsor"
             />
-            <img
-              src={require("../assets/new_sponsors/standout.png")}
-              alt="sponsor"
-              className="logo-for-sponsor"
-            />
+            <a
+              href="https://hackp.ac/mlh-standoutstickers-hackathons"
+              target="_blank"
+            >
+              <div className="sticker-logo" />
+            </a>
           </Rank>
         </div>
       </div>
