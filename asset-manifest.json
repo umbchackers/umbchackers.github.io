@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3876ce53.css",
-    "main.js": "/static/js/main.fa425c8e.js",
+    "main.css": "/static/css/main.a050b483.css",
+    "main.js": "/static/js/main.c215fc8c.js",
     "static/media/light_green.jpg": "/static/media/light_green.7010efcd90708a2bdb62.jpg",
     "static/media/med_blue.jpg": "/static/media/med_blue.4295e322817e15eaf333.jpg",
     "static/media/hack_logo.png": "/static/media/hack_logo.d7102c0819a667e667e0.png",
@@ -17,17 +17,16 @@
     "static/media/cipher-tech.png": "/static/media/cipher-tech.28512a1d11ce63239960.png",
     "static/media/Logo_TRP_TwoComponentTwoColor_Digital_R.png": "/static/media/Logo_TRP_TwoComponentTwoColor_Digital_R.4a18b793c114885f307f.png",
     "static/media/standout-stickers-logo.png": "/static/media/standout-stickers-logo.ac975fc0ec07d73a97f5.png",
-    "static/media/standout.png": "/static/media/standout.ac975fc0ec07d73a97f5.png",
     "static/media/jphapl.png": "/static/media/jphapl.3f0e19b935b75ef44f32.png",
     "static/media/BAH.png": "/static/media/BAH.795663d39e5960af8ace.png",
     "static/media/northrop.png": "/static/media/northrop.e3e3ed5b0b9777db762e.png",
     "static/media/CWIT.png": "/static/media/CWIT.69415606645ce160cbdd.png",
     "index.html": "/index.html",
-    "main.3876ce53.css.map": "/static/css/main.3876ce53.css.map",
-    "main.fa425c8e.js.map": "/static/js/main.fa425c8e.js.map"
+    "main.a050b483.css.map": "/static/css/main.a050b483.css.map",
+    "main.c215fc8c.js.map": "/static/js/main.c215fc8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3876ce53.css",
-    "static/js/main.fa425c8e.js"
+    "static/css/main.a050b483.css",
+    "static/js/main.c215fc8c.js"
   ]
 }

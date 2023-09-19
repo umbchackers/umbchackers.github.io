@@ -55,6 +55,7 @@
 }
 
 .rank-title{
+    color:white;
     font-size: 27px;
 }
 
@@ -78,11 +79,11 @@
 }
 
 .logo-for-sponsor{
-    margin: 18px;
+    margin: 15px;
     height: fit-content;
     width: fit-content;
-    max-width: 220px;
-    max-height: 100px;
+    max-width: 180px;
+    max-height: 150px;
     /* height: auto */
 }
 
