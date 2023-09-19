@@ -49,20 +49,20 @@ export const Home = () => {
     }
   };
 
-  const forceScroll = () => {
-    for (let i = 0; i < screenElements.length; i++) {
-      const screenElement = screenElements[i];
-      if (screenElement) {
-        const rect = screenElement.getBoundingClientRect();
-        if (rect.top >= 0 && rect.top <= window.innerHeight) {
-          nextScroll(i);
-        }
-      }
-    }
-  };
+  // const forceScroll = () => {
+  //   for (let i = 0; i < screenElements.length; i++) {
+  //     const screenElement = screenElements[i];
+  //     if (screenElement) {
+  //       const rect = screenElement.getBoundingClientRect();
+  //       if (rect.top >= 0 && rect.top <= window.innerHeight) {
+  //         nextScroll(i);
+  //       }
+  //     }
+  //   }
+  // };
 
   // running the function everytime the user scrolls to keep the page in sync
-  window.onscroll = forceScroll;
+  // window.onscroll = forceScroll;
 
   return (
     <html id="home-html">
@@ -137,7 +137,7 @@ export const Home = () => {
         </div>
       </div>
 
-      {/* width > 770 && (<Schedule/>) */}
+      {width > 770 && <Schedule />}
 
       <About />
 
