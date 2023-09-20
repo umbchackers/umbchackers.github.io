@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4a76e80.css",
-    "main.js": "/static/js/main.4cf1e1da.js",
+    "main.css": "/static/css/main.3bf54fec.css",
+    "main.js": "/static/js/main.e00e53bb.js",
     "static/media/light_green.jpg": "/static/media/light_green.7010efcd90708a2bdb62.jpg",
-    "static/media/med_blue.jpg": "/static/media/med_blue.4295e322817e15eaf333.jpg",
     "static/media/hack_logo.png": "/static/media/hack_logo.d7102c0819a667e667e0.png",
     "static/media/green-clear.jpg": "/static/media/green-clear.7e2ad78f0d7fd8a16f1c.jpg",
     "static/media/dog_logo.png": "/static/media/dog_logo.dba3d79187b418b81207.png",
@@ -22,11 +21,11 @@
     "static/media/northrop.png": "/static/media/northrop.e3e3ed5b0b9777db762e.png",
     "static/media/CWIT.png": "/static/media/CWIT.69415606645ce160cbdd.png",
     "index.html": "/index.html",
-    "main.c4a76e80.css.map": "/static/css/main.c4a76e80.css.map",
-    "main.4cf1e1da.js.map": "/static/js/main.4cf1e1da.js.map"
+    "main.3bf54fec.css.map": "/static/css/main.3bf54fec.css.map",
+    "main.e00e53bb.js.map": "/static/js/main.e00e53bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4a76e80.css",
-    "static/js/main.4cf1e1da.js"
+    "static/css/main.3bf54fec.css",
+    "static/js/main.e00e53bb.js"
   ]
 }
