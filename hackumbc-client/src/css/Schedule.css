@@ -3,17 +3,15 @@
   }
 
 .schedule{
-    /* background-color: red; */
     background-image: url("../assets/light_blue_new.jpg");
-
     /* Center and scale the image nicely */
     overflow: hidden;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
     padding-top: 100px;
     color: var(--lilac-purple);
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -28,7 +26,8 @@
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    padding-top: 20px;
 }
 
 .leftPane{

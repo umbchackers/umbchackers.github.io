@@ -39,13 +39,21 @@ const About = () => {
     "2023-09-23": "Saturday September 23rd, 2023",
     "2023-09-24": "Sunday September 24rd, 2023",
   };
-
+  // scuffed hashmap to fix section title
+  const scheduleTitle = {
+    "2023-09-23": "SCHEDULE",
+    "2023-09-24": " ",
+  };
   return (
     <div className="schedule" id="about-page">
       <div>
         <div className="schedule-content">
           {Object.keys(scheduleData).map((date) => (
             <div key={date}>
+              <SectionTitle
+                data-aos="fade-up"
+                title={scheduleTitle[date] || date}
+              />
               <Date data-aos="fade-up" title={scheduleDays[date] || date} />
               {scheduleData[date].map((event, index) => (
                 <ScheduleBlock

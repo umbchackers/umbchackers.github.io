@@ -57,12 +57,12 @@ const Navbar = () => {
           {/*<a id='left-nav-button' className='nav-link' href="https://oldlemonpepper.github.io/ILSBMap/" target='_blank'>Map</a>*/}
           <Link
             id="left-nav-button"
-            to=""
+            to="schedule"
             smooth={true}
             duration={500}
             className="nav-link"
           >
-            Social
+            Schedule
           </Link>
         </div>
 
