@@ -26,7 +26,7 @@
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding-top: 20px;
 }
 
@@ -37,7 +37,7 @@
     align-items: center;
     /* background-color: yellow; */
     padding-top: 2px;
-    margin-bottom: 20px
+    margin-bottom: 25px
 }
 
 .rightPane{
@@ -47,7 +47,7 @@
     /* max-width: 940px; */
     align-items: center;
     /* background-color: yellow; */
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .schedule-container{
