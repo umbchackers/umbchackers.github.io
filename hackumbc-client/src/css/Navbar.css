@@ -94,9 +94,9 @@
 
 .mlh-trust-badge{
     position: fixed;
-    top: 0;
+    top: -20px;
     right: 3%;
-    height: 140px;
+    height: 160px;
     width: auto;
 }
 

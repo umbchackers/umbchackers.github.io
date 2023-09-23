@@ -39,7 +39,13 @@ const Sponsors = () => {
             <br />
             <p>HACKUMBC 2023 Sponsors & Partners</p>
           </div>
-
+          <Rank title="Diamond">
+            <img
+              src={require("../assets/new_sponsors/UMBC-COEIT.png")}
+              alt="sponsor"
+              className="logo-for-sponsor"
+            />
+          </Rank>
           <Rank title="PLATINUM">
             <img
               src={require("../assets/new_sponsors/Logo_TRP_TwoComponentTwoColor_Digital_R.png")}
@@ -48,12 +54,6 @@ const Sponsors = () => {
             />
             <img
               src={require("../assets/new_sponsors/northrop.png")}
-              alt="sponsor"
-              className="logo-for-sponsor"
-            />
-
-            <img
-              src={require("../assets/new_sponsors/UMBC-COEIT.png")}
               alt="sponsor"
               className="logo-for-sponsor"
             />

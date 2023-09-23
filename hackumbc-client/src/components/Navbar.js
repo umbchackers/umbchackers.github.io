@@ -6,10 +6,7 @@ import "../css/Navbar.css";
 const Navbar = () => {
   return (
     <div id="nav-bar-container">
-      <a
-        href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=black"
-        target="_blank"
-      >
+      <a href="https://link.hackumbc.tech/mlh" target="_blank">
         <img
           className="mlh-trust-badge"
           src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-black.svg"
