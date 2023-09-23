@@ -31,11 +31,11 @@ const ScheduleBlock = ({ time, title, location, details }) => {
       className="schedule-container"
     >
       <div data-aos="fade-up" className="schedule-title">
-        <h2>{location}</h2>
+        <h2>{title}</h2>
         <hr />
         <h2>{time}</h2>
         <hr />
-        <h2>{title}</h2>
+        <h2>{location}</h2>
       </div>
       {isHovering && (
         <div className="schedule-details">
