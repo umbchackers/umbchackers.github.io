@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'Plus Jakarta Sans', sans-serif;
     user-select: none; /* supported by Chrome and Opera */
     -webkit-user-select: none; /* Safari */
@@ -12,8 +12,7 @@
 
 body {
     color: white;
-    background: #3d1c51;
-    margin: 0;
+    background: white;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;

@@ -3,20 +3,31 @@
   }
 
 .schedule{
+    background-image: url("../assets/light_blue_new.jpg");
+    /* Center and scale the image nicely */
+    overflow: hidden;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
     padding-top: 100px;
     color: var(--lilac-purple);
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
 }
 
 .schedule-content{
-    /* background: red; */
-    /* max-width: 940px; */
     display: flex;
     flex-direction: row;
-    /* background-color: yellow; */
+    color: white;  
+    background: rgba(250, 250, 250, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-bottom: 10px;
+    padding-top: 20px;
 }
 
 .leftPane{
@@ -26,6 +37,7 @@
     align-items: center;
     /* background-color: yellow; */
     padding-top: 2px;
+    margin-bottom: 20px
 }
 
 .rightPane{
@@ -35,6 +47,7 @@
     /* max-width: 940px; */
     align-items: center;
     /* background-color: yellow; */
+    margin-bottom: 20px;
 }
 
 .schedule-container{
@@ -76,7 +89,7 @@
 
 .schedule-details{
     /* display: none; */
-    width: 25vw;
+    width: 30vw;
     text-align: center;
     font-size: 15px;
     margin: auto;

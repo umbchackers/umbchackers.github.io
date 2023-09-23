@@ -4,10 +4,10 @@
     /* Center and scale the image nicely */
     overflow: hidden;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
     width: 100vw;
-    height: 160vh;
+    height: 180vh;
     display: flex;
     padding-bottom: 5vh;
     align-items: center;

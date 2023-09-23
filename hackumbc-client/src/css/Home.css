@@ -1,6 +1,6 @@
 html{
     overflow-x: hidden;
-    background-image: url("../assets/med_blue.jpg");
+    /* background-image: url("../assets/med_blue.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: cover; */
@@ -223,8 +223,8 @@ html.sponsors-bg{
     margin-top: 90px;
     width: 100%;
     height: 3px;
-    color: var(--lilac-purple);
-    background-color: var(--lilac-purple);
+    color: white;
+    background-color: white;
     border: 0;
 }
 
