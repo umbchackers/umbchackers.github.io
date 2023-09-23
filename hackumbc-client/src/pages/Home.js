@@ -6,6 +6,8 @@ import {
   FaInstagram,
   FaTwitter,
   FaGithubAlt,
+  FaGooglePlay,
+  FaApple,
 } from "react-icons/fa";
 
 import "../css/Home.css";
@@ -133,6 +135,18 @@ export const Home = () => {
           </a>
           <a href="https://github.com/umbchackers" target="_blank">
             <FaGithubAlt className="header-social-icon" />
+          </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.hackumbcandroid"
+            target_id="_blank"
+          >
+            <FaGooglePlay id="foot-play" className="header-social-icon" />
+          </a>
+          <a
+            href="https://apps.apple.com/us/app/hackumbc-2023/id6464440274"
+            target_id="_blank"
+          >
+            <FaApple id="foot-play" className="header-social-icon" />
           </a>
         </div>
       </div>
