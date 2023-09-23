@@ -8,6 +8,7 @@ import {
   FaGithubAlt,
   FaGooglePlay,
   FaApple,
+  FaDiscord,
 } from "react-icons/fa";
 
 import "../css/Home.css";
@@ -92,21 +93,20 @@ export const Home = () => {
 
             <div className="headerbutton-div">
               <a
-                href="https://hackumbc.typeform.com/to/KLS8nWNW"
+                href="https://hackumbc-fall23.devpost.com"
                 className="header-button"
                 target="_blank"
               >
-                REGISTRATION
+                DEVPOST LINK
               </a>
             </div>
-
             <div className="headerbutton-div">
               <a
-                href="https://hackumbc.typeform.com/to/IA4oDgSF"
+                href="https://link.hackumbc.tech/leanstack"
                 className="header-button"
                 target="_blank"
               >
-                VOLUNTEER REGISTRATION
+                LEANSTACK LINK
               </a>
             </div>
 
@@ -138,15 +138,18 @@ export const Home = () => {
           </a>
           <a
             href="https://play.google.com/store/apps/details?id=com.hackumbcandroid"
-            target_id="_blank"
+            target="_blank"
           >
             <FaGooglePlay id="foot-play" className="header-social-icon" />
           </a>
           <a
             href="https://apps.apple.com/us/app/hackumbc-2023/id6464440274"
-            target_id="_blank"
+            target="_blank"
           >
             <FaApple id="foot-play" className="header-social-icon" />
+          </a>
+          <a href="https://link.hackumbc.tech/discord" target_id="_blank">
+            <FaDiscord id="foot-play" className="header-social-icon" />
           </a>
         </div>
       </div>
