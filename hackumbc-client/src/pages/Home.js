@@ -83,15 +83,15 @@ export const Home = () => {
                 alt="header-logo"
               />
             </div>
-            <h1 className="header-date">SEPTEMBER, 23-24</h1>
-            <h2 className="header-year">2023</h2>
+            <h1 className="header-date">TBD</h1>
+            <h2 className="header-year">2024</h2>
 
             <h3 className="header-location">
               <MdLocationPin className="header-location-icon" />
-              <span className="header-location-text">ILSB, UMBC</span>
+              <span className="header-location-text">UMBC</span>
             </h3>
 
-            <div className="headerbutton-div">
+            {/* <div className="headerbutton-div">
               <a
                 href="https://hackumbc-fall23.devpost.com"
                 className="header-button"
@@ -108,7 +108,7 @@ export const Home = () => {
               >
                 LEANSTACK LINK
               </a>
-            </div>
+            </div> */}
 
             {/* <div className='devpostbutton-div'>
                     <a href='https://hackumbc-fall-2022.devpost.com/' className='devpost-button' target="_blank">
@@ -154,7 +154,7 @@ export const Home = () => {
         </div>
       </div>
 
-      {width > 770 && <Schedule />}
+      {/* {width > 770 && <Schedule />} */}
 
       <About />
 
