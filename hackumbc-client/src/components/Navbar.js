@@ -9,7 +9,7 @@ const Navbar = () => {
       <a href="https://link.hackumbc.tech/mlh" target="_blank">
         <img
           className="mlh-trust-badge"
-          src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-black.svg"
+          src={require("../assets/mlh-trust-badge-2025-black.png")}
           alt="Major League Hacking 2022 Hackathon Season"
         />
       </a>
@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link to="header" smooth={true} offset={-300} duration={700}>
             <img
               className="nav-logo"
-              src={require("../assets/dog_logo.png")}
+              src={require("../assets/hackLogo24.png")}
               alt="logo"
             />
           </Link>
