@@ -78,7 +78,7 @@ export const Home = () => {
             <div className="headerlogo-div">
               <img
                 className="header-logo"
-                src={require("../assets/hack_logo.png")}
+                src={require("../assets/hackText24.png")}
                 alt="header-logo"
               />
             </div>
