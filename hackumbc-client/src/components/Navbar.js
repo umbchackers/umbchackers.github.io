@@ -52,7 +52,7 @@ const Navbar = () => {
             Sponsors
           </Link>
           {/*<a id='left-nav-button' className='nav-link' href="https://oldlemonpepper.github.io/ILSBMap/" target='_blank'>Map</a>*/}
-          <Link
+          {/* <Link
             id="left-nav-button"
             to="schedule"
             smooth={true}
@@ -60,7 +60,7 @@ const Navbar = () => {
             className="nav-link"
           >
             Schedule
-          </Link>
+          </Link> */}
         </div>
 
         <div className="nav-right">

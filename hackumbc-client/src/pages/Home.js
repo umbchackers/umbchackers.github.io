@@ -173,7 +173,7 @@ export const Home = () => {
             <FaGithubAlt id="foot-github" className="footer-social-icon" />
           </a>
         </div>
-        <p className="footer-text">© 2023 hackUMBC</p>
+        <p className="footer-text">© 2024 hackUMBC</p>
       </div>
     </html>
   );
