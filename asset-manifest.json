@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3a8b159.css",
-    "main.js": "/static/js/main.4c7af171.js",
+    "main.css": "/static/css/main.bb476853.css",
+    "main.js": "/static/js/main.780fbb40.js",
     "static/media/light_green.jpg": "/static/media/light_green.7010efcd90708a2bdb62.jpg",
     "static/media/hack_logo.png": "/static/media/hack_logo.d7102c0819a667e667e0.png",
     "static/media/green-clear.jpg": "/static/media/green-clear.7e2ad78f0d7fd8a16f1c.jpg",
@@ -21,11 +21,11 @@
     "static/media/northrop.png": "/static/media/northrop.e3e3ed5b0b9777db762e.png",
     "static/media/CWIT.png": "/static/media/CWIT.69415606645ce160cbdd.png",
     "index.html": "/index.html",
-    "main.a3a8b159.css.map": "/static/css/main.a3a8b159.css.map",
-    "main.4c7af171.js.map": "/static/js/main.4c7af171.js.map"
+    "main.bb476853.css.map": "/static/css/main.bb476853.css.map",
+    "main.780fbb40.js.map": "/static/js/main.780fbb40.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3a8b159.css",
-    "static/js/main.4c7af171.js"
+    "static/css/main.bb476853.css",
+    "static/js/main.780fbb40.js"
   ]
 }
