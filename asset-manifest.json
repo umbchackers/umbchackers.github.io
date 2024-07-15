@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3a8b159.css",
-    "main.js": "/static/js/main.2baff9dd.js",
-    "static/media/hackLogo24.png": "/static/media/hackLogo24.00211490990e2b112b9f.png",
+    "main.css": "/static/css/main.bb476853.css",
+    "main.js": "/static/js/main.780fbb40.js",
     "static/media/light_green.jpg": "/static/media/light_green.7010efcd90708a2bdb62.jpg",
     "static/media/hackText24.png": "/static/media/hackText24.f354d43fdc658e95656d.png",
     "static/media/green-clear.jpg": "/static/media/green-clear.7e2ad78f0d7fd8a16f1c.jpg",
@@ -23,11 +22,11 @@
     "static/media/mlh-trust-badge-2025-black.png": "/static/media/mlh-trust-badge-2025-black.d9d38d9236348d1ccebe.png",
     "static/media/CWIT.png": "/static/media/CWIT.69415606645ce160cbdd.png",
     "index.html": "/index.html",
-    "main.a3a8b159.css.map": "/static/css/main.a3a8b159.css.map",
-    "main.2baff9dd.js.map": "/static/js/main.2baff9dd.js.map"
+    "main.bb476853.css.map": "/static/css/main.bb476853.css.map",
+    "main.780fbb40.js.map": "/static/js/main.780fbb40.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3a8b159.css",
-    "static/js/main.2baff9dd.js"
+    "static/css/main.bb476853.css",
+    "static/js/main.780fbb40.js"
   ]
 }
