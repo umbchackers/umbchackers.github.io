@@ -186,12 +186,11 @@ html.sponsors-bg{
     align-items: center;
     justify-content: space-evenly;
     /* background-color: red; */
-    width: 200px;
+    /*width: 200px;*/
     color: black;
     /* uncomment when adding back boxes*/
     position: absolute;
     bottom: 1.5vh;
-    
 }
 
 .header-social-icon{

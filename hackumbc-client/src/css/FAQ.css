@@ -66,6 +66,7 @@
 .question-details[open] p{
     margin-left: 30px;
     line-height: 1.7;
+    text-align: left;
 }
 
 /* actual question title */

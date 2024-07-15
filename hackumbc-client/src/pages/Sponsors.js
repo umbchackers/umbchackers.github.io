@@ -39,7 +39,7 @@ const Sponsors = () => {
             <br />
             <p>HACKUMBC 2023 Sponsors & Partners</p>
           </div>
-          <Rank title="Diamond">
+          <Rank title="DIAMOND">
             <img
               src={require("../assets/new_sponsors/UMBC-COEIT.png")}
               alt="sponsor"

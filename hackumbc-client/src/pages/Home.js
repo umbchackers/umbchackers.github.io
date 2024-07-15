@@ -8,7 +8,6 @@ import {
   FaGithubAlt,
   FaGooglePlay,
   FaApple,
-  FaDiscord,
 } from "react-icons/fa";
 
 import "../css/Home.css";
@@ -148,9 +147,6 @@ export const Home = () => {
           >
             <FaApple id="foot-play" className="header-social-icon" />
           </a>
-          <a href="https://link.hackumbc.tech/discord" target_id="_blank">
-            <FaDiscord id="foot-play" className="header-social-icon" />
-          </a>
         </div>
       </div>
 
@@ -177,7 +173,7 @@ export const Home = () => {
             <FaGithubAlt id="foot-github" className="footer-social-icon" />
           </a>
         </div>
-        <p className="footer-text">© 2023 hackUMBC</p>
+        <p className="footer-text">© 2024 hackUMBC</p>
       </div>
     </html>
   );
